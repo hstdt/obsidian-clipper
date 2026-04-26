@@ -1,3 +1,18 @@
+# Codex-Generated WebKit Clipper Swift Package
+
+This fork adds a Codex-generated Swift package under [`swift/`](swift/) that turns the Obsidian Web Clipper extraction stack into a WebKit-based third-party library for iOS and macOS apps.
+
+The Swift package exposes the `ObsidianClipper` SwiftPM product and runs the bundled Defuddle-based JavaScript bridge inside WebKit surfaces:
+
+- `WKWebView` on iOS and macOS.
+- SwiftUI `WebPage`.
+
+The package returns Swift models for page metadata, cleaned HTML, Markdown, structured blocks, diagnostics, and optional Obsidian-style note rendering.
+
+See [`swift/README.md`](swift/README.md) for Swift usage, package entry points, privacy notes, and update instructions for the bundled Defuddle resource.
+
+---
+
 Obsidian Web Clipper helps you highlight and capture the web in your favorite browser. Anything you save is stored as durable Markdown files that you can read offline, and preserve for the long term.
 
 - **[Download Web Clipper](https://obsidian.md/clipper)**

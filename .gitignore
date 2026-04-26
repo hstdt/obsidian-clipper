@@ -19,6 +19,7 @@ assets/shared
 # Xcode
 *.xcuserstate
 *.xcuserdatad
+.swiftpm/
 
 .context
 .cursorrules
