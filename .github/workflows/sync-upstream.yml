@@ -1,0 +1,133 @@
+name: Sync upstream
+
+"on":
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-upstream
+  cancel-in-progress: false
+
+env:
+  UPSTREAM_REPOSITORY: obsidianmd/obsidian-clipper
+  UPSTREAM_BRANCH: main
+  TARGET_BRANCH: main
+  NODE_VERSION: "26"
+  TEST_TZ: America/Los_Angeles
+
+jobs:
+  sync:
+    name: Merge upstream and publish tag
+    runs-on: macos-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Checkout fork
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TARGET_BRANCH }}
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch upstream
+        id: upstream
+        run: |
+          git remote add upstream "https://github.com/${UPSTREAM_REPOSITORY}.git"
+          git fetch --no-tags upstream "${UPSTREAM_BRANCH}"
+          upstream_sha="$(git rev-parse FETCH_HEAD)"
+          echo "sha=${upstream_sha}" >> "$GITHUB_OUTPUT"
+
+          if git merge-base --is-ancestor "${upstream_sha}" HEAD; then
+            echo "has_update=false" >> "$GITHUB_OUTPUT"
+            echo "No upstream changes to merge."
+          else
+            echo "has_update=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Merge upstream
+        if: steps.upstream.outputs.has_update == 'true'
+        run: |
+          git merge --no-edit --no-ff "${{ steps.upstream.outputs.sha }}"
+
+      - name: Set up Node
+        if: steps.upstream.outputs.has_update == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Read upstream version
+        if: steps.upstream.outputs.has_update == 'true'
+        id: version
+        run: |
+          version="$(node -p "require('./package.json').version")"
+          if [ -z "${version}" ]; then
+            echo "package.json version is empty" >&2
+            exit 1
+          fi
+          echo "version=${version}" >> "$GITHUB_OUTPUT"
+          echo "tag=${version}" >> "$GITHUB_OUTPUT"
+
+      - name: Refresh lockfile and Swift extractor
+        if: steps.upstream.outputs.has_update == 'true'
+        run: |
+          npm install --package-lock-only --ignore-scripts
+          swift/Scripts/update-defuddle-resource.sh
+
+      - name: Test JavaScript package
+        if: steps.upstream.outputs.has_update == 'true'
+        run: npm test
+        env:
+          TZ: ${{ env.TEST_TZ }}
+
+      - name: Test Swift package
+        if: steps.upstream.outputs.has_update == 'true'
+        run: swift test
+
+      - name: Commit generated changes
+        if: steps.upstream.outputs.has_update == 'true'
+        run: |
+          git add package-lock.json swift/Sources/ObsidianClipper/Resources/obsidian-clipper-extractor.js
+          if git diff --cached --quiet; then
+            echo "No generated changes to commit."
+          else
+            git commit -m "Update Swift extractor for upstream ${{ steps.version.outputs.version }}"
+          fi
+
+      - name: Tag integrated version
+        if: steps.upstream.outputs.has_update == 'true'
+        id: tag
+        run: |
+          tag="${{ steps.version.outputs.tag }}"
+          if git ls-remote --exit-code --tags origin "refs/tags/${tag}" >/dev/null 2>&1; then
+            echo "created=false" >> "$GITHUB_OUTPUT"
+            echo "Tag ${tag} already exists on origin; leaving it unchanged."
+          else
+            git tag -a "${tag}" -m "obsidian-clipper ${tag}"
+            echo "created=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push fork update
+        if: steps.upstream.outputs.has_update == 'true'
+        run: |
+          git push origin "HEAD:${TARGET_BRANCH}"
+          if [ "${{ steps.tag.outputs.created }}" = "true" ]; then
+            git push origin "refs/tags/${{ steps.version.outputs.tag }}"
+          fi
+
+      - name: Summary
+        run: |
+          if [ "${{ steps.upstream.outputs.has_update }}" = "true" ]; then
+            echo "Merged upstream ${UPSTREAM_REPOSITORY}@${{ steps.upstream.outputs.sha }}."
+            echo "Published integrated version tag ${{ steps.version.outputs.tag }} when it did not already exist."
+          else
+            echo "No upstream changes were found."
+          fi
