@@ -41,7 +41,7 @@
         var t = { 2640(t2, e2) {
           Object.defineProperty(e2, "__esModule", { value: true }), e2.TW_ARBITRARY_RE = e2.TW_SPECIAL_CLASS_RE = e2.TW_COLOR_CLASS_RE = e2.TAILWIND_SPECIAL = e2.TAILWIND_COLORS = e2.ALLOWED_ATTRIBUTES_DEBUG = e2.ALLOWED_ATTRIBUTES = e2.ALLOWED_EMPTY_ELEMENTS = e2.FOOTNOTE_LIST_SELECTORS = e2.FOOTNOTE_INLINE_REFERENCES = e2.TEST_ATTRIBUTES_SELECTOR = e2.PARTIAL_SELECTORS_ANCHORED_REGEX = e2.PARTIAL_SELECTORS_REGEX = e2.PARTIAL_SELECTORS = e2.TEST_ATTRIBUTES = e2.EXACT_SELECTORS_JOINED = e2.EXACT_SELECTORS = e2.HIDDEN_EXACT_SKIP_SELECTOR = e2.HIDDEN_EXACT_SELECTOR = e2.CONTENT_ELEMENT_SELECTOR = e2.INLINE_ELEMENTS = e2.PRESERVE_ELEMENTS = e2.BLOCK_LEVEL_ELEMENTS = e2.BLOCK_ELEMENTS_SET = e2.BLOCK_ELEMENTS_SELECTOR = e2.BLOCK_ELEMENTS = e2.MOBILE_WIDTH = e2.ENTRY_POINT_ELEMENTS = void 0, e2.ENTRY_POINT_ELEMENTS = ["#post", ".post-content", ".post-body", ".article-content", "#article-content", ".js-article-content", ".article_post", ".article-wrapper", ".entry-content", ".content-article", ".instapaper_body", ".post", ".markdown-body", "article", '[role="article"]', "main", '[role="main"]', ".article-body", "#content", "body"], e2.MOBILE_WIDTH = 600, e2.BLOCK_ELEMENTS = ["div", "section", "article", "main", "aside", "header", "footer", "nav", "content"], e2.BLOCK_ELEMENTS_SELECTOR = e2.BLOCK_ELEMENTS.join(","), e2.BLOCK_ELEMENTS_SET = new Set(e2.BLOCK_ELEMENTS), e2.BLOCK_LEVEL_ELEMENTS = /* @__PURE__ */ new Set([...e2.BLOCK_ELEMENTS, "p", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "dl", "dt", "dd", "pre", "blockquote", "figure", "figcaption", "table", "thead", "tbody", "tfoot", "tr", "td", "th", "details", "summary", "address", "hr", "form", "fieldset"]), e2.PRESERVE_ELEMENTS = /* @__PURE__ */ new Set(["pre", "code", "table", "thead", "tbody", "tr", "td", "th", "ul", "ol", "li", "dl", "dt", "dd", "figure", "figcaption", "picture", "details", "summary", "blockquote", "form", "fieldset"]), e2.INLINE_ELEMENTS = /* @__PURE__ */ new Set(["a", "span", "strong", "em", "i", "b", "u", "code", "br", "small", "sub", "sup", "mark", "date", "del", "ins", "q", "abbr", "cite", "relative-time", "time", "font"]), e2.CONTENT_ELEMENT_SELECTOR = ["math", "[data-mathml]", ".katex", ".katex-mathml", ".katex-display", ".MathJax", ".MathJax_Display", ".MathJax_SVG", "mjx-container", "pre", "code", "table", "img", "picture", "video", "blockquote", "figure"].join(", ");
           const r2 = ["[hidden]", '[aria-hidden="true"]', ".hidden", ".invisible"], n2 = r2.map(((t3) => '[aria-hidden="true"]' === t3 ? '[aria-hidden="true"]:not([class*="math"]):not(svg):not([class*="paywall"])' : t3));
-          e2.HIDDEN_EXACT_SELECTOR = n2.join(","), e2.HIDDEN_EXACT_SKIP_SELECTOR = r2.join(","), e2.EXACT_SELECTORS = ["noscript", 'script:not([type^="math/"])', "style", "meta", "link", "audio:not([src]):not(:has(source))", "video:not([src]):not(:has(source))", ".jwplayer", '.ad:not([class*="gradient"])', '[class^="ad-" i]', '[class$="-ad" i]', "[data-ad-wrapper]", '[id^="ad-" i]', '[id$="-ad" i]', '[role="banner" i]', '[alt*="advert" i]', ".promo", ".Promo", "#barrier-page", ".alert", '[rel="sponsored" i]', '[href*="source=promotion" i]', '[id="comments" i]', '[id="comment" i]', 'div[class*="cover-"]', 'div[id*="cover-"]', "ads-breadcrumbs", "header:not(:has(p + p)):not(:has(img))", 'header[class~="fixed"]', 'header[class~="sticky"]', ".header:not(.banner)", "#header", "#Header", "#banner", "#Banner", "nav", ".navigation", "#navigation", '[role="navigation" i]', '[role="dialog" i]', '[role="alertdialog" i]', '[role*="complementary" i]', '[class*="pagination" i]', ".menu", "#siteSub", ".previous", ".author", ".Author", '[class$="_bio"]', "#categories", ".contributor", ".date", "#date", "[data-date]", ".entry-meta", ".meta", ".tags", "#tags", '[rel="tag"]', ".headline", "#headline", "#title", "#Title", "#articleTag", '[href*="/author/"]', '[href*="/author?"]', '[href$="/author"]', 'a[href*="copyright.com"]', 'a[href*="google.com/preferences"]', '[href="#top"]', '[href="#Top"]', '[href="#page-header"]', '[href="#content"]', '[href="#site-content"]', '[href="#main-content"]', '[href^="#main"]', '[src*="author"]', ".toc", ".Toc", "#toc", '[href*="#toc"]', "footer", ".aside", 'aside:not([class*="callout"])', "button", "canvas", "date", "dialog", "fieldset", "form", 'input:not([type="checkbox"])', 'input[type="checkbox"][class*="sidebar" i]', 'input[type="checkbox"][id*="sidebar" i]', 'input[type="checkbox"][class*="drawer" i]', 'input[type="checkbox"][id*="drawer" i]', 'input[type="checkbox"][class*="hamburger" i]', 'input[type="checkbox"][id*="hamburger" i]', 'input[type="checkbox"][class*="toggle" i]', 'input[type="checkbox"][id*="toggle" i]', 'input[type="checkbox"][class*="trigger" i]', 'input[type="checkbox"][id*="trigger" i]', "label", "option", "select", '[role="listbox"]', '[role="option"]', "textarea", ...n2, "instaread-player", "iframe:not([src])", 'iframe[src*="blink.net"]', 'iframe[src*="giscus.app"]', 'iframe[src*="tinypass.com"]', 'iframe[src*="trinitymedia.ai"]', '[class="logo" i]', "#logo", "#Logo", "#newsletter", "#Newsletter", ".subscribe", '[data-component-name="ButtonCreateButton"]', '[data-component-name="DigestPostEmbed"]', '[data-component-name="SubscribeWidgetToDOM"]', '[class*="digestPostEmbed"]', ".noprint", '[data-print-layout="hide" i]', '[data-block="donotprint" i]', '[class*="clickable-icon" i]', 'li span[class*="ltx_tag" i][class*="ltx_tag_item" i]', 'a[href^="#"][class*="anchor" i]', 'a[href^="#"][class*="ref" i]:not(.ltx_ref):not(.footnote-backref)', '[data-container*="most-viewed" i]', ".sidebar", ".Sidebar", "#sidebar", "#Sidebar", "#side-bar", "#secondary", "#sitesub", '[href*="/sitemap/sitemap.xml"]', '[data-link-name*="skip" i]', '[aria-label*="skip" i]', '[title^="Share on" i]', '[aria-label="Dismiss" i]', '[aria-label="Close" i]', "svg[data-icon]", '[data-testid="load-more-posts"] + div', ".copyright", "#copyright", ".licensebox", "#page-info", "#rss", "#feed", ".gutter", "#primaryaudio", "#NYT_ABOVE_MAIN_CONTENT_REGION", '[data-testid="photoviewer-children-figure"] > span', "table.infobox", '[data-optimizely="related-articles-section" i]', '[data-orientation="vertical"]', ".gh-header-sticky", '[data-testid="issue-metadata-sticky"]'], e2.EXACT_SELECTORS_JOINED = e2.EXACT_SELECTORS.join(","), e2.TEST_ATTRIBUTES = ["class", "id", "data-component", "data-test", "data-testid", "data-test-id", "data-qa", "data-cy"], e2.PARTIAL_SELECTORS = ["a-statement", "(?<!main-)access-wall", "activitypub", "actioncall", "addcomment", "addtoany", "advert", "adlayout", "ad-tldr", "ad-placement", "adplacehold", "ads-container", "_ad_", "AdBlock_", "AdUnit", "after_content", "after_main_article", "afterpost", "allterms", "-alert-", "alert-box", "_archive", "around-the-web", "aroundpages", "article-author", "article-badges", "article-banner", "article-bottom-section", "article-bottom", "article-category", "article-card", "article-citation", "article-continues", "article__copy", "article_date", "article-date", "article-end ", "article_header", "article-header", "article__header", "article__hero", "article__info", "article-info", "article-meta", "article_meta", "article__meta", "articlename", "article-subject", "article_subject", "article-snippet", "article-separator", "article--share", "article-share", "article--topics", "article-tools", "articletags", "article-tags", "article_tags", "articletitle", "article-title", "article_title", "articletopics", "article-topics", "article-actions", "article--lede", "articlewell", "associated-people", "ambient-video__button", "audio-card", "beyondwords", "about-author", "author-bio", "author-box", "author-info", "author_info", "authorm", "author-mini-bio", "author-name", "author-publish-info", "authored-by", "avatar", "back-to-top", "backlink_container", "backlinks-section", "bio-block", "biobox", "blog-pager", "bookmark-", "-bookmark", "bottominfo", "bottomnav", "bottom-of-article", "bottom-wrapper", "brand-bar", "bcrumb", "breadcrumb", "brdcrumb", "crumbs", "bubblewrapper", "button-wrapper", "buttons-container", "btn-", "-btn", "byline", "captcha", "card-text", "card-media", "card-post", "carouselcontainer", "carousel-container", "cat_header", "cat-overlay", "catlinks", "_categories", "card-author", "card-content", "chapter-list", "collections", "comments", "-comment\\b", "commentbox", "comment-button", "commentcomp", "comment-content", "comment-count", "comment-form", "comment-number", "comment-respond", "comment-thread", "comment-wrap", "complementary", "consent", "contact-", "contactus", "cookie.law", "content-card", "copycontent", "copy-tooltip", "content-topics", "contentpromo", "context-bar", "context-widget", "core-collateral", "cover-image", "cover-photo", "cover-wrap", "created-date", "creative-commons_", "c-subscribe", "_cta", "-cta", "cta-", "cta_", "current-issue", "custom-list-number", "dateline", "dateheader", "date-header", "date-pub", "disclaimer", "disclosure", "discussion", "discuss_", "-dismiss", "disqus", "donate", "donation", "dropdown", "editorial_contact", "editorial-contact", "element-invisible", "elementor-shortcode", "eletters", "emailsignup", "emoji-bar", "engagement-widget", "enhancement-", "entry-author-info", "entry-categories", "entry-date", "entry-title", "entry-utility", "-error", "error-", "eyebrow", "expand-reduce", "external-anchor", "externallinkembedwrapper", "extra-services", "extra-title", "facebook", "fancy-box", "favorite", "featured-content", "feature_feed", "feedback", "feed-links", "field-site-sections", "filed", "fixheader", "floating-vid", "follower", "footer", "footnote-back", "footnoteback", "form-group", "for-you", "frontmatter", "further-reading", "fullbleedheader", "gallery-count", "gated-popup", "gh-feed", "gist-meta", "goog-", "graph-view", "hamburger", "hawk-", "header-pattern", "hero[_\\-a-z]", "hide-for-print", "hide-print", "hide-when-no-script", "hidden-print", "hidden-sidenote", "hidden-accessibility", "home-link", "icon-sidebar", "inarticle-ad", "infoline", "inline-topic", "instacartIntegration", "interlude", "interaction", "itemendrow", "intro-date", "invisible", "jp-no-solution", "jp-relatedposts", "jswarning", "js-warning", "jumplink", "jumpto", "jump-to-", "js-skip-to-content", "keepreading", "keep-reading", "keep_reading", "keyword_wrap", "kicker", "labstab", "-labels", "language-name", "lastupdated", "latest-content", "-ledes-", "-license", "license-", "lightbox-popup", "like-button", "link-box", "links-grid", "links-title", "listing-dynamic-terms", "list-tags", "live-blog-header-live-label", "listinks", "loading", "loa-info", "logo", "ltx_role_refnum", "ltx_tag_bibitem", "ltx_error", "masthead", "marketing", "media-inquiry", "-menu", "menu-", "metadata", "meta-bottom", "meta-date", "meta-row", "might-like", "minibio", "more-about", "mod-paywall", "_modal", "-modal", "more-", "morenews", "morestories", "more_wrapper", "most-read", "move-helper", "mw-editsection", "mw-cite-backlink", "mw-indicators", "mw-jump-link", "nav-", "nav_", "navigation-post", "next-", "next_prev", "no-script", "newsgallery", "news-story-title", "newsletter_", "newsletterbanner", "newslettercontainer", "newsletter-form", "newsletter-signup", "newslettersignup", "newsletterwidget", "newsletterwrapper", "not-found", "notessection", "nomobile", "noprint", "onward-journey", "open-slideshow", "originally-published", "osano-cm", "other-blogs", "outline-view", "pagefoot", "pagehead", "page-header", "page-title", "paywall_message", "-partners", "permission-", "plea", "popular", "popup_links", "pop_stories", "pop-up", "post__author", "post-author", "post-bottom", "post__category", "postcomment", "postdate", "post-date", "post_date", "post-details", "post-feeds", "postinfo", "post-info", "post_info", "post-inline-date", "post-links", "postlist", "post_list", "post_meta", "post-meta", "postmeta", "post_more", "postnavi", "post-navigation", "postpath", "post-preview", "postsnippet", "post_snippet", "post-snippet", "post-subject", "posttax", "post-tax", "post_tax", "posttag", "post-tag", "post_time", "posttitle", "post-title", "post_title", "post__title", "post-ufi-button", "prev-post", "prevnext", "prev_next", "prev-next", "previousnext", "press-inquiries", "print-none", "print-header", "print:hidden", "privacy-notice", "privacy-settings", "profile", "promo_article", "promo-bar", "promo-box", "pubdate", "pub_date", "pub-date", "publish_date", "publish-date", "publication-date", "publicationName", "qr-code", "qr_code", "quick_up", "_rail", "ratingssection", "read_also", "readmore", "read-next", "read_next", "read_time", "read-time", "reading_time", "reading-time", "reading-list", "recent-", "recent-articles", "recentpost", "recent_post", "recent-post", "recommend", "redirectedfrom", "recirc", "register", "(?<!h[1-6]-)related", "relevant", "relposts", "reversefootnote", "rightcol", "\\bnocontent\\b", "_rss", "rss-link", "rubricwrapper", "screen-reader-text", "scroll_to", "scroll-to", "_search", "-search", "section-nav", "series-banner", "share-box", "sharedaddy", "share-icons", "sharelinks", "share-links", "share-post", "share-print", "share-section", "share-text", "sharing_", "shariff-", "shortcode-id", "show-for-print", "sidebartitle", "sidebar-content", "sidebar-wrapper", "sideitems", "sidebar-author", "sidebar-item", "side-box", "sign-in-gate", "similar-", "similar_", "similars-", "site-index", "site-header", "siteheader", "site-name", "site-wordpress", "skip-content", "skip-to-content", "skip-link", "c-skip-link", "_skip-link", "-slider", "slug-wrap", "social-author", "social-button", "social-shar", "social-date", "speechify-ignore", "speedbump", "sponsor", "springercitation", "sr-only", "_stats", "sticky-social", "story-date", "story-navigation", "storyreadtime", "storysmall", "storypublishdate", "subject-label", "submenu", "-subscribe-", "subscriber-drive", "subscription-", "_tags", "tags__item", "tag_list", "tag-list", "tag-module", "takeaways", "taxonomy", "table-of-contents", "tblc", "tabs-", "terminaltout", "time-rubric", "timestamp", "time-read", "time-to-read", "tip_off", "-ticker", "tiptout", "-tout-", "toc-container", "toggle-caption", "tooltip-content", "topbar", "subnavbar", "topic-authors", "topic-footer", "topic-list", "topic-subnav", "top-wrapper", "tree-item", "trending", "trust-feat", "trust-badge", "trust-project", "chakra-badge", "twiblock", "u-hide", "upsell", "vid_carousel", "viewbottom", "view-language", "yarpp-related", "visually-hidden", "welcomebox", "widget_pages", "window__widget", "w-form-done", "w-form-fail"], e2.PARTIAL_SELECTORS_REGEX = new RegExp(e2.PARTIAL_SELECTORS.join("|"), "i"), e2.PARTIAL_SELECTORS_ANCHORED_REGEX = new RegExp("^(?:" + e2.PARTIAL_SELECTORS.join("|") + ")$", "i"), e2.TEST_ATTRIBUTES_SELECTOR = e2.TEST_ATTRIBUTES.map(((t3) => `[${t3}]`)).join(","), e2.FOOTNOTE_INLINE_REFERENCES = ["sup.reference", "cite.ltx_cite", 'sup[id^="fnr"]', 'span[id^="fnr"]', 'span[class*="footnote_ref"]', 'span[class*="footnote-ref"]', "span.footnote-link", "a.citation", 'a[id^="ref-link"]', 'a[href^="#fn"]', 'a[href^="#cite"]', 'a[href^="#reference"]', 'a[href^="#footnote"]', 'a[href^="#r"]', 'a[href^="#b"]', 'a[href*="cite_note"]', 'a[href*="cite_ref"]', "a.footnote-anchor", "span.footnote-hovercard-target a", 'a[role="doc-biblioref"]', 'a[id^="fnref"]', 'a[id^="ref-link"]', "sup.footnoteref", "sup.footnote-reference", 'sup[data-fn] > a[href^="#"]', 'sup[id^="ftnt_ref"] a[href^="#ftnt"]', 'span.easy-footnote > a[href^="#easy-footnote-bottom-"]', 'a.footnote[href^="#"]', 'a[data-type="noteref"]'].join(","), e2.FOOTNOTE_LIST_SELECTORS = ["div.footnote ol", "div.footnotes ol", 'div[role="doc-endnotes"]', 'div[role="doc-footnotes"]', "ol.footnotes-list", "ol.footnotes", "ol.references", 'ol[class*="article-references"]', "section.footnotes ol", 'section[role="doc-endnotes"]', 'section[role="doc-footnotes"]', 'section[role="doc-bibliography"]', "ul.footnotes-list", "ul.ltx_biblist", 'div.footnote[data-component-name="FootnoteToDOM"]', "div.footnotes-footer", "div.footnote-definitions", "div.footnote-definition", "ol.wp-block-footnotes", "ol.easy-footnotes-wrapper", "div.footnotes-segment", "#footnotes"].join(","), e2.ALLOWED_EMPTY_ELEMENTS = /* @__PURE__ */ new Set(["area", "audio", "base", "br", "circle", "col", "defs", "ellipse", "embed", "figure", "g", "hr", "iframe", "img", "input", "line", "link", "mask", "meta", "object", "param", "path", "pattern", "picture", "polygon", "polyline", "rect", "source", "stop", "svg", "td", "th", "track", "use", "video", "wbr"]), e2.ALLOWED_ATTRIBUTES = /* @__PURE__ */ new Set(["alt", "allow", "allowfullscreen", "aria-label", "checked", "colspan", "controls", "data-latex", "data-src", "data-srcset", "data-callout", "data-callout-fold", "data-callout-title", "data-lang", "dir", "display", "frameborder", "headers", "height", "href", "kind", "label", "lang", "role", "rowspan", "src", "srclang", "srcset", "start", "title", "type", "width", "accent", "accentunder", "align", "columnalign", "columnlines", "columnspacing", "columnspan", "data-mjx-texclass", "depth", "displaystyle", "fence", "frame", "framespacing", "linethickness", "lspace", "mathsize", "mathvariant", "maxsize", "minsize", "movablelimits", "notation", "rowalign", "rowlines", "rowspacing", "rowspan", "rspace", "scriptlevel", "separator", "stretchy", "symmetric", "voffset", "xmlns"]), e2.ALLOWED_ATTRIBUTES_DEBUG = /* @__PURE__ */ new Set(["class", "id"]), e2.TAILWIND_COLORS = { slate: { 50: "#f8fafc", 100: "#f1f5f9", 200: "#e2e8f0", 300: "#cbd5e1", 400: "#94a3b8", 500: "#64748b", 600: "#475569", 700: "#334155", 800: "#1e293b", 900: "#0f172a", 950: "#020617" }, gray: { 50: "#f9fafb", 100: "#f3f4f6", 200: "#e5e7eb", 300: "#d1d5db", 400: "#9ca3af", 500: "#6b7280", 600: "#4b5563", 700: "#374151", 800: "#1f2937", 900: "#111827", 950: "#030712" }, zinc: { 50: "#fafafa", 100: "#f4f4f5", 200: "#e4e4e7", 300: "#d4d4d8", 400: "#a1a1aa", 500: "#71717a", 600: "#52525b", 700: "#3f3f46", 800: "#27272a", 900: "#18181b", 950: "#09090b" }, neutral: { 50: "#fafafa", 100: "#f5f5f5", 200: "#e5e5e5", 300: "#d4d4d4", 400: "#a3a3a3", 500: "#737373", 600: "#525252", 700: "#404040", 800: "#262626", 900: "#171717", 950: "#0a0a0a" }, stone: { 50: "#fafaf9", 100: "#f5f5f4", 200: "#e7e5e4", 300: "#d6d3d1", 400: "#a8a29e", 500: "#78716c", 600: "#57534e", 700: "#44403c", 800: "#292524", 900: "#1c1917", 950: "#0c0a09" }, red: { 50: "#fef2f2", 100: "#fee2e2", 200: "#fecaca", 300: "#fca5a5", 400: "#f87171", 500: "#ef4444", 600: "#dc2626", 700: "#b91c1c", 800: "#991b1b", 900: "#7f1d1d", 950: "#450a0a" }, orange: { 50: "#fff7ed", 100: "#ffedd5", 200: "#fed7aa", 300: "#fdba74", 400: "#fb923c", 500: "#f97316", 600: "#ea580c", 700: "#c2410c", 800: "#9a3412", 900: "#7c2d12", 950: "#431407" }, amber: { 50: "#fffbeb", 100: "#fef3c7", 200: "#fde68a", 300: "#fcd34d", 400: "#fbbf24", 500: "#f59e0b", 600: "#d97706", 700: "#b45309", 800: "#92400e", 900: "#78350f", 950: "#451a03" }, yellow: { 50: "#fefce8", 100: "#fef9c3", 200: "#fef08a", 300: "#fde047", 400: "#facc15", 500: "#eab308", 600: "#ca8a04", 700: "#a16207", 800: "#854d0e", 900: "#713f12", 950: "#422006" }, lime: { 50: "#f7fee7", 100: "#ecfccb", 200: "#d9f99d", 300: "#bef264", 400: "#a3e635", 500: "#84cc16", 600: "#65a30d", 700: "#4d7c0f", 800: "#3f6212", 900: "#365314", 950: "#1a2e05" }, green: { 50: "#f0fdf4", 100: "#dcfce7", 200: "#bbf7d0", 300: "#86efac", 400: "#4ade80", 500: "#22c55e", 600: "#16a34a", 700: "#15803d", 800: "#166534", 900: "#14532d", 950: "#052e16" }, emerald: { 50: "#ecfdf5", 100: "#d1fae5", 200: "#a7f3d0", 300: "#6ee7b7", 400: "#34d399", 500: "#10b981", 600: "#059669", 700: "#047857", 800: "#065f46", 900: "#064e3b", 950: "#022c22" }, teal: { 50: "#f0fdfa", 100: "#ccfbf1", 200: "#99f6e4", 300: "#5eead4", 400: "#2dd4bf", 500: "#14b8a6", 600: "#0d9488", 700: "#0f766e", 800: "#115e59", 900: "#134e4a", 950: "#042f2e" }, cyan: { 50: "#ecfeff", 100: "#cffafe", 200: "#a5f3fc", 300: "#67e8f9", 400: "#22d3ee", 500: "#06b6d4", 600: "#0891b2", 700: "#0e7490", 800: "#155e75", 900: "#164e63", 950: "#083344" }, sky: { 50: "#f0f9ff", 100: "#e0f2fe", 200: "#bae6fd", 300: "#7dd3fc", 400: "#38bdf8", 500: "#0ea5e9", 600: "#0284c7", 700: "#0369a1", 800: "#075985", 900: "#0c4a6e", 950: "#082f49" }, blue: { 50: "#eff6ff", 100: "#dbeafe", 200: "#bfdbfe", 300: "#93c5fd", 400: "#60a5fa", 500: "#3b82f6", 600: "#2563eb", 700: "#1d4ed8", 800: "#1e40af", 900: "#1e3a8a", 950: "#172554" }, indigo: { 50: "#eef2ff", 100: "#e0e7ff", 200: "#c7d2fe", 300: "#a5b4fc", 400: "#818cf8", 500: "#6366f1", 600: "#4f46e5", 700: "#4338ca", 800: "#3730a3", 900: "#312e81", 950: "#1e1b4b" }, violet: { 50: "#f5f3ff", 100: "#ede9fe", 200: "#ddd6fe", 300: "#c4b5fd", 400: "#a78bfa", 500: "#8b5cf6", 600: "#7c3aed", 700: "#6d28d9", 800: "#5b21b6", 900: "#4c1d95", 950: "#2e1065" }, purple: { 50: "#faf5ff", 100: "#f3e8ff", 200: "#e9d5ff", 300: "#d8b4fe", 400: "#c084fc", 500: "#a855f7", 600: "#9333ea", 700: "#7e22ce", 800: "#6b21a8", 900: "#581c87", 950: "#3b0764" }, fuchsia: { 50: "#fdf4ff", 100: "#fae8ff", 200: "#f5d0fe", 300: "#f0abfc", 400: "#e879f9", 500: "#d946ef", 600: "#c026d3", 700: "#a21caf", 800: "#86198f", 900: "#701a75", 950: "#4a044e" }, pink: { 50: "#fdf2f8", 100: "#fce7f3", 200: "#fbcfe8", 300: "#f9a8d4", 400: "#f472b6", 500: "#ec4899", 600: "#db2777", 700: "#be185d", 800: "#9d174d", 900: "#831843", 950: "#500724" }, rose: { 50: "#fff1f2", 100: "#ffe4e6", 200: "#fecdd3", 300: "#fda4af", 400: "#fb7185", 500: "#f43f5e", 600: "#e11d48", 700: "#be123c", 800: "#9f1239", 900: "#881337", 950: "#4c0519" } }, e2.TAILWIND_SPECIAL = { black: "#000", white: "#fff", transparent: "transparent", current: "currentColor" }, e2.TW_COLOR_CLASS_RE = /^(fill|stroke)-([a-z]+)-(\d{2,3})(?:\/(\d+))?$/, e2.TW_SPECIAL_CLASS_RE = /^(fill|stroke)-(black|white|transparent|current)$/, e2.TW_ARBITRARY_RE = /^text-\[(.+)\]$/;
+          e2.HIDDEN_EXACT_SELECTOR = n2.join(","), e2.HIDDEN_EXACT_SKIP_SELECTOR = r2.join(","), e2.EXACT_SELECTORS = ["noscript", 'script:not([type^="math/"])', "style", "meta", "link", "audio:not([src]):not(:has(source))", "video:not([src]):not(:has(source))", ".jwplayer", '.ad:not([class*="gradient"])', '[class^="ad-" i]', '[class$="-ad" i]', "[data-ad-wrapper]", '[id^="ad-" i]', '[id$="-ad" i]', '[role="banner" i]', '[alt*="advert" i]', ".promo", ".Promo", "#barrier-page", ".alert", '[rel="sponsored" i]', '[href*="source=promotion" i]', '[id="comments" i]', '[id="comment" i]', 'div[class*="cover-"]', 'div[id*="cover-"]', "ads-breadcrumbs", "header:not(:has(p + p)):not(:has(img))", 'header[class~="fixed"]', 'header[class~="sticky"]', ".header:not(.banner)", "#header", "#Header", "#banner", "#Banner", "nav", ".navigation", "#navigation", '[role="navigation" i]', '[role="dialog" i]', '[role="alertdialog" i]', '[role*="complementary" i]', '[class*="pagination" i]', ".menu", "#siteSub", ".previous", ".author", ".Author", '[class$="_bio"]', "#categories", ".contributor", ".date", "#date", "[data-date]", ".entry-meta", ".meta", ".tags", "#tags", '[rel="tag"]', ".headline", "#headline", "#title", "#Title", "#articleTag", '[href*="/author/"]', '[href*="/author?"]', '[href$="/author"]', 'a[href*="copyright.com"]', 'a[href*="google.com/preferences"]', '[href="#top"]', '[href="#Top"]', '[href="#page-header"]', '[href="#content"]', '[href="#site-content"]', '[href="#main-content"]', '[href^="#main"]', '[src*="author"]', ".toc", ".Toc", "#toc", '[href*="#toc"]', "footer", ".aside", 'aside:not([class*="callout"])', "button", "canvas", "date", "dialog", "fieldset", "form", 'input:not([type="checkbox"])', 'input[type="checkbox"][class*="sidebar" i]', 'input[type="checkbox"][id*="sidebar" i]', 'input[type="checkbox"][class*="drawer" i]', 'input[type="checkbox"][id*="drawer" i]', 'input[type="checkbox"][class*="hamburger" i]', 'input[type="checkbox"][id*="hamburger" i]', 'input[type="checkbox"][class*="toggle" i]', 'input[type="checkbox"][id*="toggle" i]', 'input[type="checkbox"][class*="trigger" i]', 'input[type="checkbox"][id*="trigger" i]', "label", "option", "select", '[role="listbox"]', '[role="option"]', "textarea", ...n2, "instaread-player", "iframe:not([src])", 'iframe[src*="blink.net"]', 'iframe[src*="giscus.app"]', 'iframe[src*="tinypass.com"]', 'iframe[src*="trinitymedia.ai"]', '[class="logo" i]', "#logo", "#Logo", "#newsletter", "#Newsletter", ".subscribe", '[data-component-name="ButtonCreateButton"]', '[data-component-name="DigestPostEmbed"]', '[data-component-name="SubscribeWidgetToDOM"]', '[class*="digestPostEmbed"]', ".noprint", '[data-print-layout="hide" i]', '[data-block="donotprint" i]', '[class*="clickable-icon" i]', 'li span[class*="ltx_tag" i][class*="ltx_tag_item" i]', 'a[href^="#"][class*="anchor" i]', 'a[href^="#"][class*="ref" i]:not(.ltx_ref):not(.footnote-backref)', '[data-container*="most-viewed" i]', ".sidebar", ".Sidebar", "#sidebar", "#Sidebar", "#side-bar", "#secondary", "#sitesub", '[href*="/sitemap/sitemap.xml"]', '[data-link-name*="skip" i]', '[aria-label*="skip" i]', '[title^="Share on" i]', '[aria-label="Dismiss" i]', '[aria-label="Close" i]', "svg[data-icon]", '[data-testid="load-more-posts"] + div', ".copyright", "#copyright", ".licensebox", "#page-info", "#rss", "#feed", ".gutter", "#primaryaudio", "#NYT_ABOVE_MAIN_CONTENT_REGION", '[data-testid="photoviewer-children-figure"] > span', "table.infobox", '[data-optimizely="related-articles-section" i]', '[data-orientation="vertical"]', ".gh-header-sticky", '[data-testid="issue-metadata-sticky"]'], e2.EXACT_SELECTORS_JOINED = e2.EXACT_SELECTORS.join(","), e2.TEST_ATTRIBUTES = ["class", "id", "data-component", "data-test", "data-testid", "data-test-id", "data-qa", "data-cy"], e2.PARTIAL_SELECTORS = ["a-statement", "(?<!main-)access-wall", "activitypub", "actioncall", "addcomment", "addtoany", "advert", "adlayout", "ad-tldr", "ad-placement", "adplacehold", "ads-container", "_ad_", "AdBlock_", "AdUnit", "after_content", "after_main_article", "afterpost", "allterms", "-alert-", "alert-box", "_archive", "around-the-web", "aroundpages", "article-author", "article-badges", "article-banner", "article-bottom-section", "article-bottom", "article-category", "article-card", "article-citation", "article-continues", "article__copy", "article_date", "article-date", "article-end ", "article_header", "article-header", "article__header", "article__hero", "article__info", "article-info", "article-meta", "article_meta", "article__meta", "articlename", "article-subject", "article_subject", "article-snippet", "article-separator", "article--share", "article-share", "article--topics", "article-tools", "articletags", "article-tags", "article_tags", "articletitle", "article-title", "article_title", "articletopics", "article-topics", "article-actions", "article--lede", "articlewell", "associated-people", "ambient-video__button", "audio-card", "beyondwords", "about-author", "author-bio", "author-box", "author-info", "author_info", "authorm", "author-mini-bio", "author-name", "author-publish-info", "authored-by", "avatar", "back-to-top", "backlink_container", "backlinks-section", "bio-block", "biobox", "blog-pager", "bookmark-", "-bookmark", "bottominfo", "bottomnav", "bottom-of-article", "bottom-wrapper", "brand-bar", "bcrumb", "breadcrumb", "brdcrumb", "crumbs", "bubblewrapper", "button-wrapper", "buttons-container", "btn-", "-btn", "byline", "captcha", "card-text", "card-media", "card-post", "carouselcontainer", "carousel-container", "cat_header", "cat-overlay", "catlinks", "_categories", "card-author", "card-content", "chapter-list", "collections", "comments", "-comment\\b", "commentbox", "comment-button", "commentcomp", "comment-content", "comment-count", "comment-form", "comment-number", "comment-respond", "comment-thread", "comment-wrap", "complementary", "consent", "contact-", "contactus", "cookie.law", "content-card", "copycontent", "copy-tooltip", "content-topics", "contentpromo", "context-bar", "context-widget", "core-collateral", "cover-image", "cover-photo", "cover-wrap", "created-date", "creative-commons_", "c-subscribe", "_cta", "-cta", "cta-", "cta_", "current-issue", "custom-list-number", "dateline", "dateheader", "date-header", "date-pub", "disclaimer", "disclosure", "discussion", "discuss_", "-dismiss", "disqus", "donate", "donation", "dropdown", "editorial_contact", "editorial-contact", "element-invisible", "elementor-shortcode", "eletters", "emailsignup", "emoji-bar", "engagement-widget", "enhancement-", "entry-author-info", "entry-categories", "entry-date", "entry-title", "entry-utility", "-error", "error-", "eyebrow", "expand-reduce", "external-anchor", "externallinkembedwrapper", "extra-services", "extra-title", "facebook", "fancy-box", "favorite", "featured-content", "feature_feed", "feedback", "feed-links", "field-site-sections", "filed", "fixheader", "floating-vid", "follower", "footer", "footnote-back", "footnoteback", "form-group", "for-you", "frontmatter", "further-reading", "fullbleedheader", "gallery-count", "gated-popup", "gh-feed", "gist-meta", "goog-", "graph-view", "hamburger", "hawk-", "header-pattern", "hero[_\\-a-z]", "hide-for-print", "hide-print", "hide-when-no-script", "hidden-print", "hidden-sidenote", "hidden-accessibility", "home-link", "icon-sidebar", "inarticle-ad", "infoline", "inline-topic", "instacartIntegration", "interlude", "interaction", "itemendrow", "intro-date", "invisible", "jp-no-solution", "jp-relatedposts", "jswarning", "js-warning", "jumplink", "jumpto", "jump-to-", "js-skip-to-content", "keepreading", "keep-reading", "keep_reading", "keyword_wrap", "kicker", "labstab", "-labels", "language-name", "lastupdated", "latest-content", "-ledes-", "-license", "license-", "lightbox-popup", "like-button", "link-box", "links-grid", "links-title", "listing-dynamic-terms", "list-tags", "live-blog-header-live-label", "listinks", "loading", "loa-info", "logo", "ltx_role_refnum", "ltx_tag_bibitem", "ltx_error", "masthead", "marketing", "media-inquiry", "-menu", "menu-", "metadata", "meta-bottom", "meta-date", "meta-row", "might-like", "minibio", "more-about", "mod-paywall", "_modal", "-modal", "more-", "morenews", "morestories", "more_wrapper", "most-read", "move-helper", "mw-editsection", "mw-cite-backlink", "mw-indicators", "mw-jump-link", "nav-", "nav_", "navigation-post", "next-", "next_prev", "no-script", "newsgallery", "news-story-title", "newsletter_", "newsletterbanner", "newslettercontainer", "newsletter-form", "newsletter-signup", "newslettersignup", "newsletterwidget", "newsletterwrapper", "not-found", "notessection", "nomobile", "noprint", "onward-journey", "open-slideshow", "originally-published", "osano-cm", "other-blogs", "outline-view", "pagefoot", "pagehead", "page-header", "page-title", "paywall_message", "-partners", "permission-", "plea", "popular", "popup_links", "pop_stories", "pop-up", "post__author", "post-author", "post-bottom", "post__category", "postcomment", "postdate", "post-date", "post_date", "post-details", "post-feeds", "postinfo", "post-info", "post_info", "post-inline-date", "post-links", "postlist", "post_list", "post_meta", "post-meta", "postmeta", "post_more", "postnavi", "post-navigation", "postpath", "post-preview", "postsnippet", "post_snippet", "post-snippet", "post-subject", "posttax", "post-tax", "post_tax", "posttag", "post-tag", "post_time", "posttitle", "post-title", "post_title", "post__title", "post-ufi-button", "prev-post", "prevnext", "prev_next", "prev-next", "previousnext", "press-inquiries", "print-none", "print-header", "print:hidden", "privacy-notice", "privacy-settings", "profile", "promo_article", "promo-bar", "promo-box", "pubdate", "pub_date", "pub-date", "publish_date", "publish-date", "publication-date", "publicationName", "qr-code", "qr_code", "quick_up", "_rail", "ratingssection", "read_also", "readmore", "read-next", "read_next", "read_time", "read-time", "reading_time", "reading-time", "reading-list", "recent-", "recent-articles", "recentpost", "recent_post", "recent-post", "recommend", "redirectedfrom", "recirc", "register", "(?<!h[1-6]-)related", "relevant", "relposts", "reversefootnote", "rightcol", "\\bnocontent\\b", "_rss", "rss-link", "rubricwrapper", "screen-reader-text", "scroll_to", "scroll-to", "_search", "-search", "section-nav", "series-banner", "share-box", "sharedaddy", "share-icons", "sharelinks", "share-links", "share-post", "share-print", "share-section", "share-text", "sharing_", "shariff-", "shortcode-id", "show-for-print", "sidebartitle", "sidebar-content", "sidebar-wrapper", "sideitems", "sidebar-author", "sidebar-item", "side-box", "sign-in-gate", "similar-", "similar_", "similars-", "site-index", "site-header", "siteheader", "site-name", "site-wordpress", "skip-content", "skip-to-content", "skip-link", "c-skip-link", "_skip-link", "-slider", "slug-wrap", "social-author", "social-button", "social-shar", "social-date", "speechify-ignore", "speedbump", "sponsor", "springercitation", "sr-only", "_stats", "sticky-social", "story-date", "story-navigation", "storyreadtime", "storysmall", "storypublishdate", "subject-label", "submenu", "-subscribe-", "subscriber-drive", "subscription-", "_tags", "tags__item", "tag_list", "tag-list", "tag-module", "takeaways", "taxonomy", "table-of-contents", "tblc", "tabs-", "terminaltout", "time-rubric", "timestamp", "time-read", "time-to-read", "tip_off", "-ticker", "tiptout", "-tout-", "toc-container", "toggle-caption", "tooltip-content", "topbar", "subnavbar", "topic-authors", "topic-footer", "topic-list", "topic-subnav", "top-wrapper", "tree-item", "trending", "trust-feat", "trust-badge", "trust-project", "chakra-badge", "twiblock", "u-hide", "upsell", "vid_carousel", "viewbottom", "view-language", "yarpp-related", "visually-hidden", "welcomebox", "widget_pages", "window__widget", "w-form-done", "w-form-fail"], e2.PARTIAL_SELECTORS_REGEX = new RegExp(e2.PARTIAL_SELECTORS.join("|"), "i"), e2.PARTIAL_SELECTORS_ANCHORED_REGEX = new RegExp("^(?:" + e2.PARTIAL_SELECTORS.join("|") + ")$", "i"), e2.TEST_ATTRIBUTES_SELECTOR = e2.TEST_ATTRIBUTES.map(((t3) => `[${t3}]`)).join(","), e2.FOOTNOTE_INLINE_REFERENCES = ["sup.reference", "cite.ltx_cite", 'sup[id^="fnr"]', 'span[id^="fnr"]', 'span[class*="footnote_ref"]', 'span[class*="footnote-ref"]', "span.footnote-link", "a.citation", 'a[id^="ref-link"]', 'a[href^="#fn"]', 'a[href^="#cite"]', 'a[href^="#reference"]', 'a[href^="#footnote"]', 'a[href^="#r"]', 'a[href^="#b"]', 'a[href*="cite_note"]', 'a[href*="cite_ref"]', "a.footnote-anchor", "span.footnote-hovercard-target a", 'a[role="doc-biblioref"]', 'a[id^="fnref"]', 'a[id^="ref-link"]', "sup.footnoteref", "sup.footnote-reference", 'sup[data-fn] > a[href^="#"]', 'sup[id^="ftnt_ref"] a[href^="#ftnt"]', 'span.easy-footnote > a[href^="#easy-footnote-bottom-"]', 'a.footnote[href^="#"]', 'a[data-type="noteref"]'].join(","), e2.FOOTNOTE_LIST_SELECTORS = ["div.footnote ol", "div.footnotes ol", 'div[role="doc-endnotes"]', 'div[role="doc-footnotes"]', "ol.footnotes-list", "ol.footnotes", "ol.references", 'ol[class*="article-references"]', "section.footnotes ol", 'section[role="doc-endnotes"]', 'section[role="doc-footnotes"]', 'section[role="doc-bibliography"]', "ul.footnotes-list", "ul.ltx_biblist", 'div.footnote[data-component-name="FootnoteToDOM"]', "div.footnotes-footer", "div.footnote-definitions", "div.footnote-definition", "ol.wp-block-footnotes", "ol.easy-footnotes-wrapper", "div.footnotes-segment", "#footnotes"].join(","), e2.ALLOWED_EMPTY_ELEMENTS = /* @__PURE__ */ new Set(["area", "audio", "base", "br", "circle", "col", "defs", "ellipse", "embed", "figure", "g", "hr", "iframe", "img", "input", "line", "link", "mask", "meta", "object", "param", "path", "pattern", "picture", "polygon", "polyline", "rect", "source", "stop", "svg", "td", "th", "track", "use", "video", "wbr"]), e2.ALLOWED_ATTRIBUTES = /* @__PURE__ */ new Set(["alt", "allow", "allowfullscreen", "aria-label", "checked", "colspan", "controls", "data-latex", "data-src", "data-srcset", "data-callout", "data-callout-fold", "data-callout-title", "data-lang", "dir", "display", "frameborder", "headers", "height", "href", "kind", "label", "lang", "role", "rowspan", "sandbox", "src", "srclang", "srcset", "start", "title", "type", "width", "accent", "accentunder", "align", "columnalign", "columnlines", "columnspacing", "columnspan", "data-mjx-texclass", "depth", "displaystyle", "fence", "frame", "framespacing", "linethickness", "lspace", "mathsize", "mathvariant", "maxsize", "minsize", "movablelimits", "notation", "rowalign", "rowlines", "rowspacing", "rowspan", "rspace", "scriptlevel", "separator", "stretchy", "symmetric", "voffset", "xmlns"]), e2.ALLOWED_ATTRIBUTES_DEBUG = /* @__PURE__ */ new Set(["class", "id"]), e2.TAILWIND_COLORS = { slate: { 50: "#f8fafc", 100: "#f1f5f9", 200: "#e2e8f0", 300: "#cbd5e1", 400: "#94a3b8", 500: "#64748b", 600: "#475569", 700: "#334155", 800: "#1e293b", 900: "#0f172a", 950: "#020617" }, gray: { 50: "#f9fafb", 100: "#f3f4f6", 200: "#e5e7eb", 300: "#d1d5db", 400: "#9ca3af", 500: "#6b7280", 600: "#4b5563", 700: "#374151", 800: "#1f2937", 900: "#111827", 950: "#030712" }, zinc: { 50: "#fafafa", 100: "#f4f4f5", 200: "#e4e4e7", 300: "#d4d4d8", 400: "#a1a1aa", 500: "#71717a", 600: "#52525b", 700: "#3f3f46", 800: "#27272a", 900: "#18181b", 950: "#09090b" }, neutral: { 50: "#fafafa", 100: "#f5f5f5", 200: "#e5e5e5", 300: "#d4d4d4", 400: "#a3a3a3", 500: "#737373", 600: "#525252", 700: "#404040", 800: "#262626", 900: "#171717", 950: "#0a0a0a" }, stone: { 50: "#fafaf9", 100: "#f5f5f4", 200: "#e7e5e4", 300: "#d6d3d1", 400: "#a8a29e", 500: "#78716c", 600: "#57534e", 700: "#44403c", 800: "#292524", 900: "#1c1917", 950: "#0c0a09" }, red: { 50: "#fef2f2", 100: "#fee2e2", 200: "#fecaca", 300: "#fca5a5", 400: "#f87171", 500: "#ef4444", 600: "#dc2626", 700: "#b91c1c", 800: "#991b1b", 900: "#7f1d1d", 950: "#450a0a" }, orange: { 50: "#fff7ed", 100: "#ffedd5", 200: "#fed7aa", 300: "#fdba74", 400: "#fb923c", 500: "#f97316", 600: "#ea580c", 700: "#c2410c", 800: "#9a3412", 900: "#7c2d12", 950: "#431407" }, amber: { 50: "#fffbeb", 100: "#fef3c7", 200: "#fde68a", 300: "#fcd34d", 400: "#fbbf24", 500: "#f59e0b", 600: "#d97706", 700: "#b45309", 800: "#92400e", 900: "#78350f", 950: "#451a03" }, yellow: { 50: "#fefce8", 100: "#fef9c3", 200: "#fef08a", 300: "#fde047", 400: "#facc15", 500: "#eab308", 600: "#ca8a04", 700: "#a16207", 800: "#854d0e", 900: "#713f12", 950: "#422006" }, lime: { 50: "#f7fee7", 100: "#ecfccb", 200: "#d9f99d", 300: "#bef264", 400: "#a3e635", 500: "#84cc16", 600: "#65a30d", 700: "#4d7c0f", 800: "#3f6212", 900: "#365314", 950: "#1a2e05" }, green: { 50: "#f0fdf4", 100: "#dcfce7", 200: "#bbf7d0", 300: "#86efac", 400: "#4ade80", 500: "#22c55e", 600: "#16a34a", 700: "#15803d", 800: "#166534", 900: "#14532d", 950: "#052e16" }, emerald: { 50: "#ecfdf5", 100: "#d1fae5", 200: "#a7f3d0", 300: "#6ee7b7", 400: "#34d399", 500: "#10b981", 600: "#059669", 700: "#047857", 800: "#065f46", 900: "#064e3b", 950: "#022c22" }, teal: { 50: "#f0fdfa", 100: "#ccfbf1", 200: "#99f6e4", 300: "#5eead4", 400: "#2dd4bf", 500: "#14b8a6", 600: "#0d9488", 700: "#0f766e", 800: "#115e59", 900: "#134e4a", 950: "#042f2e" }, cyan: { 50: "#ecfeff", 100: "#cffafe", 200: "#a5f3fc", 300: "#67e8f9", 400: "#22d3ee", 500: "#06b6d4", 600: "#0891b2", 700: "#0e7490", 800: "#155e75", 900: "#164e63", 950: "#083344" }, sky: { 50: "#f0f9ff", 100: "#e0f2fe", 200: "#bae6fd", 300: "#7dd3fc", 400: "#38bdf8", 500: "#0ea5e9", 600: "#0284c7", 700: "#0369a1", 800: "#075985", 900: "#0c4a6e", 950: "#082f49" }, blue: { 50: "#eff6ff", 100: "#dbeafe", 200: "#bfdbfe", 300: "#93c5fd", 400: "#60a5fa", 500: "#3b82f6", 600: "#2563eb", 700: "#1d4ed8", 800: "#1e40af", 900: "#1e3a8a", 950: "#172554" }, indigo: { 50: "#eef2ff", 100: "#e0e7ff", 200: "#c7d2fe", 300: "#a5b4fc", 400: "#818cf8", 500: "#6366f1", 600: "#4f46e5", 700: "#4338ca", 800: "#3730a3", 900: "#312e81", 950: "#1e1b4b" }, violet: { 50: "#f5f3ff", 100: "#ede9fe", 200: "#ddd6fe", 300: "#c4b5fd", 400: "#a78bfa", 500: "#8b5cf6", 600: "#7c3aed", 700: "#6d28d9", 800: "#5b21b6", 900: "#4c1d95", 950: "#2e1065" }, purple: { 50: "#faf5ff", 100: "#f3e8ff", 200: "#e9d5ff", 300: "#d8b4fe", 400: "#c084fc", 500: "#a855f7", 600: "#9333ea", 700: "#7e22ce", 800: "#6b21a8", 900: "#581c87", 950: "#3b0764" }, fuchsia: { 50: "#fdf4ff", 100: "#fae8ff", 200: "#f5d0fe", 300: "#f0abfc", 400: "#e879f9", 500: "#d946ef", 600: "#c026d3", 700: "#a21caf", 800: "#86198f", 900: "#701a75", 950: "#4a044e" }, pink: { 50: "#fdf2f8", 100: "#fce7f3", 200: "#fbcfe8", 300: "#f9a8d4", 400: "#f472b6", 500: "#ec4899", 600: "#db2777", 700: "#be185d", 800: "#9d174d", 900: "#831843", 950: "#500724" }, rose: { 50: "#fff1f2", 100: "#ffe4e6", 200: "#fecdd3", 300: "#fda4af", 400: "#fb7185", 500: "#f43f5e", 600: "#e11d48", 700: "#be123c", 800: "#9f1239", 900: "#881337", 950: "#4c0519" } }, e2.TAILWIND_SPECIAL = { black: "#000", white: "#fff", transparent: "transparent", current: "currentColor" }, e2.TW_COLOR_CLASS_RE = /^(fill|stroke)-([a-z]+)-(\d{2,3})(?:\/(\d+))?$/, e2.TW_SPECIAL_CLASS_RE = /^(fill|stroke)-(black|white|transparent|current)$/, e2.TW_ARBITRARY_RE = /^text-\[(.+)\]$/;
         }, 4467(t2, e2, r2) {
           Object.defineProperty(e2, "__esModule", { value: true }), e2.findContentStart = function t3(e3, r3) {
             const o2 = (function(t4, e4) {
@@ -207,10 +207,15 @@
               if (!t3) return;
               const e3 = t3.querySelectorAll('script:not([type^="math/"]), style, noscript, frame, frameset, object, embed, applet, base');
               for (const t4 of e3) t4.remove();
-              const r3 = t3.querySelectorAll("*");
+              const r3 = [t3, ...Array.from(t3.querySelectorAll("*"))];
               for (const t4 of r3) for (const e4 of Array.from(t4.attributes)) {
                 const r4 = e4.name.toLowerCase();
-                (r4.startsWith("on") || "srcdoc" === r4 || ["href", "src", "action", "formaction", "xlink:href"].includes(r4) && (0, v.isDangerousUrl)(e4.value)) && t4.removeAttribute(e4.name);
+                if (r4.startsWith("on")) t4.removeAttribute(e4.name);
+                else if ("srcdoc" === r4) t4.removeAttribute(e4.name);
+                else if (["href", "src", "action", "formaction", "xlink:href"].includes(r4)) {
+                  const n3 = !("src" === r4 && "IFRAME" === t4.tagName);
+                  (0, v.isDangerousUrl)(e4.value, n3) && t4.removeAttribute(e4.name);
+                }
               }
             }
             _deduplicateImages(t3) {
@@ -533,7 +538,7 @@
                   E.standardize && (0, a.standardizeContent)(N, _, this.doc, this.debug, C ? x2 : void 0);
                 })), S("resolveRelativeUrls", (() => this.resolveRelativeUrls(N))), this._deduplicateImages(N);
                 const k = this._removeCoverImage(N, _.image || "");
-                k && (_.image = k);
+                k && (_.image = k), this._stripUnsafeElements(N);
                 const $ = N.outerHTML, P = Date.now(), O = Object.assign(Object.assign({ content: $ }, _), { wordCount: this.countHtmlWords($), parseTime: Math.round(P - b2), metaTags: T });
                 return this.debug && (O.debug = { contentSelector: this.getElementSelector(N), removals: A }), this.options.profile && (O.profile = x2), O;
               } catch (t4) {
@@ -833,8 +838,13 @@
             }
             buildExtractorResponse(t3, e3, r3, n3, o2) {
               var i2, s2, a2, l2, c2, u2;
-              const d2 = this.resolveContentUrls(t3.contentHtml), h2 = this.getExtractorVariables(t3.variables);
-              return Object.assign({ content: d2, title: (null === (i2 = t3.variables) || void 0 === i2 ? void 0 : i2.title) || e3.title, description: (null === (s2 = t3.variables) || void 0 === s2 ? void 0 : s2.description) || e3.description, domain: e3.domain, favicon: e3.favicon, image: e3.image, language: (null === (a2 = t3.variables) || void 0 === a2 ? void 0 : a2.language) || e3.language, published: (null === (l2 = t3.variables) || void 0 === l2 ? void 0 : l2.published) || e3.published, author: (null === (c2 = t3.variables) || void 0 === c2 ? void 0 : c2.author) || e3.author, site: (null === (u2 = t3.variables) || void 0 === u2 ? void 0 : u2.site) || e3.site, schemaOrgData: e3.schemaOrgData, wordCount: this.countHtmlWords(t3.contentHtml), parseTime: Math.round(Date.now() - r3), extractorType: n3.constructor.name.replace("Extractor", "").toLowerCase(), metaTags: o2 }, h2 ? { variables: h2 } : {});
+              const d2 = this._sanitizeExtractorHtml(t3.contentHtml), h2 = this.getExtractorVariables(t3.variables);
+              return Object.assign({ content: d2, title: (null === (i2 = t3.variables) || void 0 === i2 ? void 0 : i2.title) || e3.title, description: (null === (s2 = t3.variables) || void 0 === s2 ? void 0 : s2.description) || e3.description, domain: e3.domain, favicon: e3.favicon, image: e3.image, language: (null === (a2 = t3.variables) || void 0 === a2 ? void 0 : a2.language) || e3.language, published: (null === (l2 = t3.variables) || void 0 === l2 ? void 0 : l2.published) || e3.published, author: (null === (c2 = t3.variables) || void 0 === c2 ? void 0 : c2.author) || e3.author, site: (null === (u2 = t3.variables) || void 0 === u2 ? void 0 : u2.site) || e3.site, schemaOrgData: e3.schemaOrgData, wordCount: this.countHtmlWords(d2), parseTime: Math.round(Date.now() - r3), extractorType: n3.constructor.name.replace("Extractor", "").toLowerCase(), metaTags: o2 }, h2 ? { variables: h2 } : {});
+            }
+            _sanitizeExtractorHtml(t3) {
+              if (!t3) return t3;
+              const e3 = this.doc.createElement("div");
+              return e3.appendChild((0, v.parseHTML)(this.doc, t3)), this._stripUnsafeElements(e3), this.resolveRelativeUrls(e3), (0, v.serializeHTML)(e3);
             }
             getExtractorVariables(t3) {
               if (!t3) return;
@@ -4286,11 +4296,11 @@ ${n3}` : r3, i2 = (null === (t3 = this.document.querySelector('meta[property="og
               var t3;
               if (!this.noteImage) return "";
               const e3 = null === (t3 = this.document.querySelector('meta[property="og:image"]')) || void 0 === t3 ? void 0 : t3.getAttribute("content");
-              if (e3) return `<img src="${e3}" alt="" />`;
+              if (e3) return `<img src="${(0, o.escapeHtml)(e3)}" alt="" />`;
               const r3 = this.noteImage.querySelector("img");
               if (!r3) return "";
               const n3 = this.getLargestSrc(r3);
-              return n3 ? `<img src="${n3}" alt="" />` : "";
+              return n3 ? `<img src="${(0, o.escapeHtml)(n3)}" alt="" />` : "";
             }
             getLargestSrc(t3) {
               const e3 = t3.getAttribute("srcset") || "";
@@ -4567,30 +4577,28 @@ ${n3}` : r3, i2 = (null === (t3 = this.document.querySelector('meta[property="og
           const n2 = r2(2279), o = r2(639), i = r2(6077);
           class s extends n2.BaseExtractor {
             constructor(t3, e3) {
-              var r3, n3;
-              super(t3, e3), this.mainTweet = null, this.threadTweets = [], this.replyTweets = [], this.replyDepths = [];
-              const o2 = null !== (r3 = Array.from(t3.querySelectorAll("[aria-label]")).find(((t4) => null !== t4.querySelector('[data-testid="cellInnerDiv"]')))) && void 0 !== r3 ? r3 : null;
-              if (!o2) {
-                const e4 = t3.querySelector('article[data-testid="tweet"]');
-                return void (e4 && (this.mainTweet = e4));
-              }
-              const i2 = Array.from(o2.querySelectorAll('[data-testid="cellInnerDiv"]')), s2 = null === (n3 = o2.querySelector("section, h2")) || void 0 === n3 ? void 0 : n3.parentElement;
-              let a = "", l = true, c = false, u = false, d = 0;
-              for (const t4 of i2) {
-                if (s2 && s2.compareDocumentPosition(t4) & Node.DOCUMENT_POSITION_FOLLOWING) break;
-                const e4 = t4.querySelector('article[data-testid="tweet"]');
-                if (e4) {
-                  if (l) {
-                    this.mainTweet = e4, a = this.getHandle(e4), l = false, u = true;
-                    continue;
-                  }
-                  const t5 = this.getHandle(e4);
-                  if (!c && t5 === a) {
-                    this.threadTweets.push(e4), u = true;
-                    continue;
-                  }
-                  c || (c = true), u ? d++ : d = 0, this.replyTweets.push(e4), this.replyDepths.push(d), u = true;
-                } else u = false;
+              super(t3, e3), this.mainTweet = null, this.threadTweets = [], this.replyTweets = [], this.replyDepths = [], this.classifyCells(this.conversationCells()), this.mainTweet || (this.mainTweet = t3.querySelector('article[data-testid="tweet"]'));
+            }
+            conversationCells() {
+              const t3 = [];
+              for (const e3 of Array.from(this.document.querySelectorAll('[data-testid="cellInnerDiv"], section, h2'))) if ("cellInnerDiv" === e3.getAttribute("data-testid")) t3.push(e3);
+              else if (t3.length && !e3.closest('article[data-testid="tweet"]')) break;
+              return t3;
+            }
+            classifyCells(t3) {
+              let e3 = "", r3 = false, n3 = false, o2 = 0;
+              for (const i2 of t3) {
+                const t4 = i2.querySelector('article[data-testid="tweet"]');
+                if (!t4) {
+                  n3 = false;
+                  continue;
+                }
+                if (!this.mainTweet) {
+                  this.mainTweet = t4, e3 = this.getHandle(t4), n3 = true;
+                  continue;
+                }
+                const s2 = this.getHandle(t4);
+                r3 || !s2 || s2 !== e3 ? (r3 = true, o2 = n3 ? o2 + 1 : 0, this.replyTweets.push(t4), this.replyDepths.push(o2), n3 = true) : (this.threadTweets.push(t4), n3 = true);
               }
             }
             canExtract() {
@@ -4611,9 +4619,20 @@ ${n3}` : r3, i2 = (null === (t3 = this.document.querySelector('meta[property="og
               return (0, i.buildCommentTree)(t3);
             }
             getHandle(t3) {
-              var e3, r3;
-              const n3 = t3.querySelector('[data-testid="User-Name"]'), o2 = null == n3 ? void 0 : n3.querySelectorAll("a");
-              return (null === (r3 = null === (e3 = null == o2 ? void 0 : o2[1]) || void 0 === e3 ? void 0 : e3.textContent) || void 0 === r3 ? void 0 : r3.trim()) || "";
+              var e3;
+              const r3 = t3.querySelector('[data-testid="User-Name"]');
+              if (!r3) return "";
+              const n3 = Array.from(r3.querySelectorAll("a"));
+              for (const t4 of n3) {
+                const r4 = (null === (e3 = t4.textContent) || void 0 === e3 ? void 0 : e3.trim()) || "";
+                if (/^@\w{1,15}$/.test(r4)) return r4;
+              }
+              for (const t4 of n3) {
+                const e4 = (t4.getAttribute("href") || "").match(/^(?:https?:\/\/[^/]+)?\/(\w{1,15})(?:\/|$)/);
+                if (e4 && !s.RESERVED_PATHS.has(e4[1].toLowerCase())) return `@${e4[1]}`;
+              }
+              const o2 = (r3.textContent || "").match(/@(\w{1,15})/);
+              return o2 ? `@${o2[1]}` : "";
             }
             formatTweetText(t3) {
               if (!t3) return "";
@@ -4659,21 +4678,20 @@ ${l.join("\n")}`);
               return (0, i.buildQuotedPost)({ author: u || void 0, date: a.date || void 0, content: c });
             }
             extractUserInfo(t3) {
-              var e3, r3, n3, o2, i2, s2, a, l, c;
-              const u = t3.querySelector('[data-testid="User-Name"]');
-              if (!u) return { fullName: "", handle: "", date: "", permalink: "" };
-              const d = u.querySelectorAll("a");
-              let h = (null === (r3 = null === (e3 = null == d ? void 0 : d[0]) || void 0 === e3 ? void 0 : e3.textContent) || void 0 === r3 ? void 0 : r3.trim()) || "", m = (null === (o2 = null === (n3 = null == d ? void 0 : d[1]) || void 0 === n3 ? void 0 : n3.textContent) || void 0 === o2 ? void 0 : o2.trim()) || "";
-              if (!h || !m) {
-                const t4 = Array.from(u.children);
-                if (t4.length >= 2) {
-                  h = (null === (s2 = null === (i2 = t4[0]) || void 0 === i2 ? void 0 : i2.textContent) || void 0 === s2 ? void 0 : s2.trim()) || "";
-                  const e4 = ((null === (l = null === (a = t4[1]) || void 0 === a ? void 0 : a.textContent) || void 0 === l ? void 0 : l.trim()) || "").match(/(@\w+)/);
-                  m = e4 ? e4[1] : "";
-                }
+              var e3, r3, n3;
+              const o2 = t3.querySelector('[data-testid="User-Name"]');
+              if (!o2) return { fullName: "", handle: "", date: "", permalink: "" };
+              const i2 = this.getHandle(t3);
+              let s2 = Array.from(o2.querySelectorAll("a")).map(((t4) => {
+                var e4;
+                return t4.querySelector("time") ? "" : (null === (e4 = t4.textContent) || void 0 === e4 ? void 0 : e4.trim()) || "";
+              })).find(((t4) => t4 && t4 !== i2 && !t4.startsWith("@"))) || "";
+              if (!s2) {
+                const t4 = (null === (r3 = null === (e3 = o2.children[0]) || void 0 === e3 ? void 0 : e3.textContent) || void 0 === r3 ? void 0 : r3.trim()) || "";
+                t4 && !t4.startsWith("@") && (s2 = t4);
               }
-              const f = t3.querySelector("time"), p = (null == f ? void 0 : f.getAttribute("datetime")) || "";
-              return { fullName: h, handle: m, date: p ? new Date(p).toISOString().split("T")[0] : "", permalink: (null === (c = null == f ? void 0 : f.closest("a")) || void 0 === c ? void 0 : c.href) || "" };
+              const a = t3.querySelector("time"), l = (null == a ? void 0 : a.getAttribute("datetime")) || "", c = l ? new Date(l).toISOString().split("T")[0] : "", u = (null === (n3 = null == a ? void 0 : a.closest("a")) || void 0 === n3 ? void 0 : n3.href) || "";
+              return { fullName: s2, handle: i2, date: c, permalink: u };
             }
             extractImages(t3, e3) {
               const r3 = ['[data-testid="tweetPhoto"]', '[data-testid="tweet-image"]', 'img[src*="media"]'], n3 = [];
@@ -4711,7 +4729,7 @@ ${l.join("\n")}`);
               return ((null === (e3 = t3.querySelector('[data-testid="tweetText"]')) || void 0 === e3 ? void 0 : e3.textContent) || "").trim().slice(0, 140).replace(/\s+/g, " ");
             }
           }
-          e2.TwitterExtractor = s;
+          e2.TwitterExtractor = s, s.RESERVED_PATHS = /* @__PURE__ */ new Set(["i", "home", "explore", "search", "notifications", "messages", "settings", "compose", "hashtag", "intent"]);
         }, 2144(t2, e2, r2) {
           Object.defineProperty(e2, "__esModule", { value: true }), e2.WikipediaExtractor = void 0;
           const n2 = r2(2279);
@@ -4780,8 +4798,8 @@ ${l.join("\n")}`);
               if (this.articleContainer.contains(r3)) return "";
               const n3 = r3.getAttribute("src");
               if (!n3) return "";
-              const o2 = (null === (t3 = r3.getAttribute("alt")) || void 0 === t3 ? void 0 : t3.replace(/\s+/g, " ").trim()) || "Image";
-              return `<img src="${this.upgradeImageSrc(n3)}" alt="${o2}">`;
+              const s2 = (null === (t3 = r3.getAttribute("alt")) || void 0 === t3 ? void 0 : t3.replace(/\s+/g, " ").trim()) || "Image";
+              return `<img src="${(0, o.escapeHtml)(this.upgradeImageSrc(n3))}" alt="${(0, o.escapeHtml)(s2)}">`;
             }
             cleanContent(t3) {
               const e3 = t3.ownerDocument || this.document;
@@ -5164,8 +5182,8 @@ ${l.join("\n")}`);
             }));
           };
           Object.defineProperty(e2, "__esModule", { value: true }), e2.YoutubeExtractor = void 0;
-          const o = r2(2279), i = r2(2552), s = r2(1497), a = "\u300D\u300F\uFF09", l = new RegExp(`[.!?\u3002\uFF01\uFF1F]["'\\u2019\\u201D)${a}]*\\s*$`), c = new RegExp(`[?\\uFF1F]["'\\u2019\\u201D)${a}]*\\s*$`), u = /^(>>|-\s)/, d = /^(>>\s*|-\s+)/, h = /,\s*$/, m = new RegExp(`^(.*[.!?]["'\\u2019\\u201D)]*)\\s+([A-Z].*)$|^(.*[\u3002\uFF01\uFF1F][${a}]*)([${i.CJK_CHAR_RANGES}].*)$`), f = 4e3, p = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false", g = "20.10.38", v = { client: { clientName: "ANDROID", clientVersion: g } }, y = `com.google.android.youtube/${g} (Linux; U; Android 14)`, b = { client: { clientName: "IOS", clientVersion: "20.10.3" } }, x = { client: { clientName: "WEB", clientVersion: "2.20240101.00.00" } }, C = { segments: "ytd-transcript-segment-renderer", timestamp: ".segment-timestamp", text: ".segment-text" }, S = { segments: "transcript-segment-view-model", timestamp: ".ytwTranscriptSegmentViewModelTimestamp", text: "span.yt-core-attributed-string", chapters: "timeline-chapter-view-model h3" };
-          class E extends o.BaseExtractor {
+          const o = r2(2279), i = r2(639), s = r2(2552), a = r2(1497), l = "\u300D\u300F\uFF09", c = new RegExp(`[.!?\u3002\uFF01\uFF1F]["'\\u2019\\u201D)${l}]*\\s*$`), u = new RegExp(`[?\\uFF1F]["'\\u2019\\u201D)${l}]*\\s*$`), d = /^(>>|-\s)/, h = /^(>>\s*|-\s+)/, m = /,\s*$/, f = new RegExp(`^(.*[.!?]["'\\u2019\\u201D)]*)\\s+([A-Z].*)$|^(.*[\u3002\uFF01\uFF1F][${l}]*)([${s.CJK_CHAR_RANGES}].*)$`), p = 4e3, g = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false", v = "20.10.38", y = { client: { clientName: "ANDROID", clientVersion: v } }, b = `com.google.android.youtube/${v} (Linux; U; Android 14)`, x = { client: { clientName: "IOS", clientVersion: "20.10.3" } }, C = { client: { clientName: "WEB", clientVersion: "2.20240101.00.00" } }, S = { segments: "ytd-transcript-segment-renderer", timestamp: ".segment-timestamp", text: ".segment-text" }, E = { segments: "transcript-segment-view-model", timestamp: ".ytwTranscriptSegmentViewModelTimestamp", text: "span.yt-core-attributed-string", chapters: "timeline-chapter-view-model h3" };
+          class A extends o.BaseExtractor {
             constructor(t3, e3, r3, n3) {
               super(t3, e3, r3, n3), this.inlineJsonCache = /* @__PURE__ */ new Map(), this.videoElement = t3.querySelector("video"), this.schemaOrgData = r3;
             }
@@ -5257,7 +5275,7 @@ ${l.join("\n")}`);
               return t3 || this.document.querySelector("ytm-macro-markers-list-renderer .ytm-macro-markers-list-container");
             }
             getTranscriptSelectors(t3) {
-              return t3.querySelectorAll("ytd-transcript-segment-renderer").length > 0 ? C : t3.querySelectorAll("transcript-segment-view-model").length > 0 ? S : void 0;
+              return t3.querySelectorAll("ytd-transcript-segment-renderer").length > 0 ? S : t3.querySelectorAll("transcript-segment-view-model").length > 0 ? E : void 0;
             }
             buildTranscriptFromContainer(t3, e3) {
               var r3;
@@ -5270,21 +5288,21 @@ ${l.join("\n")}`);
                 for (const t4 of e4) {
                   const e5 = (t4.textContent || "").trim();
                   if (!e5) continue;
-                  const o3 = t4.closest("macro-markers-panel-item-view-model"), s2 = null === (r3 = null == o3 ? void 0 : o3.nextElementSibling) || void 0 === r3 ? void 0 : r3.querySelector(n3.timestamp), a3 = ((null == s2 ? void 0 : s2.textContent) || "").trim(), l3 = this.parseTimestamp(a3);
+                  const o3 = t4.closest("macro-markers-panel-item-view-model"), s3 = null === (r3 = null == o3 ? void 0 : o3.nextElementSibling) || void 0 === r3 ? void 0 : r3.querySelector(n3.timestamp), a2 = ((null == s3 ? void 0 : s3.textContent) || "").trim(), l3 = this.parseTimestamp(a2);
                   null !== l3 && i2.push({ title: e5, start: l3 });
                 }
               }
-              const a2 = t3.querySelectorAll(n3.segments);
-              for (const t4 of a2) {
+              const s2 = t3.querySelectorAll(n3.segments);
+              for (const t4 of s2) {
                 const e4 = t4.querySelector(n3.timestamp), r4 = t4.querySelector(n3.text);
                 if (!e4 || !r4) continue;
-                const i3 = (e4.textContent || "").trim(), s2 = (r4.textContent || "").trim();
-                if (!s2) continue;
-                const a3 = this.parseTimestamp(i3);
-                null !== a3 && o2.push({ start: a3, text: s2 });
+                const i3 = (e4.textContent || "").trim(), s3 = (r4.textContent || "").trim();
+                if (!s3) continue;
+                const a2 = this.parseTimestamp(i3);
+                null !== a2 && o2.push({ start: a2, text: s3 });
               }
               if (0 === o2.length) return;
-              const l2 = e3.length > 0 ? e3 : i2, c2 = this.groupTranscriptSegments(o2), { html: u2, text: d2 } = (0, s.buildTranscript)("youtube", c2, l2);
+              const l2 = e3.length > 0 ? e3 : i2, c2 = this.groupTranscriptSegments(o2), { html: u2, text: d2 } = (0, a.buildTranscript)("youtube", c2, l2);
               return { html: u2, text: d2, languageCode: this.getTranscriptLanguageCodeFromDom() };
             }
             extractTranscriptFromExistingDom() {
@@ -5308,7 +5326,7 @@ ${l.join("\n")}`);
               return (null == t3 ? void 0 : t3.text) && (s2.transcript = t3.text), (null == t3 ? void 0 : t3.languageCode) && (s2.language = t3.languageCode), { content: i2, contentHtml: i2, extractedContent: { videoId: this.getVideoId(), author: r3 }, variables: s2 };
             }
             formatDescription(t3) {
-              return `<p>${t3.replace(/\n/g, "<br>")}</p>`;
+              return `<p>${(0, i.escapeHtml)(t3).replace(/\n/g, "<br>")}</p>`;
             }
             getVideoData() {
               var t3, e3, r3, n3;
@@ -5420,7 +5438,7 @@ ${l.join("\n")}`);
                   if (!new URL(t3.baseUrl).hostname.endsWith(".youtube.com")) return;
                   const r3 = { "User-Agent": "Mozilla/5.0" };
                   this.options.language && (r3["Accept-Language"] = this.options.language);
-                  const n3 = yield this.fetch(t3.baseUrl, { headers: r3, signal: AbortSignal.timeout(f) });
+                  const n3 = yield this.fetch(t3.baseUrl, { headers: r3, signal: AbortSignal.timeout(p) });
                   if (!n3.ok) return;
                   let o2;
                   try {
@@ -5449,7 +5467,7 @@ ${l.join("\n")}`);
             waitForTranscriptSegments() {
               return this.pollFor((() => {
                 const t3 = this.getTranscriptContainer();
-                return t3 && 0 !== t3.children.length && t3.querySelectorAll(S.segments).length > 0 ? t3 : null;
+                return t3 && 0 !== t3.children.length && t3.querySelectorAll(E.segments).length > 0 ? t3 : null;
               }));
             }
             waitForTranscriptContainer() {
@@ -5505,7 +5523,7 @@ ${l.join("\n")}`);
                 try {
                   const e4 = { "Content-Type": "application/json" };
                   this.options.language && (e4["Accept-Language"] = this.options.language);
-                  const r3 = yield this.fetch(p, { method: "POST", headers: e4, signal: AbortSignal.timeout(f), body: JSON.stringify({ context: b, videoId: t3 }) });
+                  const r3 = yield this.fetch(g, { method: "POST", headers: e4, signal: AbortSignal.timeout(p), body: JSON.stringify({ context: x, videoId: t3 }) });
                   if (r3.ok) {
                     const t4 = yield r3.json();
                     if (this.getCaptionTracks(t4).length > 0) return t4;
@@ -5513,9 +5531,9 @@ ${l.join("\n")}`);
                 } catch (t4) {
                 }
                 try {
-                  const e4 = { "Content-Type": "application/json", "User-Agent": y };
+                  const e4 = { "Content-Type": "application/json", "User-Agent": b };
                   this.options.language && (e4["Accept-Language"] = this.options.language);
-                  const r3 = yield this.fetch(p, { method: "POST", headers: e4, signal: AbortSignal.timeout(f), body: JSON.stringify({ context: v, videoId: t3 }) });
+                  const r3 = yield this.fetch(g, { method: "POST", headers: e4, signal: AbortSignal.timeout(p), body: JSON.stringify({ context: y, videoId: t3 }) });
                   if (r3.ok) {
                     const t4 = yield r3.json();
                     if (this.getCaptionTracks(t4).length > 0) return t4;
@@ -5525,7 +5543,7 @@ ${l.join("\n")}`);
                 try {
                   const e4 = { "Content-Type": "application/json" };
                   this.options.language && (e4["Accept-Language"] = this.options.language);
-                  const r3 = yield this.fetch(p, { method: "POST", headers: e4, signal: AbortSignal.timeout(f), body: JSON.stringify({ context: x, videoId: t3 }) });
+                  const r3 = yield this.fetch(g, { method: "POST", headers: e4, signal: AbortSignal.timeout(p), body: JSON.stringify({ context: C, videoId: t3 }) });
                   if (r3.ok) {
                     const t4 = yield r3.json();
                     if (this.getCaptionTracks(t4).length > 0) return t4;
@@ -5543,7 +5561,7 @@ ${l.join("\n")}`);
                 try {
                   const e4 = { "Content-Type": "application/json" };
                   this.options.language && (e4["Accept-Language"] = this.options.language);
-                  const r3 = yield this.fetch("https://www.youtube.com/youtubei/v1/next?prettyPrint=false", { method: "POST", headers: e4, signal: AbortSignal.timeout(f), body: JSON.stringify({ context: x, videoId: t3 }) });
+                  const r3 = yield this.fetch("https://www.youtube.com/youtubei/v1/next?prettyPrint=false", { method: "POST", headers: e4, signal: AbortSignal.timeout(p), body: JSON.stringify({ context: C, videoId: t3 }) });
                   if (!r3.ok) return [];
                   const n3 = yield r3.json(), o2 = this.extractChaptersFromPlayerBar(n3);
                   return o2.length > 0 ? o2 : this.extractChaptersFromEngagementPanels(n3);
@@ -5595,8 +5613,8 @@ ${l.join("\n")}`);
                 const t4 = parseInt(i2[1], 10), e4 = i2[2];
                 let r4 = "";
                 const o3 = /<s[^>]*>([^<]*)<\/s>/g;
-                let s2;
-                for (; null !== (s2 = o3.exec(e4)); ) r4 += s2[1];
+                let s3;
+                for (; null !== (s3 = o3.exec(e4)); ) r4 += s3[1];
                 r4 || (r4 = e4.replace(/<[^>]+>/g, "")), r4 = r4.replace(/\n/g, " ").replace(/\s{2,}/g, " "), r4 = this.decodeEntities(r4), r4.trim() && n3.push({ start: t4 / 1e3, text: r4.trim() });
               }
               if (0 === n3.length) {
@@ -5608,7 +5626,7 @@ ${l.join("\n")}`);
                 }
               }
               if (0 === n3.length) return;
-              const a2 = this.groupTranscriptSegments(n3), { html: l2, text: c2 } = (0, s.buildTranscript)("youtube", a2, r3);
+              const s2 = this.groupTranscriptSegments(n3), { html: l2, text: c2 } = (0, a.buildTranscript)("youtube", s2, r3);
               return { html: l2, text: c2, languageCode: e3 };
             }
             decodeEntities(t3) {
@@ -5623,14 +5641,14 @@ ${l.join("\n")}`);
             }
             groupTranscriptSegments(t3) {
               if (0 === t3.length) return [];
-              return t3.some(((t4) => u.test(t4.text))) ? this.groupBySpeaker(t3) : this.groupBySentence(t3);
+              return t3.some(((t4) => d.test(t4.text))) ? this.groupBySpeaker(t3) : this.groupBySentence(t3);
             }
             groupBySpeaker(t3) {
               const e3 = [];
               let r3 = null, n3 = -1, o2 = "";
               for (const i3 of t3) {
-                const t4 = u.test(i3.text), s2 = i3.text.replace(d, ""), a2 = h.test(o2), c2 = (l.test(o2) || !o2) && !a2;
-                t4 && c2 ? (r3 && e3.push(r3), n3 = (n3 + 1) % 2, r3 = { start: i3.start, segments: [{ start: i3.start, text: s2 }], speakerChange: true, speaker: n3 }) : (r3 || (r3 = { start: i3.start, segments: [], speakerChange: false }), r3.segments.push({ start: i3.start, text: s2 })), o2 = s2;
+                const t4 = d.test(i3.text), s2 = i3.text.replace(h, ""), a2 = m.test(o2), l2 = (c.test(o2) || !o2) && !a2;
+                t4 && l2 ? (r3 && e3.push(r3), n3 = (n3 + 1) % 2, r3 = { start: i3.start, segments: [{ start: i3.start, text: s2 }], speakerChange: true, speaker: n3 }) : (r3 || (r3 = { start: i3.start, segments: [], speakerChange: false }), r3.segments.push({ start: i3.start, text: s2 })), o2 = s2;
               }
               r3 && e3.push(r3), this.splitAffirmativeTurns(e3);
               const i2 = [];
@@ -5645,12 +5663,12 @@ ${l.join("\n")}`);
               for (let r3 = 0; r3 < t3.length; r3++) {
                 const n3 = t3[r3];
                 if (void 0 === n3.speaker || 0 === n3.segments.length) continue;
-                const o2 = n3.segments[0], s2 = e3.exec(o2.text);
-                if (!s2) continue;
-                if (/,\s*$/.test(s2[0])) continue;
-                const a2 = o2.text.slice(s2[0].length).trim(), l2 = n3.segments.slice(1);
-                if ((0, i.countWords)(a2) + l2.reduce(((t4, e4) => t4 + (0, i.countWords)(e4.text)), 0) < 30) continue;
-                const c2 = s2[0].trimEnd(), u2 = a2 ? [{ start: o2.start, text: a2 }, ...l2] : l2, d2 = { start: n3.start, segments: [{ start: o2.start, text: c2 }], speakerChange: n3.speakerChange, speaker: n3.speaker }, h2 = { start: u2[0].start, segments: u2, speakerChange: true, speaker: 0 === n3.speaker ? 1 : 0 };
+                const o2 = n3.segments[0], i2 = e3.exec(o2.text);
+                if (!i2) continue;
+                if (/,\s*$/.test(i2[0])) continue;
+                const a2 = o2.text.slice(i2[0].length).trim(), l2 = n3.segments.slice(1);
+                if ((0, s.countWords)(a2) + l2.reduce(((t4, e4) => t4 + (0, s.countWords)(e4.text)), 0) < 30) continue;
+                const c2 = i2[0].trimEnd(), u2 = a2 ? [{ start: o2.start, text: a2 }, ...l2] : l2, d2 = { start: n3.start, segments: [{ start: o2.start, text: c2 }], speakerChange: n3.speakerChange, speaker: n3.speaker }, h2 = { start: u2[0].start, segments: u2, speakerChange: true, speaker: 0 === n3.speaker ? 1 : 0 };
                 t3.splice(r3, 1, d2, h2), r3++;
               }
             }
@@ -5665,12 +5683,12 @@ ${l.join("\n")}`);
               return e3.push(r3), e3;
             }
             shouldMergeSentenceGroups(t3, e3, r3) {
-              const n3 = (0, i.countWords)(t3.text), o2 = (0, i.countWords)(e3.text);
-              return !this.isShortStandaloneUtterance(t3.text, n3) && !this.isShortStandaloneUtterance(e3.text, o2) && (!(r3 && n3 < 8) && (!c.test(t3.text) && !c.test(e3.text) && (!(n3 + o2 > 80) && !(e3.start - t3.start > 45))));
+              const n3 = (0, s.countWords)(t3.text), o2 = (0, s.countWords)(e3.text);
+              return !this.isShortStandaloneUtterance(t3.text, n3) && !this.isShortStandaloneUtterance(e3.text, o2) && (!(r3 && n3 < 8) && (!u.test(t3.text) && !u.test(e3.text) && (!(n3 + o2 > 80) && !(e3.start - t3.start > 45))));
             }
             isShortStandaloneUtterance(t3, e3) {
-              const r3 = null != e3 ? e3 : (0, i.countWords)(t3);
-              return r3 > 0 && r3 <= 3 && l.test(t3);
+              const r3 = null != e3 ? e3 : (0, s.countWords)(t3);
+              return r3 > 0 && r3 <= 3 && c.test(t3);
             }
             groupBySentence(t3) {
               const e3 = [], r3 = [], n3 = (t4) => {
@@ -5679,7 +5697,7 @@ ${l.join("\n")}`);
               }, o2 = () => {
                 0 !== r3.length && (n3(r3), r3.length = 0);
               };
-              for (const e4 of t3) if (r3.length > 0 && e4.start - r3[r3.length - 1].start > 20 && o2(), r3.push(e4), l.test(e4.text)) o2();
+              for (const e4 of t3) if (r3.length > 0 && e4.start - r3[r3.length - 1].start > 20 && o2(), r3.push(e4), c.test(e4.text)) o2();
               else if (e4.start - r3[0].start >= 30) {
                 const t4 = this.findNaturalBreak(r3);
                 t4 > 0 && t4 < r3.length ? (i2 = t4) <= 0 || n3(r3.splice(0, i2)) : o2();
@@ -5692,7 +5710,7 @@ ${l.join("\n")}`);
               if (t3.length <= 1) return -1;
               const n3 = t3[0].start + 15;
               for (let o3 = t3.length - 1; o3 >= 0 && !(t3[o3].start < n3); o3--) {
-                const n4 = t3[o3].text.match(m);
+                const n4 = t3[o3].text.match(f);
                 if (n4) {
                   const i3 = null !== (e3 = n4[1]) && void 0 !== e3 ? e3 : n4[3], s2 = null !== (r3 = n4[2]) && void 0 !== r3 ? r3 : n4[4], a2 = t3[o3].start;
                   return t3.splice(o3, 1, { start: a2, text: i3 }, { start: a2, text: s2 }), o3 + 1;
@@ -5707,7 +5725,7 @@ ${l.join("\n")}`);
               return o2;
             }
           }
-          e2.YoutubeExtractor = E;
+          e2.YoutubeExtractor = A;
         }, 1608(t2, e2, r2) {
           Object.defineProperty(e2, "__esModule", { value: true }), e2.MetadataExtractor = void 0;
           const n2 = r2(2552);
@@ -6098,10 +6116,10 @@ ${l.join("\n")}`);
             if (l2.querySelector("img, picture, video, iframe, figure, table, pre, code, time, [datetime], h1, h2, h3, h4, h5, h6, ul, ol, blockquote")) return;
             e3 && r3 && r3.push({ step: "removeEyebrowLabel", reason: "eyebrow label", text: (0, o.textPreview)(l2) });
             l2.remove();
-          }, e2.removeByContentPattern = function(t3, e3, r3, m2, I, R) {
-            var D, B, H, j, F, W, U, z, V, J, G, K, X, Y, Q, Z, tt, et, rt, nt, ot, it, st, at, lt, ct, ut, dt, ht, mt, ft, pt, gt;
-            const vt = (0, i.findContentStart)(t3, m2), yt = (t4) => (0, i.isAboveContentStart)(t4, vt), bt = (0, o.normalizeText)(m2), xt = (0, o.normalizeText)(I), Ct = t3.querySelector("ul, ol");
-            if (Ct && (function(t4) {
+          }, e2.removeByContentPattern = function(t3, e3, r3, m2, R, D) {
+            var B, H, j, W, F, z, U, V, J, G, K, X, Y, Q, Z, tt, et, rt, nt, ot, it, st, at, lt, ct, ut, dt, ht, mt, ft, pt, gt, vt;
+            const yt = (0, i.findContentStart)(t3, m2), bt = (t4) => (0, i.isAboveContentStart)(t4, yt), xt = (0, o.normalizeText)(m2), Ct = (0, o.normalizeText)(R), St = t3.querySelector("ul, ol");
+            if (St && (function(t4) {
               const e4 = t4.querySelectorAll("li");
               if (e4.length < 2 || e4.length > 8) return false;
               const r4 = Array.from(t4.querySelectorAll("a"));
@@ -6118,19 +6136,19 @@ ${l.join("\n")}`);
                 ("/" === e5 || /^\/[a-zA-Z0-9_-]+\/?$/.test(e5)) && (i2 = true), (t5.textContent || "").trim().split(/\s+/).filter(Boolean).length > 5 && (s2 = false);
               }
               return n3 && i2 && s2;
-            })(Ct)) {
-              let r4 = Ct;
+            })(St)) {
+              let r4 = St;
               for (; r4.parentElement && r4.parentElement !== t3 && 1 === r4.parentElement.children.length; ) r4 = r4.parentElement;
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "breadcrumb navigation list", text: (0, o.textPreview)(r4) }), r4.remove();
+              e3 && D && D.push({ step: "removeByContentPattern", reason: "breadcrumb navigation list", text: (0, o.textPreview)(r4) }), r4.remove();
             }
-            const St = t3.querySelector("h1");
-            if (St) for (const r4 of t3.querySelectorAll("a[href]")) {
+            const Et = t3.querySelector("h1");
+            if (Et) for (const r4 of t3.querySelectorAll("a[href]")) {
               if (!r4.parentNode) continue;
-              if (!(4 & r4.compareDocumentPosition(St))) continue;
+              if (!(4 & r4.compareDocumentPosition(Et))) continue;
               if (!r4.querySelector("div")) continue;
               if (r4.querySelector("img, picture, video")) continue;
-              const t4 = (null === (D = r4.textContent) || void 0 === D ? void 0 : D.trim()) || "";
-              (0, o.countWords)(t4) > 25 || (/[.!?]\s/.test(t4) || (e3 && R && R.push({ step: "removeByContentPattern", reason: "promotional banner link", text: (0, o.textPreview)(r4) }), r4.remove()));
+              const t4 = (null === (B = r4.textContent) || void 0 === B ? void 0 : B.trim()) || "";
+              (0, o.countWords)(t4) > 25 || (/[.!?]\s/.test(t4) || (e3 && D && D.push({ step: "removeByContentPattern", reason: "promotional banner link", text: (0, o.textPreview)(r4) }), r4.remove()));
             }
             !(function(t4, e4, r4, n3) {
               var s2;
@@ -6159,26 +6177,26 @@ ${l.join("\n")}`);
                 }
                 if (a3) return r4 && n3 && n3.push({ step: "removeByContentPattern", reason: "hero header block", text: (0, o.textPreview)(a3) }), void a3.remove();
               }
-            })(t3, vt, e3, R);
+            })(t3, yt, e3, D);
             for (const r4 of t3.querySelectorAll("audio, video")) {
               if (!r4.parentNode) continue;
               if (!r4.getAttribute("src") && !r4.querySelector("source")) continue;
               let n3 = r4;
-              for (; n3.parentElement && n3.parentElement !== t3 && !((0, o.countWords)((null === (B = n3.parentElement.textContent) || void 0 === B ? void 0 : B.trim()) || "") > 25); ) n3 = n3.parentElement;
-              const i2 = (null === (H = n3.textContent) || void 0 === H ? void 0 : H.trim()) || "", s2 = /\blisten\s+to\s+(?:this\s+)?(?:article|story|post|episode|podcast)\b/i.test(i2), a2 = !s2 && yt(n3) && (0, o.countWords)(i2) <= 25;
-              (s2 || a2) && (e3 && R && R.push({ step: "removeByContentPattern", reason: "audio player widget", text: (0, o.textPreview)(n3) }), n3.remove());
+              for (; n3.parentElement && n3.parentElement !== t3 && !((0, o.countWords)((null === (H = n3.parentElement.textContent) || void 0 === H ? void 0 : H.trim()) || "") > 25); ) n3 = n3.parentElement;
+              const i2 = (null === (j = n3.textContent) || void 0 === j ? void 0 : j.trim()) || "", s2 = /\blisten\s+to\s+(?:this\s+)?(?:article|story|post|episode|podcast)\b/i.test(i2), a2 = !s2 && bt(n3) && (0, o.countWords)(i2) <= 25;
+              (s2 || a2) && (e3 && D && D.push({ step: "removeByContentPattern", reason: "audio player widget", text: (0, o.textPreview)(n3) }), n3.remove());
             }
-            const Et = t3.textContent || "";
-            let At = null;
+            const At = t3.textContent || "";
+            let wt = null;
             try {
-              At = new URL(r3);
+              wt = new URL(r3);
             } catch (t4) {
             }
             for (const i2 of t3.querySelectorAll("ul, ol")) {
               if (!i2.parentNode) continue;
               if (i2.closest("#footnotes")) continue;
-              const s2 = (null === (j = i2.textContent) || void 0 === j ? void 0 : j.trim()) || "", a2 = Et.indexOf(s2.substring(0, 60));
-              if (a2 < 0 || a2 > 0.3 * Et.length) continue;
+              const s2 = (null === (W = i2.textContent) || void 0 === W ? void 0 : W.trim()) || "", a2 = At.indexOf(s2.substring(0, 60));
+              if (a2 < 0 || a2 > 0.3 * At.length) continue;
               const l2 = Array.from(i2.querySelectorAll("a[href]"));
               if (l2.length < 3) continue;
               if (i2.querySelector(n2.CONTENT_ELEMENT_SELECTOR)) continue;
@@ -6186,9 +6204,9 @@ ${l.join("\n")}`);
               for (const t4 of l2) {
                 const e4 = t4.getAttribute("href") || "";
                 if (e4.startsWith("#")) c2++;
-                else if (At && e4.includes("#")) try {
+                else if (wt && e4.includes("#")) try {
                   const t5 = new URL(e4, r3);
-                  t5.pathname === At.pathname && t5.hostname === At.hostname && c2++;
+                  t5.pathname === wt.pathname && t5.hostname === wt.hostname && c2++;
                 } catch (t5) {
                 }
               }
@@ -6198,75 +6216,75 @@ ${l.join("\n")}`);
               const d2 = u2.previousElementSibling;
               if (d2 && S.test(d2.tagName)) {
                 const t4 = (null === (F = d2.textContent) || void 0 === F ? void 0 : F.trim()) || "";
-                /^(?:table of )?contents$|^on this page$|^in this (?:article|guide|post)$/i.test(t4) && (e3 && R && R.push({ step: "removeByContentPattern", reason: "table of contents heading", text: (0, o.textPreview)(d2) }), d2.remove());
+                /^(?:table of )?contents$|^on this page$|^in this (?:article|guide|post)$/i.test(t4) && (e3 && D && D.push({ step: "removeByContentPattern", reason: "table of contents heading", text: (0, o.textPreview)(d2) }), d2.remove());
               }
               const h2 = u2.previousElementSibling, m3 = u2.nextElementSibling;
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "table of contents", text: (0, o.textPreview)(u2) }), u2.remove(), "HR" === (null == h2 ? void 0 : h2.tagName) && h2.remove(), "HR" === (null == m3 ? void 0 : m3.tagName) && m3.remove();
+              e3 && D && D.push({ step: "removeByContentPattern", reason: "table of contents", text: (0, o.textPreview)(u2) }), u2.remove(), "HR" === (null == h2 ? void 0 : h2.tagName) && h2.remove(), "HR" === (null == m3 ? void 0 : m3.tagName) && m3.remove();
               break;
             }
-            const wt = Array.from(t3.querySelectorAll("p, span, div, time"));
-            let Tt = false, _t = false;
-            for (const r4 of wt) {
+            const Tt = Array.from(t3.querySelectorAll("p, span, div, time"));
+            let _t = false, Lt = false;
+            for (const r4 of Tt) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (W = r4.textContent) || void 0 === W ? void 0 : W.trim()) || "", i2 = (0, o.countWords)(n3);
+              const n3 = (null === (z = r4.textContent) || void 0 === z ? void 0 : z.trim()) || "", i2 = (0, o.countWords)(n3);
               if (i2 > 15 || 0 === i2) continue;
               if (r4.closest("pre, code")) continue;
               const h2 = r4.tagName, m3 = s.test(n3);
               let f2 = -2;
-              const v2 = () => (-2 === f2 && (f2 = Et.indexOf(n3)), f2);
+              const v2 = () => (-2 === f2 && (f2 = At.indexOf(n3)), f2);
               if (p.test(n3) && v2() <= 300) {
                 let n4 = r4;
-                n4.parentElement && n4.parentElement !== t3 && (n4 = n4.parentElement), e3 && R && R.push({ step: "removeByContentPattern", reason: "timezone widget", text: (0, o.textPreview)(n4) }), n4.remove();
-              } else if (1 === i2 && g.test(n3)) e3 && R && R.push({ step: "removeByContentPattern", reason: "pinned label", text: (0, o.textPreview)(r4) }), r4.remove();
+                n4.parentElement && n4.parentElement !== t3 && (n4 = n4.parentElement), e3 && D && D.push({ step: "removeByContentPattern", reason: "timezone widget", text: (0, o.textPreview)(n4) }), n4.remove();
+              } else if (1 === i2 && g.test(n3)) e3 && D && D.push({ step: "removeByContentPattern", reason: "pinned label", text: (0, o.textPreview)(r4) }), r4.remove();
               else {
-                for (const [t4, s2] of [[bt, "duplicate title"], [xt, "duplicate description"]]) if (t4 && i2 >= 3 && yt(r4) && (0, o.normalizeText)(n3) === t4) {
-                  e3 && R && R.push({ step: "removeByContentPattern", reason: s2, text: (0, o.textPreview)(r4) }), r4.remove();
+                for (const [t4, s2] of [[xt, "duplicate title"], [Ct, "duplicate description"]]) if (t4 && i2 >= 3 && bt(r4) && (0, o.normalizeText)(n3) === t4) {
+                  e3 && D && D.push({ step: "removeByContentPattern", reason: s2, text: (0, o.textPreview)(r4) }), r4.remove();
                   break;
                 }
-                if (r4.parentNode) if (("DIV" === h2 || "P" === h2) && i2 >= 1 && i2 <= 10 && (m3 || a.test(n3)) && !d.test(n3) && !/[.!?]/.test(n3) && yt(r4) && !Array.from(r4.querySelectorAll("p, h1, h2, h3, h4, h5, h6")).some(((t4) => (0, o.countWords)(t4.textContent || "") > 8))) e3 && R && R.push({ step: "removeByContentPattern", reason: "article metadata header block", text: (0, o.textPreview)(r4) }), r4.remove();
+                if (r4.parentNode) if (("DIV" === h2 || "P" === h2) && i2 >= 1 && i2 <= 10 && (m3 || a.test(n3)) && !d.test(n3) && !/[.!?]/.test(n3) && bt(r4) && !Array.from(r4.querySelectorAll("p, h1, h2, h3, h4, h5, h6")).some(((t4) => (0, o.countWords)(t4.textContent || "") > 8))) e3 && D && D.push({ step: "removeByContentPattern", reason: "article metadata header block", text: (0, o.textPreview)(r4) }), r4.remove();
                 else {
-                  if ("DIV" === h2 && i2 >= 1 && i2 <= 5 && !/[.!?]/.test(n3) && yt(r4) && r4.querySelector("img")) {
+                  if ("DIV" === h2 && i2 >= 1 && i2 <= 5 && !/[.!?]/.test(n3) && bt(r4) && r4.querySelector("img")) {
                     const t4 = r4.querySelectorAll("a[href]");
                     if (t4.length > 0) {
                       let i3 = 0;
                       for (const e4 of t4) i3 += ((null === (U = e4.textContent) || void 0 === U ? void 0 : U.trim()) || "").length;
                       if (i3 / (n3.length || 1) >= 0.8) {
-                        e3 && R && R.push({ step: "removeByContentPattern", reason: "category badge", text: (0, o.textPreview)(r4) }), r4.remove();
+                        e3 && D && D.push({ step: "removeByContentPattern", reason: "category badge", text: (0, o.textPreview)(r4) }), r4.remove();
                         continue;
                       }
                     }
                   }
-                  if (!Tt && u.test(n3) && i2 >= 2 && !/[.!?]$/.test(n3) && yt(r4)) {
-                    const i3 = k(r4, n3, t3);
-                    e3 && R && R.push({ step: "removeByContentPattern", reason: "author byline", text: (0, o.textPreview)(i3) }), i3.remove(), Tt = true;
+                  if (!_t && u.test(n3) && i2 >= 2 && !/[.!?]$/.test(n3) && bt(r4)) {
+                    const i3 = $(r4, n3, t3);
+                    e3 && D && D.push({ step: "removeByContentPattern", reason: "author byline", text: (0, o.textPreview)(i3) }), i3.remove(), _t = true;
                   } else {
-                    if (l.test(n3) && (m3 ? 0 === r4.querySelectorAll("p, div, section, article").length : i2 <= 5 && yt(r4))) {
+                    if (l.test(n3) && (m3 ? 0 === r4.querySelectorAll("p, div, section, article").length : i2 <= 5 && bt(r4))) {
                       let i3 = n3;
                       for (const t4 of q) i3 = i3.replace(t4, "");
                       if (0 === i3.trim().length) {
-                        const i4 = m3 ? r4 : k(r4, n3, t3);
-                        e3 && R && R.push({ step: "removeByContentPattern", reason: "read time metadata", text: (0, o.textPreview)(i4) }), i4.remove();
+                        const i4 = m3 ? r4 : $(r4, n3, t3);
+                        e3 && D && D.push({ step: "removeByContentPattern", reason: "read time metadata", text: (0, o.textPreview)(i4) }), i4.remove();
                         continue;
                       }
                     }
-                    if (!_t && i2 >= 2 && i2 <= 10 && m3 && !d.test(n3) && yt(r4)) {
+                    if (!Lt && i2 >= 2 && i2 <= 10 && m3 && !d.test(n3) && bt(r4)) {
                       let i3 = n3;
                       for (const t4 of N) i3 = i3.replace(t4, "");
                       if (i3 = i3.trim(), i3) {
                         const s2 = i3.split(/\s+/).filter(((t4) => t4.length > 0));
                         if (s2.length >= 1 && s2.length <= 4 && s2.every(((t4) => c.test(t4)))) {
-                          const i4 = k(r4, n3, t3);
-                          e3 && R && R.push({ step: "removeByContentPattern", reason: "author date metadata", text: (0, o.textPreview)(i4) }), i4.remove(), _t = true;
+                          const i4 = $(r4, n3, t3);
+                          e3 && D && D.push({ step: "removeByContentPattern", reason: "author date metadata", text: (0, o.textPreview)(i4) }), i4.remove(), Lt = true;
                           continue;
                         }
                       }
                     }
-                    if (m3 && i2 <= 5 && yt(r4)) {
+                    if (m3 && i2 <= 5 && bt(r4)) {
                       let i3 = n3;
                       for (const t4 of L) i3 = i3.replace(t4, "");
                       if (i3 = i3.replace(/[,\s/\-]+/g, "").trim(), 0 === i3.length) {
-                        const i4 = k(r4, n3, t3);
-                        e3 && R && R.push({ step: "removeByContentPattern", reason: "standalone date metadata", text: (0, o.textPreview)(i4) }), i4.remove();
+                        const i4 = $(r4, n3, t3);
+                        e3 && D && D.push({ step: "removeByContentPattern", reason: "standalone date metadata", text: (0, o.textPreview)(i4) }), i4.remove();
                         continue;
                       }
                     }
@@ -6274,12 +6292,12 @@ ${l.join("\n")}`);
                 }
               }
             }
-            const Lt = Array.from(t3.querySelectorAll("time"));
-            for (const r4 of Lt) {
+            const qt = Array.from(t3.querySelectorAll("time"));
+            for (const r4 of qt) {
               if (!r4.parentNode) continue;
-              let n3 = r4, i2 = (null === (z = n3.textContent) || void 0 === z ? void 0 : z.trim()) || "";
+              let n3 = r4, i2 = (null === (V = n3.textContent) || void 0 === V ? void 0 : V.trim()) || "";
               for (; n3.parentElement && n3.parentElement !== t3; ) {
-                const t4 = n3.parentElement.tagName.toLowerCase(), e4 = (null === (V = n3.parentElement.textContent) || void 0 === V ? void 0 : V.trim()) || "";
+                const t4 = n3.parentElement.tagName.toLowerCase(), e4 = (null === (J = n3.parentElement.textContent) || void 0 === J ? void 0 : J.trim()) || "";
                 if ("p" === t4 && e4 === i2) {
                   n3 = n3.parentElement;
                   break;
@@ -6287,27 +6305,27 @@ ${l.join("\n")}`);
                 if (!["i", "em", "span", "b", "strong", "small"].includes(t4) || e4 !== i2) break;
                 n3 = n3.parentElement, i2 = e4;
               }
-              const s2 = (null === (J = n3.textContent) || void 0 === J ? void 0 : J.trim()) || "";
+              const s2 = (null === (G = n3.textContent) || void 0 === G ? void 0 : G.trim()) || "";
               if ((0, o.countWords)(s2) > 10) continue;
-              const a2 = Et.indexOf(s2), l2 = Et.length - (a2 + s2.length);
-              a2 > 200 && l2 > 200 || (e3 && R && R.push({ step: "removeByContentPattern", reason: "boundary date element", text: (0, o.textPreview)(n3) }), n3.remove());
+              const a2 = At.indexOf(s2), l2 = At.length - (a2 + s2.length);
+              a2 > 200 && l2 > 200 || (e3 && D && D.push({ step: "removeByContentPattern", reason: "boundary date element", text: (0, o.textPreview)(n3) }), n3.remove());
             }
-            const qt = t3.querySelectorAll("ul, ol, dl");
-            for (const r4 of qt) {
+            const Nt = t3.querySelectorAll("ul, ol, dl");
+            for (const r4 of Nt) {
               if (!r4.parentNode) continue;
               if (r4.closest("#footnotes")) continue;
               const n3 = "DL" === r4.tagName, i2 = Array.from(r4.children).filter(((t4) => n3 ? "DD" === t4.tagName : "LI" === t4.tagName)), s2 = n3 ? 1 : 2;
               if (i2.length < s2 || i2.length > 8) continue;
-              const a2 = (null === (G = r4.textContent) || void 0 === G ? void 0 : G.trim()) || "", l2 = Et.indexOf(a2), c2 = Et.length - (l2 + a2.length);
+              const a2 = (null === (K = r4.textContent) || void 0 === K ? void 0 : K.trim()) || "", l2 = At.indexOf(a2), c2 = At.length - (l2 + a2.length);
               if (l2 > 500 && c2 > 500) continue;
               const u2 = r4.previousElementSibling;
               if (u2) {
                 if (E(u2)) continue;
-                if (((null === (K = u2.textContent) || void 0 === K ? void 0 : K.trim()) || "").endsWith(":")) continue;
+                if (((null === (X = u2.textContent) || void 0 === X ? void 0 : X.trim()) || "").endsWith(":")) continue;
               }
               let d2 = true;
               for (const t4 of i2) {
-                const e4 = (null === (X = t4.textContent) || void 0 === X ? void 0 : X.trim()) || "";
+                const e4 = (null === (Y = t4.textContent) || void 0 === Y ? void 0 : Y.trim()) || "";
                 if ((0, o.countWords)(e4) > 8) {
                   d2 = false;
                   break;
@@ -6319,19 +6337,19 @@ ${l.join("\n")}`);
               }
               if (!d2) continue;
               if ((0, o.countWords)(a2) > 30) continue;
-              const h2 = k(r4, a2, t3);
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "blog metadata list", text: (0, o.textPreview)(h2) }), h2.remove();
+              const h2 = $(r4, a2, t3);
+              e3 && D && D.push({ step: "removeByContentPattern", reason: "blog metadata list", text: (0, o.textPreview)(h2) }), h2.remove();
             }
-            const Nt = (null == At ? void 0 : At.pathname) || "", kt = (null == At ? void 0 : At.hostname.replace(/^www\./, "")) || "";
-            if (Nt) {
+            const kt = (null == wt ? void 0 : wt.pathname) || "", $t = (null == wt ? void 0 : wt.hostname.replace(/^www\./, "")) || "";
+            if (kt) {
               const n3 = t3.querySelectorAll("div, span, p, a[href]"), i2 = t3.querySelector("h1, h2, h3");
               for (const s2 of n3) {
                 if (!s2.parentNode) continue;
-                const n4 = (null === (Y = s2.textContent) || void 0 === Y ? void 0 : Y.trim()) || "";
+                const n4 = (null === (Q = s2.textContent) || void 0 === Q ? void 0 : Q.trim()) || "";
                 if ((0, o.countWords)(n4) > 10) continue;
                 if (s2.querySelectorAll("p, div, section, article").length > 0) continue;
                 if (s2.matches("a[href]") && s2.parentElement && s2.parentElement !== t3) {
-                  if (((null === (Q = s2.parentElement.textContent) || void 0 === Q ? void 0 : Q.trim()) || "") !== n4) {
+                  if (((null === (Z = s2.parentElement.textContent) || void 0 === Z ? void 0 : Z.trim()) || "") !== n4) {
                     if (s2.closest("p")) continue;
                     if (!i2) continue;
                     if (!(4 & s2.compareDocumentPosition(i2))) continue;
@@ -6339,13 +6357,13 @@ ${l.join("\n")}`);
                 }
                 const a2 = s2.matches("a[href]") ? s2 : s2.querySelector("a[href]");
                 if (a2) try {
-                  const t4 = new URL(a2.getAttribute("href") || "", r3).pathname, n5 = t4.replace(/\/[^/]*$/, "/"), i3 = /^index\.(html?|php)$/i.test(t4.split("/").pop() || "") && Nt.startsWith(n5);
-                  "/" !== t4 && t4 !== Nt && (Nt.startsWith(t4) || i3) && (e3 && R && R.push({ step: "removeByContentPattern", reason: "section breadcrumb", text: (0, o.textPreview)(s2) }), s2.remove());
+                  const t4 = new URL(a2.getAttribute("href") || "", r3).pathname, n5 = t4.replace(/\/[^/]*$/, "/"), i3 = /^index\.(html?|php)$/i.test(t4.split("/").pop() || "") && kt.startsWith(n5);
+                  "/" !== t4 && t4 !== kt && (kt.startsWith(t4) || i3) && (e3 && D && D.push({ step: "removeByContentPattern", reason: "section breadcrumb", text: (0, o.textPreview)(s2) }), s2.remove());
                 } catch (t4) {
                 }
               }
             }
-            if (kt) {
+            if ($t) {
               const n3 = t3.querySelectorAll("h2, h3, h4, h5, h6");
               for (const i2 of n3) {
                 if (!i2.parentNode) continue;
@@ -6357,7 +6375,7 @@ ${l.join("\n")}`);
                 for (; l2 && l2 !== t3; ) {
                   let t4 = l2.nextElementSibling;
                   for (; t4; ) {
-                    if (((null === (Z = t4.textContent) || void 0 === Z ? void 0 : Z.trim()) || "").length > 0) {
+                    if (((null === (tt = t4.textContent) || void 0 === tt ? void 0 : tt.trim()) || "").length > 0) {
                       a2 = true;
                       break;
                     }
@@ -6374,12 +6392,12 @@ ${l.join("\n")}`);
                     c2 = false;
                     break;
                   }
-                  const n5 = (null === (tt = t4.textContent) || void 0 === tt ? void 0 : tt.trim()) || "";
+                  const n5 = (null === (et = t4.textContent) || void 0 === et ? void 0 : et.trim()) || "";
                   let o2 = 0;
                   for (const t5 of e4) {
-                    o2 += ((null === (et = t5.textContent) || void 0 === et ? void 0 : et.trim()) || "").length;
+                    o2 += ((null === (rt = t5.textContent) || void 0 === rt ? void 0 : rt.trim()) || "").length;
                     try {
-                      if (new URL(t5.getAttribute("href") || "", r3).hostname.replace(/^www\./, "") === kt) {
+                      if (new URL(t5.getAttribute("href") || "", r3).hostname.replace(/^www\./, "") === $t) {
                         c2 = false;
                         break;
                       }
@@ -6392,16 +6410,16 @@ ${l.join("\n")}`);
                     break;
                   }
                 }
-                c2 && (e3 && R && (R.push({ step: "removeByContentPattern", reason: "trailing external link list", text: (0, o.textPreview)(i2) }), R.push({ step: "removeByContentPattern", reason: "trailing external link list", text: (0, o.textPreview)(n4) })), n4.remove(), i2.remove());
+                c2 && (e3 && D && (D.push({ step: "removeByContentPattern", reason: "trailing external link list", text: (0, o.textPreview)(i2) }), D.push({ step: "removeByContentPattern", reason: "trailing external link list", text: (0, o.textPreview)(n4) })), n4.remove(), i2.remove());
               }
             }
-            let $t = t3.lastElementChild;
-            for (; $t && ["HR", "BR"].includes($t.tagName); ) $t = $t.previousElementSibling;
-            if ($t && ["SECTION", "DIV", "ASIDE"].includes($t.tagName)) {
+            let Pt = t3.lastElementChild;
+            for (; Pt && ["HR", "BR"].includes(Pt.tagName); ) Pt = Pt.previousElementSibling;
+            if (Pt && ["SECTION", "DIV", "ASIDE"].includes(Pt.tagName)) {
               const t4 = [];
               let r4 = false;
-              for (const e4 of $t.children) {
-                if ((null === (rt = e4.textContent) || void 0 === rt ? void 0 : rt.trim()) || "") {
+              for (const e4 of Pt.children) {
+                if ((null === (nt = e4.textContent) || void 0 === nt ? void 0 : nt.trim()) || "") {
                   if ("P" === e4.tagName) t4.push(e4);
                   else if ("BR" !== e4.tagName) {
                     r4 = true;
@@ -6421,11 +6439,11 @@ ${l.join("\n")}`);
                   for (const t6 of i2) a2 = a2.split((null === (n3 = t6.textContent) || void 0 === n3 ? void 0 : n3.trim()) || "").join("");
                   return !/[.!?]/.test(a2);
                 }));
-                r5 && (e3 && R && R.push({ step: "removeByContentPattern", reason: "trailing related posts block", text: (0, o.textPreview)($t) }), $t.remove());
+                r5 && (e3 && D && D.push({ step: "removeByContentPattern", reason: "trailing related posts block", text: (0, o.textPreview)(Pt) }), Pt.remove());
               }
             }
-            const Pt = (0, o.countWords)(t3.textContent || "");
-            if (Pt > 300) {
+            const Ot = (0, o.countWords)(t3.textContent || "");
+            if (Ot > 300) {
               const r4 = [];
               let i2 = 0, s2 = t3.lastElementChild;
               for (; s2; ) {
@@ -6439,66 +6457,67 @@ ${l.join("\n")}`);
                 }
                 let t4 = 0;
                 for (const e5 of s2.querySelectorAll("svg")) t4 += (0, o.countWords)(e5.textContent || "");
-                const e4 = (0, o.countWords)((null === (nt = s2.textContent) || void 0 === nt ? void 0 : nt.trim()) || "") - t4;
+                const e4 = (0, o.countWords)((null === (ot = s2.textContent) || void 0 === ot ? void 0 : ot.trim()) || "") - t4;
                 if (e4 > 25) break;
                 i2 += e4, r4.push(s2), s2 = s2.previousElementSibling;
               }
-              if (r4.length >= 1 && i2 < 0.15 * Pt) {
+              if (r4.length >= 1 && i2 < 0.15 * Ot) {
                 const t4 = r4.some(((t5) => E(t5))), i3 = r4.some(((t5) => t5.querySelector(n2.CONTENT_ELEMENT_SELECTOR)));
                 let s3 = 0;
                 for (const t5 of r4) "P" === t5.tagName && (0, o.countWords)(t5.textContent || "") > 5 && s3++;
-                if (t4 && !i3 && s3 < 2) for (const t5 of r4) e3 && R && R.push({ step: "removeByContentPattern", reason: "trailing thin section", text: (0, o.textPreview)(t5) }), t5.remove();
+                if (t4 && !i3 && s3 < 2) for (const t5 of r4) e3 && D && D.push({ step: "removeByContentPattern", reason: "trailing thin section", text: (0, o.textPreview)(t5) }), t5.remove();
               }
             }
-            const Ot = t3.textContent || "", Mt = t3.querySelectorAll("p, div, span, section");
-            for (const r4 of Mt) {
+            const Mt = t3.textContent || "", It = t3.querySelectorAll("p, div, span, section");
+            for (const r4 of It) {
               if (!r4.parentNode) continue;
               if (r4.closest("pre, code")) continue;
-              const n3 = (null === (ot = r4.textContent) || void 0 === ot ? void 0 : ot.trim()) || "", i2 = (0, o.countWords)(n3);
+              const n3 = (null === (it = r4.textContent) || void 0 === it ? void 0 : it.trim()) || "", i2 = (0, o.countWords)(n3);
               if (!(i2 > 50 || i2 < 1)) {
                 for (const i3 of h) if (i3.test(n3)) {
                   let n4 = r4;
                   for (; n4.parentElement && n4.parentElement !== t3 && !n4.nextElementSibling; ) n4 = n4.parentElement;
                   const i4 = n4.textContent || "";
-                  if (Ot.indexOf(i4) < 200) {
-                    n4 === r4 || r4.nextElementSibling || (e3 && R && R.push({ step: "removeByContentPattern", reason: "boilerplate text", text: (0, o.textPreview)(r4) }), r4.remove());
+                  if (Mt.indexOf(i4) < 200) {
+                    n4 === r4 || r4.nextElementSibling || (e3 && D && D.push({ step: "removeByContentPattern", reason: "boilerplate text", text: (0, o.textPreview)(r4) }), r4.remove());
                     continue;
                   }
-                  P(n4, t3, e3, R);
+                  O(n4, t3, e3, D);
                   break;
                 }
               }
             }
             for (const r4 of t3.querySelectorAll("h2, h3, h4, h5, h6")) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (it = r4.textContent) || void 0 === it ? void 0 : it.trim()) || "", i2 = T.test(n3);
+              const n3 = (null === (st = r4.textContent) || void 0 === st ? void 0 : st.trim()) || "", i2 = T.test(n3);
               if (!i2 && !w.test(n3)) continue;
-              if (Et.indexOf(n3) < 500) continue;
-              const s2 = O(r4, t3);
+              if (At.indexOf(n3) < 500) continue;
+              const s2 = M(r4, t3);
               if (s2 === r4) {
                 if (!i2) continue;
-                $(r4, true, e3, R);
-              } else M(s2, e3, R), e3 && R && R.push({ step: "removeByContentPattern", reason: "related content section", text: (0, o.textPreview)(s2) }), P(s2, t3, e3, R);
+                P(r4, true, e3, D);
+              } else I(s2, e3, D), e3 && D && D.push({ step: "removeByContentPattern", reason: "related content section", text: (0, o.textPreview)(s2) }), O(s2, t3, e3, D);
               break;
             }
             for (const r4 of t3.querySelectorAll("p")) {
               if (!r4.parentNode) continue;
-              const t4 = (null === (st = r4.textContent) || void 0 === st ? void 0 : st.trim()) || "";
-              _.test(t4) && ((0, o.countWords)(t4) > 20 || r4.querySelector(n2.CONTENT_ELEMENT_SELECTOR) || (e3 && R && R.push({ step: "removeByContentPattern", reason: "related content intro", text: (0, o.textPreview)(r4) }), r4.remove()));
+              const t4 = (null === (at = r4.textContent) || void 0 === at ? void 0 : at.trim()) || "";
+              _.test(t4) && ((0, o.countWords)(t4) > 20 || r4.querySelector(n2.CONTENT_ELEMENT_SELECTOR) || (e3 && D && D.push({ step: "removeByContentPattern", reason: "related content intro", text: (0, o.textPreview)(r4) }), r4.remove()));
             }
-            const It = (0, o.countWords)(Et);
+            const Rt = (0, o.countWords)(At);
             for (const r4 of t3.querySelectorAll("div")) {
               if (!r4.parentNode) continue;
               if (r4.children.length < 2) continue;
               const n3 = Array.from(r4.children), i2 = n3.filter(((t4) => t4.querySelector("img, picture") && (t4.querySelector("h2, h3, h4") || t4.querySelector("a[href]")))).length;
               if (i2 < 2 || i2 < 0.7 * n3.length) continue;
-              const s2 = (null === (at = n3[0].textContent) || void 0 === at ? void 0 : at.trim().substring(0, 30)) || "";
-              if (s2.length < 5 || Et.indexOf(s2) < 500) continue;
+              const s2 = (null === (lt = n3[0].textContent) || void 0 === lt ? void 0 : lt.trim().substring(0, 30)) || "";
+              if (s2.length < 5 || At.indexOf(s2) < 500) continue;
               const a2 = (0, o.countWords)(r4.textContent || "");
-              if (It > 0 && a2 / It > 0.3) continue;
-              const l2 = O(r4, t3);
-              if (l2 !== r4) {
-                M(l2, e3, R), e3 && R && R.push({ step: "removeByContentPattern", reason: "related post cards", text: (0, o.textPreview)(l2) }), $(l2, true, e3, R);
+              if (Rt > 0 && a2 / Rt > 0.3) continue;
+              const l2 = M(r4, t3);
+              if (l2 === r4) continue;
+              if (!((0, o.countWords)(l2.textContent || "") > 2 * a2 + 15) && !k(l2)) {
+                I(l2, e3, D), e3 && D && D.push({ step: "removeByContentPattern", reason: "related post cards", text: (0, o.textPreview)(l2) }), P(l2, true, e3, D);
                 break;
               }
             }
@@ -6506,30 +6525,30 @@ ${l.join("\n")}`);
               if (!r4.parentNode) continue;
               if (r4.closest("pre, code")) continue;
               if (!A(r4, 60)) continue;
-              const n3 = (0, o.countWords)((null === (lt = r4.textContent) || void 0 === lt ? void 0 : lt.trim()) || "");
+              const n3 = (0, o.countWords)((null === (ct = r4.textContent) || void 0 === ct ? void 0 : ct.trim()) || "");
               let i2 = r4;
               for (; i2.parentElement && i2.parentElement !== t3; ) {
-                if ((0, o.countWords)((null === (ct = i2.parentElement.textContent) || void 0 === ct ? void 0 : ct.trim()) || "") > 2 * n3 + 15) break;
+                if ((0, o.countWords)((null === (ut = i2.parentElement.textContent) || void 0 === ut ? void 0 : ut.trim()) || "") > 2 * n3 + 15) break;
                 i2 = i2.parentElement;
               }
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "newsletter signup", text: (0, o.textPreview)(i2) }), i2.remove();
+              e3 && D && D.push({ step: "removeByContentPattern", reason: "newsletter signup", text: (0, o.textPreview)(i2) }), i2.remove();
               break;
             }
             for (const r4 of t3.querySelectorAll("ul")) if (r4.parentNode && A(r4, 30)) {
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "newsletter signup list", text: (0, o.textPreview)(r4) }), r4.remove();
+              e3 && D && D.push({ step: "removeByContentPattern", reason: "newsletter signup list", text: (0, o.textPreview)(r4) }), r4.remove();
               break;
             }
             for (const r4 of t3.querySelectorAll("div, section")) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (ut = r4.textContent) || void 0 === ut ? void 0 : ut.trim()) || "", i2 = (0, o.countWords)(n3);
+              const n3 = (null === (dt = r4.textContent) || void 0 === dt ? void 0 : dt.trim()) || "", i2 = (0, o.countWords)(n3);
               if (i2 < 2 || i2 > 40) continue;
-              const s2 = Et.indexOf(n3.substring(0, 60));
+              const s2 = At.indexOf(n3.substring(0, 60));
               if (s2 < 0) continue;
-              if (Et.length - (s2 + n3.length) > 300) continue;
+              if (At.length - (s2 + n3.length) > 300) continue;
               const a2 = r4.querySelectorAll("div, span, p, dt, dd, li");
               let l2 = false;
               for (const t4 of a2) {
-                const e4 = (null === (dt = t4.textContent) || void 0 === dt ? void 0 : dt.trim()) || "";
+                const e4 = (null === (ht = t4.textContent) || void 0 === ht ? void 0 : ht.trim()) || "";
                 if (v.test(e4)) {
                   l2 = true;
                   break;
@@ -6537,48 +6556,48 @@ ${l.join("\n")}`);
               }
               if (!l2) continue;
               if (!(x.test(n3) || C.test(n3) || r4.querySelector('a[href^="mailto:"]'))) continue;
-              const c2 = O(r4, t3);
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "author contact block", text: (0, o.textPreview)(c2) }), c2.remove();
+              const c2 = M(r4, t3);
+              e3 && D && D.push({ step: "removeByContentPattern", reason: "author contact block", text: (0, o.textPreview)(c2) }), c2.remove();
               break;
             }
             for (const r4 of t3.querySelectorAll("p, span, div")) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (ht = r4.textContent) || void 0 === ht ? void 0 : ht.trim()) || "";
+              const n3 = (null === (mt = r4.textContent) || void 0 === mt ? void 0 : mt.trim()) || "";
               if (!y.test(n3)) continue;
               let i2 = r4;
               for (; i2.parentElement && i2.parentElement !== t3; ) {
                 const t4 = i2.parentElement;
-                if ((0, o.countWords)((null === (mt = t4.textContent) || void 0 === mt ? void 0 : mt.trim()) || "") > 15) break;
+                if ((0, o.countWords)((null === (ft = t4.textContent) || void 0 === ft ? void 0 : ft.trim()) || "") > 15) break;
                 i2 = t4;
               }
-              i2.querySelector(b) || (e3 && R && R.push({ step: "removeByContentPattern", reason: "author/share widget", text: (0, o.textPreview)(i2) }), i2.remove());
+              i2.querySelector(b) || (e3 && D && D.push({ step: "removeByContentPattern", reason: "author/share widget", text: (0, o.textPreview)(i2) }), i2.remove());
             }
             for (const r4 of t3.querySelectorAll("a, p, div, span")) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (ft = r4.textContent) || void 0 === ft ? void 0 : ft.trim()) || "";
+              const n3 = (null === (pt = r4.textContent) || void 0 === pt ? void 0 : pt.trim()) || "";
               if (!f.test(n3)) continue;
               if ("A" === r4.tagName && r4.getAttribute("href")) continue;
               if ("A" !== r4.tagName) {
-                const t4 = Et.indexOf(n3);
-                if (Et.length - (t4 + n3.length) > 200) continue;
+                const t4 = At.indexOf(n3);
+                if (At.length - (t4 + n3.length) > 200) continue;
               }
-              const i2 = k(r4, n3, t3);
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "social engagement counter", text: (0, o.textPreview)(i2) }), i2.remove();
+              const i2 = $(r4, n3, t3);
+              e3 && D && D.push({ step: "removeByContentPattern", reason: "social engagement counter", text: (0, o.textPreview)(i2) }), i2.remove();
             }
             for (const r4 of t3.querySelectorAll("div")) {
               if (!r4.parentNode) continue;
-              const t4 = (null === (pt = r4.textContent) || void 0 === pt ? void 0 : pt.trim()) || "", i2 = (0, o.countWords)(t4);
+              const t4 = (null === (gt = r4.textContent) || void 0 === gt ? void 0 : gt.trim()) || "", i2 = (0, o.countWords)(t4);
               if (i2 < 1 || i2 > 10) continue;
               if (/[.!?]/.test(t4)) continue;
               if (r4.querySelector(n2.CONTENT_ELEMENT_SELECTOR)) continue;
-              const s2 = Et.indexOf(t4);
+              const s2 = At.indexOf(t4);
               if (s2 < 0) continue;
-              if (Et.length - (s2 + t4.length) > 300) continue;
+              if (At.length - (s2 + t4.length) > 300) continue;
               const a2 = r4.querySelectorAll("a[href]");
               if (0 === a2.length) continue;
               let l2 = 0;
-              for (const t5 of a2) l2 += ((null === (gt = t5.textContent) || void 0 === gt ? void 0 : gt.trim()) || "").length;
-              l2 / (t4.length || 1) < 0.8 || (e3 && R && R.push({ step: "removeByContentPattern", reason: "trailing tag link block", text: (0, o.textPreview)(r4) }), r4.remove());
+              for (const t5 of a2) l2 += ((null === (vt = t5.textContent) || void 0 === vt ? void 0 : vt.trim()) || "").length;
+              l2 / (t4.length || 1) < 0.8 || (e3 && D && D.push({ step: "removeByContentPattern", reason: "trailing tag link block", text: (0, o.textPreview)(r4) }), r4.remove());
             }
           };
           const n2 = r2(2640), o = r2(2552), i = r2(4467), s = /(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2}|\d{1,2}(?:st|nd|rd|th)?\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*|\d{4}[-/]\d{1,2}[-/]\d{1,2})/i, a = /\b\d+\s+(?:second|minute|hour|day|week|month|year)s?\s+ago\b/i, l = /\d+\s*min(?:ute)?s?\s+read\b|(?:read(?:ing)?\s+time)\s*:?\s*\d+\s*min(?:ute)?s?\b/i, c = /^\p{Lu}/u, u = /^(?:posted\s+)?by\s+\S/i, d = /^(?:date|published|updated|posted|from|to|subject)\s*:/i, h = [/^This (?:article|story|piece) (?:appeared|was published|originally appeared) in\b/i, /^A version of this (?:article|story) (?:appeared|was published) in\b/i, /^Originally (?:published|appeared) (?:in|on|at)\b/i, /^Any re-?use permitted\b/i, /^\xa9\s*(?:Copyright\s+)?\d{4}/i, /^Comments?$/i, /^Leave a (?:comment|reply)$/i, /^Loading\.{3}$/, /^Affiliate links\b.*\b(?:earn|commission)/i, /\bRead our Comment Policy\b/i, /^Thank you for (?:being part of|joining) our community\b/i], m = /\bsubscribe\b[\s\S]{0,40}\bnewsletter\b|\bnewsletter\b[\s\S]{0,40}\bsubscribe\b|\bsign[- ]up\b[\s\S]{0,80}\b(?:newsletter|email alert)|\b(?:don[\u2019']?t (?:want to )?miss|never miss)\b[\s\S]{0,80}\b(?:latest|best|exclusive|reports?|updates?|source)/i, f = /^\d+\s+(?:Likes?|Comments?|Shares?|Retweets?|Reposts?|Restacks?)$/i, p = /^current time in$/i, g = /^pinned$/i, v = /^(?:written by|(?:author|contact|reporter|correspondent)s?)$/i, y = /^(?:share|follow|authors?|written\s+by)$/i, b = n2.CONTENT_ELEMENT_SELECTOR.replace(/img, picture, /, ""), x = /[\w.-]+@[\w.-]+\.\w+/, C = /\(?\d{3}\)?[\s.\u2011\u2013-]?\d{3}[\s.\u2011\u2013-]?\d{4}/, S = /^H[1-6]$/;
@@ -6594,13 +6613,22 @@ ${l.join("\n")}`);
             return m.test(a2);
           }
           const w = /^(?:related (?:posts?|articles?|content|stories|reads?|reading)|you (?:might|may|could) (?:also )?(?:like|enjoy|be interested in)|read (?:next|more|also)|further reading|see also|more (?:from .*|from|articles?|posts?|like this)|more to (?:read|explore)|explore more|about (?:the )?author|latest (?:news|events?|posts?|articles?|stories)(?:\s*[&+]\s*(?:news|events?|posts?|articles?|stories))?)$/i, T = /^(?:subscribe|sign up|follow us|share this|stay (?:updated|connected)|join (?:us|our)|search (?:the |our )?(?:site|blog|archives?|newsroom|website|catalog|store|shop|database))$/i, _ = /^for more (?:on|about)\b/i, L = [/\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b/gi, /\b(?:Mon(?:day)?|Tue(?:s(?:day)?)?|Wed(?:nesday)?|Thu(?:rs(?:day)?)?|Fri(?:day)?|Sat(?:urday)?|Sun(?:day)?)\b/gi, /\b\d+(?:st|nd|rd|th)?\b/g, /\d{4}[-/]\d{1,2}[-/]\d{1,2}/g], q = [...L, /\bmin(?:ute)?s?\b/gi, /\bread(?:ing)?\b/gi, /\btime\b/gi, /\bestimated\b/gi, /[/|\xb7\u2022\u2014\u2013\-,:.\s]+/g], N = [...L, /\bby\b/gi, /[/|\xb7\u2022\u2014\u2013\-,]+/g];
-          function k(t3, e3, r3) {
+          function k(t3, e3 = 25) {
+            let r3 = t3.nextElementSibling;
+            for (; r3; ) {
+              if ("P" === r3.tagName && (0, o.countWords)(r3.textContent || "") >= e3) return true;
+              for (const t4 of r3.querySelectorAll("p")) if ((0, o.countWords)(t4.textContent || "") >= e3) return true;
+              r3 = r3.nextElementSibling;
+            }
+            return false;
+          }
+          function $(t3, e3, r3) {
             var n3;
             let o2 = t3;
             for (; o2.parentElement && o2.parentElement !== r3 && ((null === (n3 = o2.parentElement.textContent) || void 0 === n3 ? void 0 : n3.trim()) || "") === e3; ) o2 = o2.parentElement;
             return o2;
           }
-          function $(t3, e3, r3, n3) {
+          function P(t3, e3, r3, n3) {
             let i2 = t3.nextElementSibling;
             for (; i2; ) {
               const t4 = i2.nextElementSibling;
@@ -6608,14 +6636,14 @@ ${l.join("\n")}`);
             }
             e3 && (r3 && n3 && n3.push({ step: "removeByContentPattern", reason: "boilerplate text", text: (0, o.textPreview)(t3) }), t3.remove());
           }
-          function P(t3, e3, r3, n3) {
+          function O(t3, e3, r3, n3) {
             const o2 = [];
             let i2 = t3.parentElement;
             for (; i2 && i2 !== e3; ) o2.push(i2), i2 = i2.parentElement;
-            $(t3, true, r3, n3);
-            for (const t4 of o2) $(t4, false, r3, n3);
+            P(t3, true, r3, n3);
+            for (const t4 of o2) P(t4, false, r3, n3);
           }
-          function O(t3, e3) {
+          function M(t3, e3) {
             let r3 = t3;
             for (; r3.parentElement && r3.parentElement !== e3; ) {
               let t4 = 0, e4 = r3.previousElementSibling;
@@ -6625,7 +6653,7 @@ ${l.join("\n")}`);
             }
             return r3;
           }
-          function M(t3, e3, r3) {
+          function I(t3, e3, r3) {
             const i2 = t3.previousElementSibling;
             if (!i2) return;
             if ((0, o.countWords)(i2.textContent || "") >= 50) return;
@@ -7871,9 +7899,11 @@ ${l.join("\n")}`);
             return "string" == typeof t3.className ? t3.className : t3.getAttribute("class") || "";
           }, e2.hasResponsiveShowClass = function(t3) {
             return t3.split(/\s+/).some(((t4) => r2.test(t4)));
-          }, e2.isDangerousUrl = function(t3) {
-            const e3 = t3.replace(/[\s\u0000-\u001F]+/g, "").toLowerCase();
-            return e3.startsWith("javascript:") || e3.startsWith("data:text/html");
+          }, e2.isDangerousUrl = function(t3, e3 = true) {
+            const r3 = t3.replace(/[\s\u0000-\u001F]+/g, "").toLowerCase();
+            if (r3.startsWith("javascript:") || r3.startsWith("blob:")) return true;
+            if (r3.startsWith("data:")) return !(e3 && r3.startsWith("data:image/"));
+            return false;
           }, e2.isDirectTableChild = function(t3, e3) {
             let r3 = t3.parentNode;
             for (; r3 && r3 !== e3; ) {
@@ -9322,7 +9352,7 @@ ${a.join("\n")}
         }, 2640(t2, e2) {
           Object.defineProperty(e2, "__esModule", { value: true }), e2.TW_ARBITRARY_RE = e2.TW_SPECIAL_CLASS_RE = e2.TW_COLOR_CLASS_RE = e2.TAILWIND_SPECIAL = e2.TAILWIND_COLORS = e2.ALLOWED_ATTRIBUTES_DEBUG = e2.ALLOWED_ATTRIBUTES = e2.ALLOWED_EMPTY_ELEMENTS = e2.FOOTNOTE_LIST_SELECTORS = e2.FOOTNOTE_INLINE_REFERENCES = e2.TEST_ATTRIBUTES_SELECTOR = e2.PARTIAL_SELECTORS_ANCHORED_REGEX = e2.PARTIAL_SELECTORS_REGEX = e2.PARTIAL_SELECTORS = e2.TEST_ATTRIBUTES = e2.EXACT_SELECTORS_JOINED = e2.EXACT_SELECTORS = e2.HIDDEN_EXACT_SKIP_SELECTOR = e2.HIDDEN_EXACT_SELECTOR = e2.CONTENT_ELEMENT_SELECTOR = e2.INLINE_ELEMENTS = e2.PRESERVE_ELEMENTS = e2.BLOCK_LEVEL_ELEMENTS = e2.BLOCK_ELEMENTS_SET = e2.BLOCK_ELEMENTS_SELECTOR = e2.BLOCK_ELEMENTS = e2.MOBILE_WIDTH = e2.ENTRY_POINT_ELEMENTS = void 0, e2.ENTRY_POINT_ELEMENTS = ["#post", ".post-content", ".post-body", ".article-content", "#article-content", ".js-article-content", ".article_post", ".article-wrapper", ".entry-content", ".content-article", ".instapaper_body", ".post", ".markdown-body", "article", '[role="article"]', "main", '[role="main"]', ".article-body", "#content", "body"], e2.MOBILE_WIDTH = 600, e2.BLOCK_ELEMENTS = ["div", "section", "article", "main", "aside", "header", "footer", "nav", "content"], e2.BLOCK_ELEMENTS_SELECTOR = e2.BLOCK_ELEMENTS.join(","), e2.BLOCK_ELEMENTS_SET = new Set(e2.BLOCK_ELEMENTS), e2.BLOCK_LEVEL_ELEMENTS = /* @__PURE__ */ new Set([...e2.BLOCK_ELEMENTS, "p", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "dl", "dt", "dd", "pre", "blockquote", "figure", "figcaption", "table", "thead", "tbody", "tfoot", "tr", "td", "th", "details", "summary", "address", "hr", "form", "fieldset"]), e2.PRESERVE_ELEMENTS = /* @__PURE__ */ new Set(["pre", "code", "table", "thead", "tbody", "tr", "td", "th", "ul", "ol", "li", "dl", "dt", "dd", "figure", "figcaption", "picture", "details", "summary", "blockquote", "form", "fieldset"]), e2.INLINE_ELEMENTS = /* @__PURE__ */ new Set(["a", "span", "strong", "em", "i", "b", "u", "code", "br", "small", "sub", "sup", "mark", "date", "del", "ins", "q", "abbr", "cite", "relative-time", "time", "font"]), e2.CONTENT_ELEMENT_SELECTOR = ["math", "[data-mathml]", ".katex", ".katex-mathml", ".katex-display", ".MathJax", ".MathJax_Display", ".MathJax_SVG", "mjx-container", "pre", "code", "table", "img", "picture", "video", "blockquote", "figure"].join(", ");
           const r2 = ["[hidden]", '[aria-hidden="true"]', ".hidden", ".invisible"], n2 = r2.map(((t3) => '[aria-hidden="true"]' === t3 ? '[aria-hidden="true"]:not([class*="math"]):not(svg):not([class*="paywall"])' : t3));
-          e2.HIDDEN_EXACT_SELECTOR = n2.join(","), e2.HIDDEN_EXACT_SKIP_SELECTOR = r2.join(","), e2.EXACT_SELECTORS = ["noscript", 'script:not([type^="math/"])', "style", "meta", "link", "audio:not([src]):not(:has(source))", "video:not([src]):not(:has(source))", ".jwplayer", '.ad:not([class*="gradient"])', '[class^="ad-" i]', '[class$="-ad" i]', "[data-ad-wrapper]", '[id^="ad-" i]', '[id$="-ad" i]', '[role="banner" i]', '[alt*="advert" i]', ".promo", ".Promo", "#barrier-page", ".alert", '[rel="sponsored" i]', '[href*="source=promotion" i]', '[id="comments" i]', '[id="comment" i]', 'div[class*="cover-"]', 'div[id*="cover-"]', "ads-breadcrumbs", "header:not(:has(p + p)):not(:has(img))", 'header[class~="fixed"]', 'header[class~="sticky"]', ".header:not(.banner)", "#header", "#Header", "#banner", "#Banner", "nav", ".navigation", "#navigation", '[role="navigation" i]', '[role="dialog" i]', '[role="alertdialog" i]', '[role*="complementary" i]', '[class*="pagination" i]', ".menu", "#siteSub", ".previous", ".author", ".Author", '[class$="_bio"]', "#categories", ".contributor", ".date", "#date", "[data-date]", ".entry-meta", ".meta", ".tags", "#tags", '[rel="tag"]', ".headline", "#headline", "#title", "#Title", "#articleTag", '[href*="/author/"]', '[href*="/author?"]', '[href$="/author"]', 'a[href*="copyright.com"]', 'a[href*="google.com/preferences"]', '[href="#top"]', '[href="#Top"]', '[href="#page-header"]', '[href="#content"]', '[href="#site-content"]', '[href="#main-content"]', '[href^="#main"]', '[src*="author"]', ".toc", ".Toc", "#toc", '[href*="#toc"]', "footer", ".aside", 'aside:not([class*="callout"])', "button", "canvas", "date", "dialog", "fieldset", "form", 'input:not([type="checkbox"])', 'input[type="checkbox"][class*="sidebar" i]', 'input[type="checkbox"][id*="sidebar" i]', 'input[type="checkbox"][class*="drawer" i]', 'input[type="checkbox"][id*="drawer" i]', 'input[type="checkbox"][class*="hamburger" i]', 'input[type="checkbox"][id*="hamburger" i]', 'input[type="checkbox"][class*="toggle" i]', 'input[type="checkbox"][id*="toggle" i]', 'input[type="checkbox"][class*="trigger" i]', 'input[type="checkbox"][id*="trigger" i]', "label", "option", "select", '[role="listbox"]', '[role="option"]', "textarea", ...n2, "instaread-player", "iframe:not([src])", 'iframe[src*="blink.net"]', 'iframe[src*="giscus.app"]', 'iframe[src*="tinypass.com"]', 'iframe[src*="trinitymedia.ai"]', '[class="logo" i]', "#logo", "#Logo", "#newsletter", "#Newsletter", ".subscribe", '[data-component-name="ButtonCreateButton"]', '[data-component-name="DigestPostEmbed"]', '[data-component-name="SubscribeWidgetToDOM"]', '[class*="digestPostEmbed"]', ".noprint", '[data-print-layout="hide" i]', '[data-block="donotprint" i]', '[class*="clickable-icon" i]', 'li span[class*="ltx_tag" i][class*="ltx_tag_item" i]', 'a[href^="#"][class*="anchor" i]', 'a[href^="#"][class*="ref" i]:not(.ltx_ref):not(.footnote-backref)', '[data-container*="most-viewed" i]', ".sidebar", ".Sidebar", "#sidebar", "#Sidebar", "#side-bar", "#secondary", "#sitesub", '[href*="/sitemap/sitemap.xml"]', '[data-link-name*="skip" i]', '[aria-label*="skip" i]', '[title^="Share on" i]', '[aria-label="Dismiss" i]', '[aria-label="Close" i]', "svg[data-icon]", '[data-testid="load-more-posts"] + div', ".copyright", "#copyright", ".licensebox", "#page-info", "#rss", "#feed", ".gutter", "#primaryaudio", "#NYT_ABOVE_MAIN_CONTENT_REGION", '[data-testid="photoviewer-children-figure"] > span', "table.infobox", '[data-optimizely="related-articles-section" i]', '[data-orientation="vertical"]', ".gh-header-sticky", '[data-testid="issue-metadata-sticky"]'], e2.EXACT_SELECTORS_JOINED = e2.EXACT_SELECTORS.join(","), e2.TEST_ATTRIBUTES = ["class", "id", "data-component", "data-test", "data-testid", "data-test-id", "data-qa", "data-cy"], e2.PARTIAL_SELECTORS = ["a-statement", "(?<!main-)access-wall", "activitypub", "actioncall", "addcomment", "addtoany", "advert", "adlayout", "ad-tldr", "ad-placement", "adplacehold", "ads-container", "_ad_", "AdBlock_", "AdUnit", "after_content", "after_main_article", "afterpost", "allterms", "-alert-", "alert-box", "_archive", "around-the-web", "aroundpages", "article-author", "article-badges", "article-banner", "article-bottom-section", "article-bottom", "article-category", "article-card", "article-citation", "article-continues", "article__copy", "article_date", "article-date", "article-end ", "article_header", "article-header", "article__header", "article__hero", "article__info", "article-info", "article-meta", "article_meta", "article__meta", "articlename", "article-subject", "article_subject", "article-snippet", "article-separator", "article--share", "article-share", "article--topics", "article-tools", "articletags", "article-tags", "article_tags", "articletitle", "article-title", "article_title", "articletopics", "article-topics", "article-actions", "article--lede", "articlewell", "associated-people", "ambient-video__button", "audio-card", "beyondwords", "about-author", "author-bio", "author-box", "author-info", "author_info", "authorm", "author-mini-bio", "author-name", "author-publish-info", "authored-by", "avatar", "back-to-top", "backlink_container", "backlinks-section", "bio-block", "biobox", "blog-pager", "bookmark-", "-bookmark", "bottominfo", "bottomnav", "bottom-of-article", "bottom-wrapper", "brand-bar", "bcrumb", "breadcrumb", "brdcrumb", "crumbs", "bubblewrapper", "button-wrapper", "buttons-container", "btn-", "-btn", "byline", "captcha", "card-text", "card-media", "card-post", "carouselcontainer", "carousel-container", "cat_header", "cat-overlay", "catlinks", "_categories", "card-author", "card-content", "chapter-list", "collections", "comments", "-comment\\b", "commentbox", "comment-button", "commentcomp", "comment-content", "comment-count", "comment-form", "comment-number", "comment-respond", "comment-thread", "comment-wrap", "complementary", "consent", "contact-", "contactus", "cookie.law", "content-card", "copycontent", "copy-tooltip", "content-topics", "contentpromo", "context-bar", "context-widget", "core-collateral", "cover-image", "cover-photo", "cover-wrap", "created-date", "creative-commons_", "c-subscribe", "_cta", "-cta", "cta-", "cta_", "current-issue", "custom-list-number", "dateline", "dateheader", "date-header", "date-pub", "disclaimer", "disclosure", "discussion", "discuss_", "-dismiss", "disqus", "donate", "donation", "dropdown", "editorial_contact", "editorial-contact", "element-invisible", "elementor-shortcode", "eletters", "emailsignup", "emoji-bar", "engagement-widget", "enhancement-", "entry-author-info", "entry-categories", "entry-date", "entry-title", "entry-utility", "-error", "error-", "eyebrow", "expand-reduce", "external-anchor", "externallinkembedwrapper", "extra-services", "extra-title", "facebook", "fancy-box", "favorite", "featured-content", "feature_feed", "feedback", "feed-links", "field-site-sections", "filed", "fixheader", "floating-vid", "follower", "footer", "footnote-back", "footnoteback", "form-group", "for-you", "frontmatter", "further-reading", "fullbleedheader", "gallery-count", "gated-popup", "gh-feed", "gist-meta", "goog-", "graph-view", "hamburger", "hawk-", "header-pattern", "hero[_\\-a-z]", "hide-for-print", "hide-print", "hide-when-no-script", "hidden-print", "hidden-sidenote", "hidden-accessibility", "home-link", "icon-sidebar", "inarticle-ad", "infoline", "inline-topic", "instacartIntegration", "interlude", "interaction", "itemendrow", "intro-date", "invisible", "jp-no-solution", "jp-relatedposts", "jswarning", "js-warning", "jumplink", "jumpto", "jump-to-", "js-skip-to-content", "keepreading", "keep-reading", "keep_reading", "keyword_wrap", "kicker", "labstab", "-labels", "language-name", "lastupdated", "latest-content", "-ledes-", "-license", "license-", "lightbox-popup", "like-button", "link-box", "links-grid", "links-title", "listing-dynamic-terms", "list-tags", "live-blog-header-live-label", "listinks", "loading", "loa-info", "logo", "ltx_role_refnum", "ltx_tag_bibitem", "ltx_error", "masthead", "marketing", "media-inquiry", "-menu", "menu-", "metadata", "meta-bottom", "meta-date", "meta-row", "might-like", "minibio", "more-about", "mod-paywall", "_modal", "-modal", "more-", "morenews", "morestories", "more_wrapper", "most-read", "move-helper", "mw-editsection", "mw-cite-backlink", "mw-indicators", "mw-jump-link", "nav-", "nav_", "navigation-post", "next-", "next_prev", "no-script", "newsgallery", "news-story-title", "newsletter_", "newsletterbanner", "newslettercontainer", "newsletter-form", "newsletter-signup", "newslettersignup", "newsletterwidget", "newsletterwrapper", "not-found", "notessection", "nomobile", "noprint", "onward-journey", "open-slideshow", "originally-published", "osano-cm", "other-blogs", "outline-view", "pagefoot", "pagehead", "page-header", "page-title", "paywall_message", "-partners", "permission-", "plea", "popular", "popup_links", "pop_stories", "pop-up", "post__author", "post-author", "post-bottom", "post__category", "postcomment", "postdate", "post-date", "post_date", "post-details", "post-feeds", "postinfo", "post-info", "post_info", "post-inline-date", "post-links", "postlist", "post_list", "post_meta", "post-meta", "postmeta", "post_more", "postnavi", "post-navigation", "postpath", "post-preview", "postsnippet", "post_snippet", "post-snippet", "post-subject", "posttax", "post-tax", "post_tax", "posttag", "post-tag", "post_time", "posttitle", "post-title", "post_title", "post__title", "post-ufi-button", "prev-post", "prevnext", "prev_next", "prev-next", "previousnext", "press-inquiries", "print-none", "print-header", "print:hidden", "privacy-notice", "privacy-settings", "profile", "promo_article", "promo-bar", "promo-box", "pubdate", "pub_date", "pub-date", "publish_date", "publish-date", "publication-date", "publicationName", "qr-code", "qr_code", "quick_up", "_rail", "ratingssection", "read_also", "readmore", "read-next", "read_next", "read_time", "read-time", "reading_time", "reading-time", "reading-list", "recent-", "recent-articles", "recentpost", "recent_post", "recent-post", "recommend", "redirectedfrom", "recirc", "register", "(?<!h[1-6]-)related", "relevant", "relposts", "reversefootnote", "rightcol", "\\bnocontent\\b", "_rss", "rss-link", "rubricwrapper", "screen-reader-text", "scroll_to", "scroll-to", "_search", "-search", "section-nav", "series-banner", "share-box", "sharedaddy", "share-icons", "sharelinks", "share-links", "share-post", "share-print", "share-section", "share-text", "sharing_", "shariff-", "shortcode-id", "show-for-print", "sidebartitle", "sidebar-content", "sidebar-wrapper", "sideitems", "sidebar-author", "sidebar-item", "side-box", "sign-in-gate", "similar-", "similar_", "similars-", "site-index", "site-header", "siteheader", "site-name", "site-wordpress", "skip-content", "skip-to-content", "skip-link", "c-skip-link", "_skip-link", "-slider", "slug-wrap", "social-author", "social-button", "social-shar", "social-date", "speechify-ignore", "speedbump", "sponsor", "springercitation", "sr-only", "_stats", "sticky-social", "story-date", "story-navigation", "storyreadtime", "storysmall", "storypublishdate", "subject-label", "submenu", "-subscribe-", "subscriber-drive", "subscription-", "_tags", "tags__item", "tag_list", "tag-list", "tag-module", "takeaways", "taxonomy", "table-of-contents", "tblc", "tabs-", "terminaltout", "time-rubric", "timestamp", "time-read", "time-to-read", "tip_off", "-ticker", "tiptout", "-tout-", "toc-container", "toggle-caption", "tooltip-content", "topbar", "subnavbar", "topic-authors", "topic-footer", "topic-list", "topic-subnav", "top-wrapper", "tree-item", "trending", "trust-feat", "trust-badge", "trust-project", "chakra-badge", "twiblock", "u-hide", "upsell", "vid_carousel", "viewbottom", "view-language", "yarpp-related", "visually-hidden", "welcomebox", "widget_pages", "window__widget", "w-form-done", "w-form-fail"], e2.PARTIAL_SELECTORS_REGEX = new RegExp(e2.PARTIAL_SELECTORS.join("|"), "i"), e2.PARTIAL_SELECTORS_ANCHORED_REGEX = new RegExp("^(?:" + e2.PARTIAL_SELECTORS.join("|") + ")$", "i"), e2.TEST_ATTRIBUTES_SELECTOR = e2.TEST_ATTRIBUTES.map(((t3) => `[${t3}]`)).join(","), e2.FOOTNOTE_INLINE_REFERENCES = ["sup.reference", "cite.ltx_cite", 'sup[id^="fnr"]', 'span[id^="fnr"]', 'span[class*="footnote_ref"]', 'span[class*="footnote-ref"]', "span.footnote-link", "a.citation", 'a[id^="ref-link"]', 'a[href^="#fn"]', 'a[href^="#cite"]', 'a[href^="#reference"]', 'a[href^="#footnote"]', 'a[href^="#r"]', 'a[href^="#b"]', 'a[href*="cite_note"]', 'a[href*="cite_ref"]', "a.footnote-anchor", "span.footnote-hovercard-target a", 'a[role="doc-biblioref"]', 'a[id^="fnref"]', 'a[id^="ref-link"]', "sup.footnoteref", "sup.footnote-reference", 'sup[data-fn] > a[href^="#"]', 'sup[id^="ftnt_ref"] a[href^="#ftnt"]', 'span.easy-footnote > a[href^="#easy-footnote-bottom-"]', 'a.footnote[href^="#"]', 'a[data-type="noteref"]'].join(","), e2.FOOTNOTE_LIST_SELECTORS = ["div.footnote ol", "div.footnotes ol", 'div[role="doc-endnotes"]', 'div[role="doc-footnotes"]', "ol.footnotes-list", "ol.footnotes", "ol.references", 'ol[class*="article-references"]', "section.footnotes ol", 'section[role="doc-endnotes"]', 'section[role="doc-footnotes"]', 'section[role="doc-bibliography"]', "ul.footnotes-list", "ul.ltx_biblist", 'div.footnote[data-component-name="FootnoteToDOM"]', "div.footnotes-footer", "div.footnote-definitions", "div.footnote-definition", "ol.wp-block-footnotes", "ol.easy-footnotes-wrapper", "div.footnotes-segment", "#footnotes"].join(","), e2.ALLOWED_EMPTY_ELEMENTS = /* @__PURE__ */ new Set(["area", "audio", "base", "br", "circle", "col", "defs", "ellipse", "embed", "figure", "g", "hr", "iframe", "img", "input", "line", "link", "mask", "meta", "object", "param", "path", "pattern", "picture", "polygon", "polyline", "rect", "source", "stop", "svg", "td", "th", "track", "use", "video", "wbr"]), e2.ALLOWED_ATTRIBUTES = /* @__PURE__ */ new Set(["alt", "allow", "allowfullscreen", "aria-label", "checked", "colspan", "controls", "data-latex", "data-src", "data-srcset", "data-callout", "data-callout-fold", "data-callout-title", "data-lang", "dir", "display", "frameborder", "headers", "height", "href", "kind", "label", "lang", "role", "rowspan", "src", "srclang", "srcset", "start", "title", "type", "width", "accent", "accentunder", "align", "columnalign", "columnlines", "columnspacing", "columnspan", "data-mjx-texclass", "depth", "displaystyle", "fence", "frame", "framespacing", "linethickness", "lspace", "mathsize", "mathvariant", "maxsize", "minsize", "movablelimits", "notation", "rowalign", "rowlines", "rowspacing", "rowspan", "rspace", "scriptlevel", "separator", "stretchy", "symmetric", "voffset", "xmlns"]), e2.ALLOWED_ATTRIBUTES_DEBUG = /* @__PURE__ */ new Set(["class", "id"]), e2.TAILWIND_COLORS = { slate: { 50: "#f8fafc", 100: "#f1f5f9", 200: "#e2e8f0", 300: "#cbd5e1", 400: "#94a3b8", 500: "#64748b", 600: "#475569", 700: "#334155", 800: "#1e293b", 900: "#0f172a", 950: "#020617" }, gray: { 50: "#f9fafb", 100: "#f3f4f6", 200: "#e5e7eb", 300: "#d1d5db", 400: "#9ca3af", 500: "#6b7280", 600: "#4b5563", 700: "#374151", 800: "#1f2937", 900: "#111827", 950: "#030712" }, zinc: { 50: "#fafafa", 100: "#f4f4f5", 200: "#e4e4e7", 300: "#d4d4d8", 400: "#a1a1aa", 500: "#71717a", 600: "#52525b", 700: "#3f3f46", 800: "#27272a", 900: "#18181b", 950: "#09090b" }, neutral: { 50: "#fafafa", 100: "#f5f5f5", 200: "#e5e5e5", 300: "#d4d4d4", 400: "#a3a3a3", 500: "#737373", 600: "#525252", 700: "#404040", 800: "#262626", 900: "#171717", 950: "#0a0a0a" }, stone: { 50: "#fafaf9", 100: "#f5f5f4", 200: "#e7e5e4", 300: "#d6d3d1", 400: "#a8a29e", 500: "#78716c", 600: "#57534e", 700: "#44403c", 800: "#292524", 900: "#1c1917", 950: "#0c0a09" }, red: { 50: "#fef2f2", 100: "#fee2e2", 200: "#fecaca", 300: "#fca5a5", 400: "#f87171", 500: "#ef4444", 600: "#dc2626", 700: "#b91c1c", 800: "#991b1b", 900: "#7f1d1d", 950: "#450a0a" }, orange: { 50: "#fff7ed", 100: "#ffedd5", 200: "#fed7aa", 300: "#fdba74", 400: "#fb923c", 500: "#f97316", 600: "#ea580c", 700: "#c2410c", 800: "#9a3412", 900: "#7c2d12", 950: "#431407" }, amber: { 50: "#fffbeb", 100: "#fef3c7", 200: "#fde68a", 300: "#fcd34d", 400: "#fbbf24", 500: "#f59e0b", 600: "#d97706", 700: "#b45309", 800: "#92400e", 900: "#78350f", 950: "#451a03" }, yellow: { 50: "#fefce8", 100: "#fef9c3", 200: "#fef08a", 300: "#fde047", 400: "#facc15", 500: "#eab308", 600: "#ca8a04", 700: "#a16207", 800: "#854d0e", 900: "#713f12", 950: "#422006" }, lime: { 50: "#f7fee7", 100: "#ecfccb", 200: "#d9f99d", 300: "#bef264", 400: "#a3e635", 500: "#84cc16", 600: "#65a30d", 700: "#4d7c0f", 800: "#3f6212", 900: "#365314", 950: "#1a2e05" }, green: { 50: "#f0fdf4", 100: "#dcfce7", 200: "#bbf7d0", 300: "#86efac", 400: "#4ade80", 500: "#22c55e", 600: "#16a34a", 700: "#15803d", 800: "#166534", 900: "#14532d", 950: "#052e16" }, emerald: { 50: "#ecfdf5", 100: "#d1fae5", 200: "#a7f3d0", 300: "#6ee7b7", 400: "#34d399", 500: "#10b981", 600: "#059669", 700: "#047857", 800: "#065f46", 900: "#064e3b", 950: "#022c22" }, teal: { 50: "#f0fdfa", 100: "#ccfbf1", 200: "#99f6e4", 300: "#5eead4", 400: "#2dd4bf", 500: "#14b8a6", 600: "#0d9488", 700: "#0f766e", 800: "#115e59", 900: "#134e4a", 950: "#042f2e" }, cyan: { 50: "#ecfeff", 100: "#cffafe", 200: "#a5f3fc", 300: "#67e8f9", 400: "#22d3ee", 500: "#06b6d4", 600: "#0891b2", 700: "#0e7490", 800: "#155e75", 900: "#164e63", 950: "#083344" }, sky: { 50: "#f0f9ff", 100: "#e0f2fe", 200: "#bae6fd", 300: "#7dd3fc", 400: "#38bdf8", 500: "#0ea5e9", 600: "#0284c7", 700: "#0369a1", 800: "#075985", 900: "#0c4a6e", 950: "#082f49" }, blue: { 50: "#eff6ff", 100: "#dbeafe", 200: "#bfdbfe", 300: "#93c5fd", 400: "#60a5fa", 500: "#3b82f6", 600: "#2563eb", 700: "#1d4ed8", 800: "#1e40af", 900: "#1e3a8a", 950: "#172554" }, indigo: { 50: "#eef2ff", 100: "#e0e7ff", 200: "#c7d2fe", 300: "#a5b4fc", 400: "#818cf8", 500: "#6366f1", 600: "#4f46e5", 700: "#4338ca", 800: "#3730a3", 900: "#312e81", 950: "#1e1b4b" }, violet: { 50: "#f5f3ff", 100: "#ede9fe", 200: "#ddd6fe", 300: "#c4b5fd", 400: "#a78bfa", 500: "#8b5cf6", 600: "#7c3aed", 700: "#6d28d9", 800: "#5b21b6", 900: "#4c1d95", 950: "#2e1065" }, purple: { 50: "#faf5ff", 100: "#f3e8ff", 200: "#e9d5ff", 300: "#d8b4fe", 400: "#c084fc", 500: "#a855f7", 600: "#9333ea", 700: "#7e22ce", 800: "#6b21a8", 900: "#581c87", 950: "#3b0764" }, fuchsia: { 50: "#fdf4ff", 100: "#fae8ff", 200: "#f5d0fe", 300: "#f0abfc", 400: "#e879f9", 500: "#d946ef", 600: "#c026d3", 700: "#a21caf", 800: "#86198f", 900: "#701a75", 950: "#4a044e" }, pink: { 50: "#fdf2f8", 100: "#fce7f3", 200: "#fbcfe8", 300: "#f9a8d4", 400: "#f472b6", 500: "#ec4899", 600: "#db2777", 700: "#be185d", 800: "#9d174d", 900: "#831843", 950: "#500724" }, rose: { 50: "#fff1f2", 100: "#ffe4e6", 200: "#fecdd3", 300: "#fda4af", 400: "#fb7185", 500: "#f43f5e", 600: "#e11d48", 700: "#be123c", 800: "#9f1239", 900: "#881337", 950: "#4c0519" } }, e2.TAILWIND_SPECIAL = { black: "#000", white: "#fff", transparent: "transparent", current: "currentColor" }, e2.TW_COLOR_CLASS_RE = /^(fill|stroke)-([a-z]+)-(\d{2,3})(?:\/(\d+))?$/, e2.TW_SPECIAL_CLASS_RE = /^(fill|stroke)-(black|white|transparent|current)$/, e2.TW_ARBITRARY_RE = /^text-\[(.+)\]$/;
+          e2.HIDDEN_EXACT_SELECTOR = n2.join(","), e2.HIDDEN_EXACT_SKIP_SELECTOR = r2.join(","), e2.EXACT_SELECTORS = ["noscript", 'script:not([type^="math/"])', "style", "meta", "link", "audio:not([src]):not(:has(source))", "video:not([src]):not(:has(source))", ".jwplayer", '.ad:not([class*="gradient"])', '[class^="ad-" i]', '[class$="-ad" i]', "[data-ad-wrapper]", '[id^="ad-" i]', '[id$="-ad" i]', '[role="banner" i]', '[alt*="advert" i]', ".promo", ".Promo", "#barrier-page", ".alert", '[rel="sponsored" i]', '[href*="source=promotion" i]', '[id="comments" i]', '[id="comment" i]', 'div[class*="cover-"]', 'div[id*="cover-"]', "ads-breadcrumbs", "header:not(:has(p + p)):not(:has(img))", 'header[class~="fixed"]', 'header[class~="sticky"]', ".header:not(.banner)", "#header", "#Header", "#banner", "#Banner", "nav", ".navigation", "#navigation", '[role="navigation" i]', '[role="dialog" i]', '[role="alertdialog" i]', '[role*="complementary" i]', '[class*="pagination" i]', ".menu", "#siteSub", ".previous", ".author", ".Author", '[class$="_bio"]', "#categories", ".contributor", ".date", "#date", "[data-date]", ".entry-meta", ".meta", ".tags", "#tags", '[rel="tag"]', ".headline", "#headline", "#title", "#Title", "#articleTag", '[href*="/author/"]', '[href*="/author?"]', '[href$="/author"]', 'a[href*="copyright.com"]', 'a[href*="google.com/preferences"]', '[href="#top"]', '[href="#Top"]', '[href="#page-header"]', '[href="#content"]', '[href="#site-content"]', '[href="#main-content"]', '[href^="#main"]', '[src*="author"]', ".toc", ".Toc", "#toc", '[href*="#toc"]', "footer", ".aside", 'aside:not([class*="callout"])', "button", "canvas", "date", "dialog", "fieldset", "form", 'input:not([type="checkbox"])', 'input[type="checkbox"][class*="sidebar" i]', 'input[type="checkbox"][id*="sidebar" i]', 'input[type="checkbox"][class*="drawer" i]', 'input[type="checkbox"][id*="drawer" i]', 'input[type="checkbox"][class*="hamburger" i]', 'input[type="checkbox"][id*="hamburger" i]', 'input[type="checkbox"][class*="toggle" i]', 'input[type="checkbox"][id*="toggle" i]', 'input[type="checkbox"][class*="trigger" i]', 'input[type="checkbox"][id*="trigger" i]', "label", "option", "select", '[role="listbox"]', '[role="option"]', "textarea", ...n2, "instaread-player", "iframe:not([src])", 'iframe[src*="blink.net"]', 'iframe[src*="giscus.app"]', 'iframe[src*="tinypass.com"]', 'iframe[src*="trinitymedia.ai"]', '[class="logo" i]', "#logo", "#Logo", "#newsletter", "#Newsletter", ".subscribe", '[data-component-name="ButtonCreateButton"]', '[data-component-name="DigestPostEmbed"]', '[data-component-name="SubscribeWidgetToDOM"]', '[class*="digestPostEmbed"]', ".noprint", '[data-print-layout="hide" i]', '[data-block="donotprint" i]', '[class*="clickable-icon" i]', 'li span[class*="ltx_tag" i][class*="ltx_tag_item" i]', 'a[href^="#"][class*="anchor" i]', 'a[href^="#"][class*="ref" i]:not(.ltx_ref):not(.footnote-backref)', '[data-container*="most-viewed" i]', ".sidebar", ".Sidebar", "#sidebar", "#Sidebar", "#side-bar", "#secondary", "#sitesub", '[href*="/sitemap/sitemap.xml"]', '[data-link-name*="skip" i]', '[aria-label*="skip" i]', '[title^="Share on" i]', '[aria-label="Dismiss" i]', '[aria-label="Close" i]', "svg[data-icon]", '[data-testid="load-more-posts"] + div', ".copyright", "#copyright", ".licensebox", "#page-info", "#rss", "#feed", ".gutter", "#primaryaudio", "#NYT_ABOVE_MAIN_CONTENT_REGION", '[data-testid="photoviewer-children-figure"] > span', "table.infobox", '[data-optimizely="related-articles-section" i]', '[data-orientation="vertical"]', ".gh-header-sticky", '[data-testid="issue-metadata-sticky"]'], e2.EXACT_SELECTORS_JOINED = e2.EXACT_SELECTORS.join(","), e2.TEST_ATTRIBUTES = ["class", "id", "data-component", "data-test", "data-testid", "data-test-id", "data-qa", "data-cy"], e2.PARTIAL_SELECTORS = ["a-statement", "(?<!main-)access-wall", "activitypub", "actioncall", "addcomment", "addtoany", "advert", "adlayout", "ad-tldr", "ad-placement", "adplacehold", "ads-container", "_ad_", "AdBlock_", "AdUnit", "after_content", "after_main_article", "afterpost", "allterms", "-alert-", "alert-box", "_archive", "around-the-web", "aroundpages", "article-author", "article-badges", "article-banner", "article-bottom-section", "article-bottom", "article-category", "article-card", "article-citation", "article-continues", "article__copy", "article_date", "article-date", "article-end ", "article_header", "article-header", "article__header", "article__hero", "article__info", "article-info", "article-meta", "article_meta", "article__meta", "articlename", "article-subject", "article_subject", "article-snippet", "article-separator", "article--share", "article-share", "article--topics", "article-tools", "articletags", "article-tags", "article_tags", "articletitle", "article-title", "article_title", "articletopics", "article-topics", "article-actions", "article--lede", "articlewell", "associated-people", "ambient-video__button", "audio-card", "beyondwords", "about-author", "author-bio", "author-box", "author-info", "author_info", "authorm", "author-mini-bio", "author-name", "author-publish-info", "authored-by", "avatar", "back-to-top", "backlink_container", "backlinks-section", "bio-block", "biobox", "blog-pager", "bookmark-", "-bookmark", "bottominfo", "bottomnav", "bottom-of-article", "bottom-wrapper", "brand-bar", "bcrumb", "breadcrumb", "brdcrumb", "crumbs", "bubblewrapper", "button-wrapper", "buttons-container", "btn-", "-btn", "byline", "captcha", "card-text", "card-media", "card-post", "carouselcontainer", "carousel-container", "cat_header", "cat-overlay", "catlinks", "_categories", "card-author", "card-content", "chapter-list", "collections", "comments", "-comment\\b", "commentbox", "comment-button", "commentcomp", "comment-content", "comment-count", "comment-form", "comment-number", "comment-respond", "comment-thread", "comment-wrap", "complementary", "consent", "contact-", "contactus", "cookie.law", "content-card", "copycontent", "copy-tooltip", "content-topics", "contentpromo", "context-bar", "context-widget", "core-collateral", "cover-image", "cover-photo", "cover-wrap", "created-date", "creative-commons_", "c-subscribe", "_cta", "-cta", "cta-", "cta_", "current-issue", "custom-list-number", "dateline", "dateheader", "date-header", "date-pub", "disclaimer", "disclosure", "discussion", "discuss_", "-dismiss", "disqus", "donate", "donation", "dropdown", "editorial_contact", "editorial-contact", "element-invisible", "elementor-shortcode", "eletters", "emailsignup", "emoji-bar", "engagement-widget", "enhancement-", "entry-author-info", "entry-categories", "entry-date", "entry-title", "entry-utility", "-error", "error-", "eyebrow", "expand-reduce", "external-anchor", "externallinkembedwrapper", "extra-services", "extra-title", "facebook", "fancy-box", "favorite", "featured-content", "feature_feed", "feedback", "feed-links", "field-site-sections", "filed", "fixheader", "floating-vid", "follower", "footer", "footnote-back", "footnoteback", "form-group", "for-you", "frontmatter", "further-reading", "fullbleedheader", "gallery-count", "gated-popup", "gh-feed", "gist-meta", "goog-", "graph-view", "hamburger", "hawk-", "header-pattern", "hero[_\\-a-z]", "hide-for-print", "hide-print", "hide-when-no-script", "hidden-print", "hidden-sidenote", "hidden-accessibility", "home-link", "icon-sidebar", "inarticle-ad", "infoline", "inline-topic", "instacartIntegration", "interlude", "interaction", "itemendrow", "intro-date", "invisible", "jp-no-solution", "jp-relatedposts", "jswarning", "js-warning", "jumplink", "jumpto", "jump-to-", "js-skip-to-content", "keepreading", "keep-reading", "keep_reading", "keyword_wrap", "kicker", "labstab", "-labels", "language-name", "lastupdated", "latest-content", "-ledes-", "-license", "license-", "lightbox-popup", "like-button", "link-box", "links-grid", "links-title", "listing-dynamic-terms", "list-tags", "live-blog-header-live-label", "listinks", "loading", "loa-info", "logo", "ltx_role_refnum", "ltx_tag_bibitem", "ltx_error", "masthead", "marketing", "media-inquiry", "-menu", "menu-", "metadata", "meta-bottom", "meta-date", "meta-row", "might-like", "minibio", "more-about", "mod-paywall", "_modal", "-modal", "more-", "morenews", "morestories", "more_wrapper", "most-read", "move-helper", "mw-editsection", "mw-cite-backlink", "mw-indicators", "mw-jump-link", "nav-", "nav_", "navigation-post", "next-", "next_prev", "no-script", "newsgallery", "news-story-title", "newsletter_", "newsletterbanner", "newslettercontainer", "newsletter-form", "newsletter-signup", "newslettersignup", "newsletterwidget", "newsletterwrapper", "not-found", "notessection", "nomobile", "noprint", "onward-journey", "open-slideshow", "originally-published", "osano-cm", "other-blogs", "outline-view", "pagefoot", "pagehead", "page-header", "page-title", "paywall_message", "-partners", "permission-", "plea", "popular", "popup_links", "pop_stories", "pop-up", "post__author", "post-author", "post-bottom", "post__category", "postcomment", "postdate", "post-date", "post_date", "post-details", "post-feeds", "postinfo", "post-info", "post_info", "post-inline-date", "post-links", "postlist", "post_list", "post_meta", "post-meta", "postmeta", "post_more", "postnavi", "post-navigation", "postpath", "post-preview", "postsnippet", "post_snippet", "post-snippet", "post-subject", "posttax", "post-tax", "post_tax", "posttag", "post-tag", "post_time", "posttitle", "post-title", "post_title", "post__title", "post-ufi-button", "prev-post", "prevnext", "prev_next", "prev-next", "previousnext", "press-inquiries", "print-none", "print-header", "print:hidden", "privacy-notice", "privacy-settings", "profile", "promo_article", "promo-bar", "promo-box", "pubdate", "pub_date", "pub-date", "publish_date", "publish-date", "publication-date", "publicationName", "qr-code", "qr_code", "quick_up", "_rail", "ratingssection", "read_also", "readmore", "read-next", "read_next", "read_time", "read-time", "reading_time", "reading-time", "reading-list", "recent-", "recent-articles", "recentpost", "recent_post", "recent-post", "recommend", "redirectedfrom", "recirc", "register", "(?<!h[1-6]-)related", "relevant", "relposts", "reversefootnote", "rightcol", "\\bnocontent\\b", "_rss", "rss-link", "rubricwrapper", "screen-reader-text", "scroll_to", "scroll-to", "_search", "-search", "section-nav", "series-banner", "share-box", "sharedaddy", "share-icons", "sharelinks", "share-links", "share-post", "share-print", "share-section", "share-text", "sharing_", "shariff-", "shortcode-id", "show-for-print", "sidebartitle", "sidebar-content", "sidebar-wrapper", "sideitems", "sidebar-author", "sidebar-item", "side-box", "sign-in-gate", "similar-", "similar_", "similars-", "site-index", "site-header", "siteheader", "site-name", "site-wordpress", "skip-content", "skip-to-content", "skip-link", "c-skip-link", "_skip-link", "-slider", "slug-wrap", "social-author", "social-button", "social-shar", "social-date", "speechify-ignore", "speedbump", "sponsor", "springercitation", "sr-only", "_stats", "sticky-social", "story-date", "story-navigation", "storyreadtime", "storysmall", "storypublishdate", "subject-label", "submenu", "-subscribe-", "subscriber-drive", "subscription-", "_tags", "tags__item", "tag_list", "tag-list", "tag-module", "takeaways", "taxonomy", "table-of-contents", "tblc", "tabs-", "terminaltout", "time-rubric", "timestamp", "time-read", "time-to-read", "tip_off", "-ticker", "tiptout", "-tout-", "toc-container", "toggle-caption", "tooltip-content", "topbar", "subnavbar", "topic-authors", "topic-footer", "topic-list", "topic-subnav", "top-wrapper", "tree-item", "trending", "trust-feat", "trust-badge", "trust-project", "chakra-badge", "twiblock", "u-hide", "upsell", "vid_carousel", "viewbottom", "view-language", "yarpp-related", "visually-hidden", "welcomebox", "widget_pages", "window__widget", "w-form-done", "w-form-fail"], e2.PARTIAL_SELECTORS_REGEX = new RegExp(e2.PARTIAL_SELECTORS.join("|"), "i"), e2.PARTIAL_SELECTORS_ANCHORED_REGEX = new RegExp("^(?:" + e2.PARTIAL_SELECTORS.join("|") + ")$", "i"), e2.TEST_ATTRIBUTES_SELECTOR = e2.TEST_ATTRIBUTES.map(((t3) => `[${t3}]`)).join(","), e2.FOOTNOTE_INLINE_REFERENCES = ["sup.reference", "cite.ltx_cite", 'sup[id^="fnr"]', 'span[id^="fnr"]', 'span[class*="footnote_ref"]', 'span[class*="footnote-ref"]', "span.footnote-link", "a.citation", 'a[id^="ref-link"]', 'a[href^="#fn"]', 'a[href^="#cite"]', 'a[href^="#reference"]', 'a[href^="#footnote"]', 'a[href^="#r"]', 'a[href^="#b"]', 'a[href*="cite_note"]', 'a[href*="cite_ref"]', "a.footnote-anchor", "span.footnote-hovercard-target a", 'a[role="doc-biblioref"]', 'a[id^="fnref"]', 'a[id^="ref-link"]', "sup.footnoteref", "sup.footnote-reference", 'sup[data-fn] > a[href^="#"]', 'sup[id^="ftnt_ref"] a[href^="#ftnt"]', 'span.easy-footnote > a[href^="#easy-footnote-bottom-"]', 'a.footnote[href^="#"]', 'a[data-type="noteref"]'].join(","), e2.FOOTNOTE_LIST_SELECTORS = ["div.footnote ol", "div.footnotes ol", 'div[role="doc-endnotes"]', 'div[role="doc-footnotes"]', "ol.footnotes-list", "ol.footnotes", "ol.references", 'ol[class*="article-references"]', "section.footnotes ol", 'section[role="doc-endnotes"]', 'section[role="doc-footnotes"]', 'section[role="doc-bibliography"]', "ul.footnotes-list", "ul.ltx_biblist", 'div.footnote[data-component-name="FootnoteToDOM"]', "div.footnotes-footer", "div.footnote-definitions", "div.footnote-definition", "ol.wp-block-footnotes", "ol.easy-footnotes-wrapper", "div.footnotes-segment", "#footnotes"].join(","), e2.ALLOWED_EMPTY_ELEMENTS = /* @__PURE__ */ new Set(["area", "audio", "base", "br", "circle", "col", "defs", "ellipse", "embed", "figure", "g", "hr", "iframe", "img", "input", "line", "link", "mask", "meta", "object", "param", "path", "pattern", "picture", "polygon", "polyline", "rect", "source", "stop", "svg", "td", "th", "track", "use", "video", "wbr"]), e2.ALLOWED_ATTRIBUTES = /* @__PURE__ */ new Set(["alt", "allow", "allowfullscreen", "aria-label", "checked", "colspan", "controls", "data-latex", "data-src", "data-srcset", "data-callout", "data-callout-fold", "data-callout-title", "data-lang", "dir", "display", "frameborder", "headers", "height", "href", "kind", "label", "lang", "role", "rowspan", "sandbox", "src", "srclang", "srcset", "start", "title", "type", "width", "accent", "accentunder", "align", "columnalign", "columnlines", "columnspacing", "columnspan", "data-mjx-texclass", "depth", "displaystyle", "fence", "frame", "framespacing", "linethickness", "lspace", "mathsize", "mathvariant", "maxsize", "minsize", "movablelimits", "notation", "rowalign", "rowlines", "rowspacing", "rowspan", "rspace", "scriptlevel", "separator", "stretchy", "symmetric", "voffset", "xmlns"]), e2.ALLOWED_ATTRIBUTES_DEBUG = /* @__PURE__ */ new Set(["class", "id"]), e2.TAILWIND_COLORS = { slate: { 50: "#f8fafc", 100: "#f1f5f9", 200: "#e2e8f0", 300: "#cbd5e1", 400: "#94a3b8", 500: "#64748b", 600: "#475569", 700: "#334155", 800: "#1e293b", 900: "#0f172a", 950: "#020617" }, gray: { 50: "#f9fafb", 100: "#f3f4f6", 200: "#e5e7eb", 300: "#d1d5db", 400: "#9ca3af", 500: "#6b7280", 600: "#4b5563", 700: "#374151", 800: "#1f2937", 900: "#111827", 950: "#030712" }, zinc: { 50: "#fafafa", 100: "#f4f4f5", 200: "#e4e4e7", 300: "#d4d4d8", 400: "#a1a1aa", 500: "#71717a", 600: "#52525b", 700: "#3f3f46", 800: "#27272a", 900: "#18181b", 950: "#09090b" }, neutral: { 50: "#fafafa", 100: "#f5f5f5", 200: "#e5e5e5", 300: "#d4d4d4", 400: "#a3a3a3", 500: "#737373", 600: "#525252", 700: "#404040", 800: "#262626", 900: "#171717", 950: "#0a0a0a" }, stone: { 50: "#fafaf9", 100: "#f5f5f4", 200: "#e7e5e4", 300: "#d6d3d1", 400: "#a8a29e", 500: "#78716c", 600: "#57534e", 700: "#44403c", 800: "#292524", 900: "#1c1917", 950: "#0c0a09" }, red: { 50: "#fef2f2", 100: "#fee2e2", 200: "#fecaca", 300: "#fca5a5", 400: "#f87171", 500: "#ef4444", 600: "#dc2626", 700: "#b91c1c", 800: "#991b1b", 900: "#7f1d1d", 950: "#450a0a" }, orange: { 50: "#fff7ed", 100: "#ffedd5", 200: "#fed7aa", 300: "#fdba74", 400: "#fb923c", 500: "#f97316", 600: "#ea580c", 700: "#c2410c", 800: "#9a3412", 900: "#7c2d12", 950: "#431407" }, amber: { 50: "#fffbeb", 100: "#fef3c7", 200: "#fde68a", 300: "#fcd34d", 400: "#fbbf24", 500: "#f59e0b", 600: "#d97706", 700: "#b45309", 800: "#92400e", 900: "#78350f", 950: "#451a03" }, yellow: { 50: "#fefce8", 100: "#fef9c3", 200: "#fef08a", 300: "#fde047", 400: "#facc15", 500: "#eab308", 600: "#ca8a04", 700: "#a16207", 800: "#854d0e", 900: "#713f12", 950: "#422006" }, lime: { 50: "#f7fee7", 100: "#ecfccb", 200: "#d9f99d", 300: "#bef264", 400: "#a3e635", 500: "#84cc16", 600: "#65a30d", 700: "#4d7c0f", 800: "#3f6212", 900: "#365314", 950: "#1a2e05" }, green: { 50: "#f0fdf4", 100: "#dcfce7", 200: "#bbf7d0", 300: "#86efac", 400: "#4ade80", 500: "#22c55e", 600: "#16a34a", 700: "#15803d", 800: "#166534", 900: "#14532d", 950: "#052e16" }, emerald: { 50: "#ecfdf5", 100: "#d1fae5", 200: "#a7f3d0", 300: "#6ee7b7", 400: "#34d399", 500: "#10b981", 600: "#059669", 700: "#047857", 800: "#065f46", 900: "#064e3b", 950: "#022c22" }, teal: { 50: "#f0fdfa", 100: "#ccfbf1", 200: "#99f6e4", 300: "#5eead4", 400: "#2dd4bf", 500: "#14b8a6", 600: "#0d9488", 700: "#0f766e", 800: "#115e59", 900: "#134e4a", 950: "#042f2e" }, cyan: { 50: "#ecfeff", 100: "#cffafe", 200: "#a5f3fc", 300: "#67e8f9", 400: "#22d3ee", 500: "#06b6d4", 600: "#0891b2", 700: "#0e7490", 800: "#155e75", 900: "#164e63", 950: "#083344" }, sky: { 50: "#f0f9ff", 100: "#e0f2fe", 200: "#bae6fd", 300: "#7dd3fc", 400: "#38bdf8", 500: "#0ea5e9", 600: "#0284c7", 700: "#0369a1", 800: "#075985", 900: "#0c4a6e", 950: "#082f49" }, blue: { 50: "#eff6ff", 100: "#dbeafe", 200: "#bfdbfe", 300: "#93c5fd", 400: "#60a5fa", 500: "#3b82f6", 600: "#2563eb", 700: "#1d4ed8", 800: "#1e40af", 900: "#1e3a8a", 950: "#172554" }, indigo: { 50: "#eef2ff", 100: "#e0e7ff", 200: "#c7d2fe", 300: "#a5b4fc", 400: "#818cf8", 500: "#6366f1", 600: "#4f46e5", 700: "#4338ca", 800: "#3730a3", 900: "#312e81", 950: "#1e1b4b" }, violet: { 50: "#f5f3ff", 100: "#ede9fe", 200: "#ddd6fe", 300: "#c4b5fd", 400: "#a78bfa", 500: "#8b5cf6", 600: "#7c3aed", 700: "#6d28d9", 800: "#5b21b6", 900: "#4c1d95", 950: "#2e1065" }, purple: { 50: "#faf5ff", 100: "#f3e8ff", 200: "#e9d5ff", 300: "#d8b4fe", 400: "#c084fc", 500: "#a855f7", 600: "#9333ea", 700: "#7e22ce", 800: "#6b21a8", 900: "#581c87", 950: "#3b0764" }, fuchsia: { 50: "#fdf4ff", 100: "#fae8ff", 200: "#f5d0fe", 300: "#f0abfc", 400: "#e879f9", 500: "#d946ef", 600: "#c026d3", 700: "#a21caf", 800: "#86198f", 900: "#701a75", 950: "#4a044e" }, pink: { 50: "#fdf2f8", 100: "#fce7f3", 200: "#fbcfe8", 300: "#f9a8d4", 400: "#f472b6", 500: "#ec4899", 600: "#db2777", 700: "#be185d", 800: "#9d174d", 900: "#831843", 950: "#500724" }, rose: { 50: "#fff1f2", 100: "#ffe4e6", 200: "#fecdd3", 300: "#fda4af", 400: "#fb7185", 500: "#f43f5e", 600: "#e11d48", 700: "#be123c", 800: "#9f1239", 900: "#881337", 950: "#4c0519" } }, e2.TAILWIND_SPECIAL = { black: "#000", white: "#fff", transparent: "transparent", current: "currentColor" }, e2.TW_COLOR_CLASS_RE = /^(fill|stroke)-([a-z]+)-(\d{2,3})(?:\/(\d+))?$/, e2.TW_SPECIAL_CLASS_RE = /^(fill|stroke)-(black|white|transparent|current)$/, e2.TW_ARBITRARY_RE = /^text-\[(.+)\]$/;
         }, 4467(t2, e2, r2) {
           Object.defineProperty(e2, "__esModule", { value: true }), e2.findContentStart = function t3(e3, r3) {
             const o2 = (function(t4, e4) {
@@ -9488,10 +9518,15 @@ ${a.join("\n")}
               if (!t3) return;
               const e3 = t3.querySelectorAll('script:not([type^="math/"]), style, noscript, frame, frameset, object, embed, applet, base');
               for (const t4 of e3) t4.remove();
-              const r3 = t3.querySelectorAll("*");
+              const r3 = [t3, ...Array.from(t3.querySelectorAll("*"))];
               for (const t4 of r3) for (const e4 of Array.from(t4.attributes)) {
                 const r4 = e4.name.toLowerCase();
-                (r4.startsWith("on") || "srcdoc" === r4 || ["href", "src", "action", "formaction", "xlink:href"].includes(r4) && (0, b.isDangerousUrl)(e4.value)) && t4.removeAttribute(e4.name);
+                if (r4.startsWith("on")) t4.removeAttribute(e4.name);
+                else if ("srcdoc" === r4) t4.removeAttribute(e4.name);
+                else if (["href", "src", "action", "formaction", "xlink:href"].includes(r4)) {
+                  const n3 = !("src" === r4 && "IFRAME" === t4.tagName);
+                  (0, b.isDangerousUrl)(e4.value, n3) && t4.removeAttribute(e4.name);
+                }
               }
             }
             _deduplicateImages(t3) {
@@ -9814,7 +9849,7 @@ ${a.join("\n")}
                   E.standardize && (0, s.standardizeContent)(k, _, this.doc, this.debug, w ? y2 : void 0);
                 })), A("resolveRelativeUrls", (() => this.resolveRelativeUrls(k))), this._deduplicateImages(k);
                 const L = this._removeCoverImage(k, _.image || "");
-                L && (_.image = L);
+                L && (_.image = L), this._stripUnsafeElements(k);
                 const D = k.outerHTML, O = Date.now(), I = Object.assign(Object.assign({ content: D }, _), { wordCount: this.countHtmlWords(D), parseTime: Math.round(O - v2), metaTags: T });
                 return this.debug && (I.debug = { contentSelector: this.getElementSelector(k), removals: C }), this.options.profile && (I.profile = y2), I;
               } catch (t4) {
@@ -10114,8 +10149,13 @@ ${a.join("\n")}
             }
             buildExtractorResponse(t3, e3, r3, n3, o2) {
               var i2, a2, s2, l2, c2, u2;
-              const d2 = this.resolveContentUrls(t3.contentHtml), m2 = this.getExtractorVariables(t3.variables);
-              return Object.assign({ content: d2, title: (null === (i2 = t3.variables) || void 0 === i2 ? void 0 : i2.title) || e3.title, description: (null === (a2 = t3.variables) || void 0 === a2 ? void 0 : a2.description) || e3.description, domain: e3.domain, favicon: e3.favicon, image: e3.image, language: (null === (s2 = t3.variables) || void 0 === s2 ? void 0 : s2.language) || e3.language, published: (null === (l2 = t3.variables) || void 0 === l2 ? void 0 : l2.published) || e3.published, author: (null === (c2 = t3.variables) || void 0 === c2 ? void 0 : c2.author) || e3.author, site: (null === (u2 = t3.variables) || void 0 === u2 ? void 0 : u2.site) || e3.site, schemaOrgData: e3.schemaOrgData, wordCount: this.countHtmlWords(t3.contentHtml), parseTime: Math.round(Date.now() - r3), extractorType: n3.constructor.name.replace("Extractor", "").toLowerCase(), metaTags: o2 }, m2 ? { variables: m2 } : {});
+              const d2 = this._sanitizeExtractorHtml(t3.contentHtml), m2 = this.getExtractorVariables(t3.variables);
+              return Object.assign({ content: d2, title: (null === (i2 = t3.variables) || void 0 === i2 ? void 0 : i2.title) || e3.title, description: (null === (a2 = t3.variables) || void 0 === a2 ? void 0 : a2.description) || e3.description, domain: e3.domain, favicon: e3.favicon, image: e3.image, language: (null === (s2 = t3.variables) || void 0 === s2 ? void 0 : s2.language) || e3.language, published: (null === (l2 = t3.variables) || void 0 === l2 ? void 0 : l2.published) || e3.published, author: (null === (c2 = t3.variables) || void 0 === c2 ? void 0 : c2.author) || e3.author, site: (null === (u2 = t3.variables) || void 0 === u2 ? void 0 : u2.site) || e3.site, schemaOrgData: e3.schemaOrgData, wordCount: this.countHtmlWords(d2), parseTime: Math.round(Date.now() - r3), extractorType: n3.constructor.name.replace("Extractor", "").toLowerCase(), metaTags: o2 }, m2 ? { variables: m2 } : {});
+            }
+            _sanitizeExtractorHtml(t3) {
+              if (!t3) return t3;
+              const e3 = this.doc.createElement("div");
+              return e3.appendChild((0, b.parseHTML)(this.doc, t3)), this._stripUnsafeElements(e3), this.resolveRelativeUrls(e3), (0, b.serializeHTML)(e3);
             }
             getExtractorVariables(t3) {
               if (!t3) return;
@@ -13582,11 +13622,11 @@ ${n3}` : r3, i2 = (null === (t3 = this.document.querySelector('meta[property="og
               var t3;
               if (!this.noteImage) return "";
               const e3 = null === (t3 = this.document.querySelector('meta[property="og:image"]')) || void 0 === t3 ? void 0 : t3.getAttribute("content");
-              if (e3) return `<img src="${e3}" alt="" />`;
+              if (e3) return `<img src="${(0, o.escapeHtml)(e3)}" alt="" />`;
               const r3 = this.noteImage.querySelector("img");
               if (!r3) return "";
               const n3 = this.getLargestSrc(r3);
-              return n3 ? `<img src="${n3}" alt="" />` : "";
+              return n3 ? `<img src="${(0, o.escapeHtml)(n3)}" alt="" />` : "";
             }
             getLargestSrc(t3) {
               const e3 = t3.getAttribute("srcset") || "";
@@ -13863,30 +13903,28 @@ ${n3}` : r3, i2 = (null === (t3 = this.document.querySelector('meta[property="og
           const n2 = r2(2279), o = r2(639), i = r2(6077);
           class a extends n2.BaseExtractor {
             constructor(t3, e3) {
-              var r3, n3;
-              super(t3, e3), this.mainTweet = null, this.threadTweets = [], this.replyTweets = [], this.replyDepths = [];
-              const o2 = null !== (r3 = Array.from(t3.querySelectorAll("[aria-label]")).find(((t4) => null !== t4.querySelector('[data-testid="cellInnerDiv"]')))) && void 0 !== r3 ? r3 : null;
-              if (!o2) {
-                const e4 = t3.querySelector('article[data-testid="tweet"]');
-                return void (e4 && (this.mainTweet = e4));
-              }
-              const i2 = Array.from(o2.querySelectorAll('[data-testid="cellInnerDiv"]')), a2 = null === (n3 = o2.querySelector("section, h2")) || void 0 === n3 ? void 0 : n3.parentElement;
-              let s = "", l = true, c = false, u = false, d = 0;
-              for (const t4 of i2) {
-                if (a2 && a2.compareDocumentPosition(t4) & Node.DOCUMENT_POSITION_FOLLOWING) break;
-                const e4 = t4.querySelector('article[data-testid="tweet"]');
-                if (e4) {
-                  if (l) {
-                    this.mainTweet = e4, s = this.getHandle(e4), l = false, u = true;
-                    continue;
-                  }
-                  const t5 = this.getHandle(e4);
-                  if (!c && t5 === s) {
-                    this.threadTweets.push(e4), u = true;
-                    continue;
-                  }
-                  c || (c = true), u ? d++ : d = 0, this.replyTweets.push(e4), this.replyDepths.push(d), u = true;
-                } else u = false;
+              super(t3, e3), this.mainTweet = null, this.threadTweets = [], this.replyTweets = [], this.replyDepths = [], this.classifyCells(this.conversationCells()), this.mainTweet || (this.mainTweet = t3.querySelector('article[data-testid="tweet"]'));
+            }
+            conversationCells() {
+              const t3 = [];
+              for (const e3 of Array.from(this.document.querySelectorAll('[data-testid="cellInnerDiv"], section, h2'))) if ("cellInnerDiv" === e3.getAttribute("data-testid")) t3.push(e3);
+              else if (t3.length && !e3.closest('article[data-testid="tweet"]')) break;
+              return t3;
+            }
+            classifyCells(t3) {
+              let e3 = "", r3 = false, n3 = false, o2 = 0;
+              for (const i2 of t3) {
+                const t4 = i2.querySelector('article[data-testid="tweet"]');
+                if (!t4) {
+                  n3 = false;
+                  continue;
+                }
+                if (!this.mainTweet) {
+                  this.mainTweet = t4, e3 = this.getHandle(t4), n3 = true;
+                  continue;
+                }
+                const a2 = this.getHandle(t4);
+                r3 || !a2 || a2 !== e3 ? (r3 = true, o2 = n3 ? o2 + 1 : 0, this.replyTweets.push(t4), this.replyDepths.push(o2), n3 = true) : (this.threadTweets.push(t4), n3 = true);
               }
             }
             canExtract() {
@@ -13907,9 +13945,20 @@ ${n3}` : r3, i2 = (null === (t3 = this.document.querySelector('meta[property="og
               return (0, i.buildCommentTree)(t3);
             }
             getHandle(t3) {
-              var e3, r3;
-              const n3 = t3.querySelector('[data-testid="User-Name"]'), o2 = null == n3 ? void 0 : n3.querySelectorAll("a");
-              return (null === (r3 = null === (e3 = null == o2 ? void 0 : o2[1]) || void 0 === e3 ? void 0 : e3.textContent) || void 0 === r3 ? void 0 : r3.trim()) || "";
+              var e3;
+              const r3 = t3.querySelector('[data-testid="User-Name"]');
+              if (!r3) return "";
+              const n3 = Array.from(r3.querySelectorAll("a"));
+              for (const t4 of n3) {
+                const r4 = (null === (e3 = t4.textContent) || void 0 === e3 ? void 0 : e3.trim()) || "";
+                if (/^@\w{1,15}$/.test(r4)) return r4;
+              }
+              for (const t4 of n3) {
+                const e4 = (t4.getAttribute("href") || "").match(/^(?:https?:\/\/[^/]+)?\/(\w{1,15})(?:\/|$)/);
+                if (e4 && !a.RESERVED_PATHS.has(e4[1].toLowerCase())) return `@${e4[1]}`;
+              }
+              const o2 = (r3.textContent || "").match(/@(\w{1,15})/);
+              return o2 ? `@${o2[1]}` : "";
             }
             formatTweetText(t3) {
               if (!t3) return "";
@@ -13955,21 +14004,20 @@ ${l.join("\n")}`);
               return (0, i.buildQuotedPost)({ author: u || void 0, date: s.date || void 0, content: c });
             }
             extractUserInfo(t3) {
-              var e3, r3, n3, o2, i2, a2, s, l, c;
-              const u = t3.querySelector('[data-testid="User-Name"]');
-              if (!u) return { fullName: "", handle: "", date: "", permalink: "" };
-              const d = u.querySelectorAll("a");
-              let m = (null === (r3 = null === (e3 = null == d ? void 0 : d[0]) || void 0 === e3 ? void 0 : e3.textContent) || void 0 === r3 ? void 0 : r3.trim()) || "", h = (null === (o2 = null === (n3 = null == d ? void 0 : d[1]) || void 0 === n3 ? void 0 : n3.textContent) || void 0 === o2 ? void 0 : o2.trim()) || "";
-              if (!m || !h) {
-                const t4 = Array.from(u.children);
-                if (t4.length >= 2) {
-                  m = (null === (a2 = null === (i2 = t4[0]) || void 0 === i2 ? void 0 : i2.textContent) || void 0 === a2 ? void 0 : a2.trim()) || "";
-                  const e4 = ((null === (l = null === (s = t4[1]) || void 0 === s ? void 0 : s.textContent) || void 0 === l ? void 0 : l.trim()) || "").match(/(@\w+)/);
-                  h = e4 ? e4[1] : "";
-                }
+              var e3, r3, n3;
+              const o2 = t3.querySelector('[data-testid="User-Name"]');
+              if (!o2) return { fullName: "", handle: "", date: "", permalink: "" };
+              const i2 = this.getHandle(t3);
+              let a2 = Array.from(o2.querySelectorAll("a")).map(((t4) => {
+                var e4;
+                return t4.querySelector("time") ? "" : (null === (e4 = t4.textContent) || void 0 === e4 ? void 0 : e4.trim()) || "";
+              })).find(((t4) => t4 && t4 !== i2 && !t4.startsWith("@"))) || "";
+              if (!a2) {
+                const t4 = (null === (r3 = null === (e3 = o2.children[0]) || void 0 === e3 ? void 0 : e3.textContent) || void 0 === r3 ? void 0 : r3.trim()) || "";
+                t4 && !t4.startsWith("@") && (a2 = t4);
               }
-              const p = t3.querySelector("time"), f = (null == p ? void 0 : p.getAttribute("datetime")) || "";
-              return { fullName: m, handle: h, date: f ? new Date(f).toISOString().split("T")[0] : "", permalink: (null === (c = null == p ? void 0 : p.closest("a")) || void 0 === c ? void 0 : c.href) || "" };
+              const s = t3.querySelector("time"), l = (null == s ? void 0 : s.getAttribute("datetime")) || "", c = l ? new Date(l).toISOString().split("T")[0] : "", u = (null === (n3 = null == s ? void 0 : s.closest("a")) || void 0 === n3 ? void 0 : n3.href) || "";
+              return { fullName: a2, handle: i2, date: c, permalink: u };
             }
             extractImages(t3, e3) {
               const r3 = ['[data-testid="tweetPhoto"]', '[data-testid="tweet-image"]', 'img[src*="media"]'], n3 = [];
@@ -14007,7 +14055,7 @@ ${l.join("\n")}`);
               return ((null === (e3 = t3.querySelector('[data-testid="tweetText"]')) || void 0 === e3 ? void 0 : e3.textContent) || "").trim().slice(0, 140).replace(/\s+/g, " ");
             }
           }
-          e2.TwitterExtractor = a;
+          e2.TwitterExtractor = a, a.RESERVED_PATHS = /* @__PURE__ */ new Set(["i", "home", "explore", "search", "notifications", "messages", "settings", "compose", "hashtag", "intent"]);
         }, 2144(t2, e2, r2) {
           Object.defineProperty(e2, "__esModule", { value: true }), e2.WikipediaExtractor = void 0;
           const n2 = r2(2279);
@@ -14076,8 +14124,8 @@ ${l.join("\n")}`);
               if (this.articleContainer.contains(r3)) return "";
               const n3 = r3.getAttribute("src");
               if (!n3) return "";
-              const o2 = (null === (t3 = r3.getAttribute("alt")) || void 0 === t3 ? void 0 : t3.replace(/\s+/g, " ").trim()) || "Image";
-              return `<img src="${this.upgradeImageSrc(n3)}" alt="${o2}">`;
+              const a2 = (null === (t3 = r3.getAttribute("alt")) || void 0 === t3 ? void 0 : t3.replace(/\s+/g, " ").trim()) || "Image";
+              return `<img src="${(0, o.escapeHtml)(this.upgradeImageSrc(n3))}" alt="${(0, o.escapeHtml)(a2)}">`;
             }
             cleanContent(t3) {
               const e3 = t3.ownerDocument || this.document;
@@ -14460,8 +14508,8 @@ ${l.join("\n")}`);
             }));
           };
           Object.defineProperty(e2, "__esModule", { value: true }), e2.YoutubeExtractor = void 0;
-          const o = r2(2279), i = r2(2552), a = r2(1497), s = "\u300D\u300F\uFF09", l = new RegExp(`[.!?\u3002\uFF01\uFF1F]["'\\u2019\\u201D)${s}]*\\s*$`), c = new RegExp(`[?\\uFF1F]["'\\u2019\\u201D)${s}]*\\s*$`), u = /^(>>|-\s)/, d = /^(>>\s*|-\s+)/, m = /,\s*$/, h = new RegExp(`^(.*[.!?]["'\\u2019\\u201D)]*)\\s+([A-Z].*)$|^(.*[\u3002\uFF01\uFF1F][${s}]*)([${i.CJK_CHAR_RANGES}].*)$`), p = 4e3, f = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false", g = "20.10.38", b = { client: { clientName: "ANDROID", clientVersion: g } }, x = `com.google.android.youtube/${g} (Linux; U; Android 14)`, v = { client: { clientName: "IOS", clientVersion: "20.10.3" } }, y = { client: { clientName: "WEB", clientVersion: "2.20240101.00.00" } }, w = { segments: "ytd-transcript-segment-renderer", timestamp: ".segment-timestamp", text: ".segment-text" }, A = { segments: "transcript-segment-view-model", timestamp: ".ytwTranscriptSegmentViewModelTimestamp", text: "span.yt-core-attributed-string", chapters: "timeline-chapter-view-model h3" };
-          class E extends o.BaseExtractor {
+          const o = r2(2279), i = r2(639), a = r2(2552), s = r2(1497), l = "\u300D\u300F\uFF09", c = new RegExp(`[.!?\u3002\uFF01\uFF1F]["'\\u2019\\u201D)${l}]*\\s*$`), u = new RegExp(`[?\\uFF1F]["'\\u2019\\u201D)${l}]*\\s*$`), d = /^(>>|-\s)/, m = /^(>>\s*|-\s+)/, h = /,\s*$/, p = new RegExp(`^(.*[.!?]["'\\u2019\\u201D)]*)\\s+([A-Z].*)$|^(.*[\u3002\uFF01\uFF1F][${l}]*)([${a.CJK_CHAR_RANGES}].*)$`), f = 4e3, g = "https://www.youtube.com/youtubei/v1/player?prettyPrint=false", b = "20.10.38", x = { client: { clientName: "ANDROID", clientVersion: b } }, v = `com.google.android.youtube/${b} (Linux; U; Android 14)`, y = { client: { clientName: "IOS", clientVersion: "20.10.3" } }, w = { client: { clientName: "WEB", clientVersion: "2.20240101.00.00" } }, A = { segments: "ytd-transcript-segment-renderer", timestamp: ".segment-timestamp", text: ".segment-text" }, E = { segments: "transcript-segment-view-model", timestamp: ".ytwTranscriptSegmentViewModelTimestamp", text: "span.yt-core-attributed-string", chapters: "timeline-chapter-view-model h3" };
+          class C extends o.BaseExtractor {
             constructor(t3, e3, r3, n3) {
               super(t3, e3, r3, n3), this.inlineJsonCache = /* @__PURE__ */ new Map(), this.videoElement = t3.querySelector("video"), this.schemaOrgData = r3;
             }
@@ -14553,7 +14601,7 @@ ${l.join("\n")}`);
               return t3 || this.document.querySelector("ytm-macro-markers-list-renderer .ytm-macro-markers-list-container");
             }
             getTranscriptSelectors(t3) {
-              return t3.querySelectorAll("ytd-transcript-segment-renderer").length > 0 ? w : t3.querySelectorAll("transcript-segment-view-model").length > 0 ? A : void 0;
+              return t3.querySelectorAll("ytd-transcript-segment-renderer").length > 0 ? A : t3.querySelectorAll("transcript-segment-view-model").length > 0 ? E : void 0;
             }
             buildTranscriptFromContainer(t3, e3) {
               var r3;
@@ -14566,21 +14614,21 @@ ${l.join("\n")}`);
                 for (const t4 of e4) {
                   const e5 = (t4.textContent || "").trim();
                   if (!e5) continue;
-                  const o3 = t4.closest("macro-markers-panel-item-view-model"), a2 = null === (r3 = null == o3 ? void 0 : o3.nextElementSibling) || void 0 === r3 ? void 0 : r3.querySelector(n3.timestamp), s3 = ((null == a2 ? void 0 : a2.textContent) || "").trim(), l3 = this.parseTimestamp(s3);
+                  const o3 = t4.closest("macro-markers-panel-item-view-model"), a3 = null === (r3 = null == o3 ? void 0 : o3.nextElementSibling) || void 0 === r3 ? void 0 : r3.querySelector(n3.timestamp), s2 = ((null == a3 ? void 0 : a3.textContent) || "").trim(), l3 = this.parseTimestamp(s2);
                   null !== l3 && i2.push({ title: e5, start: l3 });
                 }
               }
-              const s2 = t3.querySelectorAll(n3.segments);
-              for (const t4 of s2) {
+              const a2 = t3.querySelectorAll(n3.segments);
+              for (const t4 of a2) {
                 const e4 = t4.querySelector(n3.timestamp), r4 = t4.querySelector(n3.text);
                 if (!e4 || !r4) continue;
-                const i3 = (e4.textContent || "").trim(), a2 = (r4.textContent || "").trim();
-                if (!a2) continue;
-                const s3 = this.parseTimestamp(i3);
-                null !== s3 && o2.push({ start: s3, text: a2 });
+                const i3 = (e4.textContent || "").trim(), a3 = (r4.textContent || "").trim();
+                if (!a3) continue;
+                const s2 = this.parseTimestamp(i3);
+                null !== s2 && o2.push({ start: s2, text: a3 });
               }
               if (0 === o2.length) return;
-              const l2 = e3.length > 0 ? e3 : i2, c2 = this.groupTranscriptSegments(o2), { html: u2, text: d2 } = (0, a.buildTranscript)("youtube", c2, l2);
+              const l2 = e3.length > 0 ? e3 : i2, c2 = this.groupTranscriptSegments(o2), { html: u2, text: d2 } = (0, s.buildTranscript)("youtube", c2, l2);
               return { html: u2, text: d2, languageCode: this.getTranscriptLanguageCodeFromDom() };
             }
             extractTranscriptFromExistingDom() {
@@ -14604,7 +14652,7 @@ ${l.join("\n")}`);
               return (null == t3 ? void 0 : t3.text) && (a2.transcript = t3.text), (null == t3 ? void 0 : t3.languageCode) && (a2.language = t3.languageCode), { content: i2, contentHtml: i2, extractedContent: { videoId: this.getVideoId(), author: r3 }, variables: a2 };
             }
             formatDescription(t3) {
-              return `<p>${t3.replace(/\n/g, "<br>")}</p>`;
+              return `<p>${(0, i.escapeHtml)(t3).replace(/\n/g, "<br>")}</p>`;
             }
             getVideoData() {
               var t3, e3, r3, n3;
@@ -14716,7 +14764,7 @@ ${l.join("\n")}`);
                   if (!new URL(t3.baseUrl).hostname.endsWith(".youtube.com")) return;
                   const r3 = { "User-Agent": "Mozilla/5.0" };
                   this.options.language && (r3["Accept-Language"] = this.options.language);
-                  const n3 = yield this.fetch(t3.baseUrl, { headers: r3, signal: AbortSignal.timeout(p) });
+                  const n3 = yield this.fetch(t3.baseUrl, { headers: r3, signal: AbortSignal.timeout(f) });
                   if (!n3.ok) return;
                   let o2;
                   try {
@@ -14745,7 +14793,7 @@ ${l.join("\n")}`);
             waitForTranscriptSegments() {
               return this.pollFor((() => {
                 const t3 = this.getTranscriptContainer();
-                return t3 && 0 !== t3.children.length && t3.querySelectorAll(A.segments).length > 0 ? t3 : null;
+                return t3 && 0 !== t3.children.length && t3.querySelectorAll(E.segments).length > 0 ? t3 : null;
               }));
             }
             waitForTranscriptContainer() {
@@ -14801,7 +14849,7 @@ ${l.join("\n")}`);
                 try {
                   const e4 = { "Content-Type": "application/json" };
                   this.options.language && (e4["Accept-Language"] = this.options.language);
-                  const r3 = yield this.fetch(f, { method: "POST", headers: e4, signal: AbortSignal.timeout(p), body: JSON.stringify({ context: v, videoId: t3 }) });
+                  const r3 = yield this.fetch(g, { method: "POST", headers: e4, signal: AbortSignal.timeout(f), body: JSON.stringify({ context: y, videoId: t3 }) });
                   if (r3.ok) {
                     const t4 = yield r3.json();
                     if (this.getCaptionTracks(t4).length > 0) return t4;
@@ -14809,9 +14857,9 @@ ${l.join("\n")}`);
                 } catch (t4) {
                 }
                 try {
-                  const e4 = { "Content-Type": "application/json", "User-Agent": x };
+                  const e4 = { "Content-Type": "application/json", "User-Agent": v };
                   this.options.language && (e4["Accept-Language"] = this.options.language);
-                  const r3 = yield this.fetch(f, { method: "POST", headers: e4, signal: AbortSignal.timeout(p), body: JSON.stringify({ context: b, videoId: t3 }) });
+                  const r3 = yield this.fetch(g, { method: "POST", headers: e4, signal: AbortSignal.timeout(f), body: JSON.stringify({ context: x, videoId: t3 }) });
                   if (r3.ok) {
                     const t4 = yield r3.json();
                     if (this.getCaptionTracks(t4).length > 0) return t4;
@@ -14821,7 +14869,7 @@ ${l.join("\n")}`);
                 try {
                   const e4 = { "Content-Type": "application/json" };
                   this.options.language && (e4["Accept-Language"] = this.options.language);
-                  const r3 = yield this.fetch(f, { method: "POST", headers: e4, signal: AbortSignal.timeout(p), body: JSON.stringify({ context: y, videoId: t3 }) });
+                  const r3 = yield this.fetch(g, { method: "POST", headers: e4, signal: AbortSignal.timeout(f), body: JSON.stringify({ context: w, videoId: t3 }) });
                   if (r3.ok) {
                     const t4 = yield r3.json();
                     if (this.getCaptionTracks(t4).length > 0) return t4;
@@ -14839,7 +14887,7 @@ ${l.join("\n")}`);
                 try {
                   const e4 = { "Content-Type": "application/json" };
                   this.options.language && (e4["Accept-Language"] = this.options.language);
-                  const r3 = yield this.fetch("https://www.youtube.com/youtubei/v1/next?prettyPrint=false", { method: "POST", headers: e4, signal: AbortSignal.timeout(p), body: JSON.stringify({ context: y, videoId: t3 }) });
+                  const r3 = yield this.fetch("https://www.youtube.com/youtubei/v1/next?prettyPrint=false", { method: "POST", headers: e4, signal: AbortSignal.timeout(f), body: JSON.stringify({ context: w, videoId: t3 }) });
                   if (!r3.ok) return [];
                   const n3 = yield r3.json(), o2 = this.extractChaptersFromPlayerBar(n3);
                   return o2.length > 0 ? o2 : this.extractChaptersFromEngagementPanels(n3);
@@ -14891,8 +14939,8 @@ ${l.join("\n")}`);
                 const t4 = parseInt(i2[1], 10), e4 = i2[2];
                 let r4 = "";
                 const o3 = /<s[^>]*>([^<]*)<\/s>/g;
-                let a2;
-                for (; null !== (a2 = o3.exec(e4)); ) r4 += a2[1];
+                let a3;
+                for (; null !== (a3 = o3.exec(e4)); ) r4 += a3[1];
                 r4 || (r4 = e4.replace(/<[^>]+>/g, "")), r4 = r4.replace(/\n/g, " ").replace(/\s{2,}/g, " "), r4 = this.decodeEntities(r4), r4.trim() && n3.push({ start: t4 / 1e3, text: r4.trim() });
               }
               if (0 === n3.length) {
@@ -14904,7 +14952,7 @@ ${l.join("\n")}`);
                 }
               }
               if (0 === n3.length) return;
-              const s2 = this.groupTranscriptSegments(n3), { html: l2, text: c2 } = (0, a.buildTranscript)("youtube", s2, r3);
+              const a2 = this.groupTranscriptSegments(n3), { html: l2, text: c2 } = (0, s.buildTranscript)("youtube", a2, r3);
               return { html: l2, text: c2, languageCode: e3 };
             }
             decodeEntities(t3) {
@@ -14919,14 +14967,14 @@ ${l.join("\n")}`);
             }
             groupTranscriptSegments(t3) {
               if (0 === t3.length) return [];
-              return t3.some(((t4) => u.test(t4.text))) ? this.groupBySpeaker(t3) : this.groupBySentence(t3);
+              return t3.some(((t4) => d.test(t4.text))) ? this.groupBySpeaker(t3) : this.groupBySentence(t3);
             }
             groupBySpeaker(t3) {
               const e3 = [];
               let r3 = null, n3 = -1, o2 = "";
               for (const i3 of t3) {
-                const t4 = u.test(i3.text), a2 = i3.text.replace(d, ""), s2 = m.test(o2), c2 = (l.test(o2) || !o2) && !s2;
-                t4 && c2 ? (r3 && e3.push(r3), n3 = (n3 + 1) % 2, r3 = { start: i3.start, segments: [{ start: i3.start, text: a2 }], speakerChange: true, speaker: n3 }) : (r3 || (r3 = { start: i3.start, segments: [], speakerChange: false }), r3.segments.push({ start: i3.start, text: a2 })), o2 = a2;
+                const t4 = d.test(i3.text), a2 = i3.text.replace(m, ""), s2 = h.test(o2), l2 = (c.test(o2) || !o2) && !s2;
+                t4 && l2 ? (r3 && e3.push(r3), n3 = (n3 + 1) % 2, r3 = { start: i3.start, segments: [{ start: i3.start, text: a2 }], speakerChange: true, speaker: n3 }) : (r3 || (r3 = { start: i3.start, segments: [], speakerChange: false }), r3.segments.push({ start: i3.start, text: a2 })), o2 = a2;
               }
               r3 && e3.push(r3), this.splitAffirmativeTurns(e3);
               const i2 = [];
@@ -14941,12 +14989,12 @@ ${l.join("\n")}`);
               for (let r3 = 0; r3 < t3.length; r3++) {
                 const n3 = t3[r3];
                 if (void 0 === n3.speaker || 0 === n3.segments.length) continue;
-                const o2 = n3.segments[0], a2 = e3.exec(o2.text);
-                if (!a2) continue;
-                if (/,\s*$/.test(a2[0])) continue;
-                const s2 = o2.text.slice(a2[0].length).trim(), l2 = n3.segments.slice(1);
-                if ((0, i.countWords)(s2) + l2.reduce(((t4, e4) => t4 + (0, i.countWords)(e4.text)), 0) < 30) continue;
-                const c2 = a2[0].trimEnd(), u2 = s2 ? [{ start: o2.start, text: s2 }, ...l2] : l2, d2 = { start: n3.start, segments: [{ start: o2.start, text: c2 }], speakerChange: n3.speakerChange, speaker: n3.speaker }, m2 = { start: u2[0].start, segments: u2, speakerChange: true, speaker: 0 === n3.speaker ? 1 : 0 };
+                const o2 = n3.segments[0], i2 = e3.exec(o2.text);
+                if (!i2) continue;
+                if (/,\s*$/.test(i2[0])) continue;
+                const s2 = o2.text.slice(i2[0].length).trim(), l2 = n3.segments.slice(1);
+                if ((0, a.countWords)(s2) + l2.reduce(((t4, e4) => t4 + (0, a.countWords)(e4.text)), 0) < 30) continue;
+                const c2 = i2[0].trimEnd(), u2 = s2 ? [{ start: o2.start, text: s2 }, ...l2] : l2, d2 = { start: n3.start, segments: [{ start: o2.start, text: c2 }], speakerChange: n3.speakerChange, speaker: n3.speaker }, m2 = { start: u2[0].start, segments: u2, speakerChange: true, speaker: 0 === n3.speaker ? 1 : 0 };
                 t3.splice(r3, 1, d2, m2), r3++;
               }
             }
@@ -14961,12 +15009,12 @@ ${l.join("\n")}`);
               return e3.push(r3), e3;
             }
             shouldMergeSentenceGroups(t3, e3, r3) {
-              const n3 = (0, i.countWords)(t3.text), o2 = (0, i.countWords)(e3.text);
-              return !this.isShortStandaloneUtterance(t3.text, n3) && !this.isShortStandaloneUtterance(e3.text, o2) && (!(r3 && n3 < 8) && (!c.test(t3.text) && !c.test(e3.text) && (!(n3 + o2 > 80) && !(e3.start - t3.start > 45))));
+              const n3 = (0, a.countWords)(t3.text), o2 = (0, a.countWords)(e3.text);
+              return !this.isShortStandaloneUtterance(t3.text, n3) && !this.isShortStandaloneUtterance(e3.text, o2) && (!(r3 && n3 < 8) && (!u.test(t3.text) && !u.test(e3.text) && (!(n3 + o2 > 80) && !(e3.start - t3.start > 45))));
             }
             isShortStandaloneUtterance(t3, e3) {
-              const r3 = null != e3 ? e3 : (0, i.countWords)(t3);
-              return r3 > 0 && r3 <= 3 && l.test(t3);
+              const r3 = null != e3 ? e3 : (0, a.countWords)(t3);
+              return r3 > 0 && r3 <= 3 && c.test(t3);
             }
             groupBySentence(t3) {
               const e3 = [], r3 = [], n3 = (t4) => {
@@ -14975,7 +15023,7 @@ ${l.join("\n")}`);
               }, o2 = () => {
                 0 !== r3.length && (n3(r3), r3.length = 0);
               };
-              for (const e4 of t3) if (r3.length > 0 && e4.start - r3[r3.length - 1].start > 20 && o2(), r3.push(e4), l.test(e4.text)) o2();
+              for (const e4 of t3) if (r3.length > 0 && e4.start - r3[r3.length - 1].start > 20 && o2(), r3.push(e4), c.test(e4.text)) o2();
               else if (e4.start - r3[0].start >= 30) {
                 const t4 = this.findNaturalBreak(r3);
                 t4 > 0 && t4 < r3.length ? (i2 = t4) <= 0 || n3(r3.splice(0, i2)) : o2();
@@ -14988,7 +15036,7 @@ ${l.join("\n")}`);
               if (t3.length <= 1) return -1;
               const n3 = t3[0].start + 15;
               for (let o3 = t3.length - 1; o3 >= 0 && !(t3[o3].start < n3); o3--) {
-                const n4 = t3[o3].text.match(h);
+                const n4 = t3[o3].text.match(p);
                 if (n4) {
                   const i3 = null !== (e3 = n4[1]) && void 0 !== e3 ? e3 : n4[3], a2 = null !== (r3 = n4[2]) && void 0 !== r3 ? r3 : n4[4], s2 = t3[o3].start;
                   return t3.splice(o3, 1, { start: s2, text: i3 }, { start: s2, text: a2 }), o3 + 1;
@@ -15003,7 +15051,7 @@ ${l.join("\n")}`);
               return o2;
             }
           }
-          e2.YoutubeExtractor = E;
+          e2.YoutubeExtractor = C;
         }, 9098(t2, e2, r2) {
           var n2 = this && this.__awaiter || function(t3, e3, r3, n3) {
             return new (r3 || (r3 = Promise))((function(o2, i2) {
@@ -15839,10 +15887,10 @@ ${t3}`;
             if (l2.querySelector("img, picture, video, iframe, figure, table, pre, code, time, [datetime], h1, h2, h3, h4, h5, h6, ul, ol, blockquote")) return;
             e3 && r3 && r3.push({ step: "removeEyebrowLabel", reason: "eyebrow label", text: (0, o.textPreview)(l2) });
             l2.remove();
-          }, e2.removeByContentPattern = function(t3, e3, r3, h2, M, R) {
-            var B, P, F, H, U, j, z, W, G, V, X, J, Y, Z, K, Q, tt, et, rt, nt, ot, it, at, st, lt, ct, ut, dt, mt, ht, pt, ft, gt;
-            const bt = (0, i.findContentStart)(t3, h2), xt = (t4) => (0, i.isAboveContentStart)(t4, bt), vt = (0, o.normalizeText)(h2), yt = (0, o.normalizeText)(M), wt = t3.querySelector("ul, ol");
-            if (wt && (function(t4) {
+          }, e2.removeByContentPattern = function(t3, e3, r3, h2, R, B) {
+            var P, F, H, U, j, z, W, G, V, X, J, Y, Z, K, Q, tt, et, rt, nt, ot, it, at, st, lt, ct, ut, dt, mt, ht, pt, ft, gt, bt;
+            const xt = (0, i.findContentStart)(t3, h2), vt = (t4) => (0, i.isAboveContentStart)(t4, xt), yt = (0, o.normalizeText)(h2), wt = (0, o.normalizeText)(R), At = t3.querySelector("ul, ol");
+            if (At && (function(t4) {
               const e4 = t4.querySelectorAll("li");
               if (e4.length < 2 || e4.length > 8) return false;
               const r4 = Array.from(t4.querySelectorAll("a"));
@@ -15859,19 +15907,19 @@ ${t3}`;
                 ("/" === e5 || /^\/[a-zA-Z0-9_-]+\/?$/.test(e5)) && (i2 = true), (t5.textContent || "").trim().split(/\s+/).filter(Boolean).length > 5 && (a2 = false);
               }
               return n3 && i2 && a2;
-            })(wt)) {
-              let r4 = wt;
+            })(At)) {
+              let r4 = At;
               for (; r4.parentElement && r4.parentElement !== t3 && 1 === r4.parentElement.children.length; ) r4 = r4.parentElement;
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "breadcrumb navigation list", text: (0, o.textPreview)(r4) }), r4.remove();
+              e3 && B && B.push({ step: "removeByContentPattern", reason: "breadcrumb navigation list", text: (0, o.textPreview)(r4) }), r4.remove();
             }
-            const At = t3.querySelector("h1");
-            if (At) for (const r4 of t3.querySelectorAll("a[href]")) {
+            const Et = t3.querySelector("h1");
+            if (Et) for (const r4 of t3.querySelectorAll("a[href]")) {
               if (!r4.parentNode) continue;
-              if (!(4 & r4.compareDocumentPosition(At))) continue;
+              if (!(4 & r4.compareDocumentPosition(Et))) continue;
               if (!r4.querySelector("div")) continue;
               if (r4.querySelector("img, picture, video")) continue;
-              const t4 = (null === (B = r4.textContent) || void 0 === B ? void 0 : B.trim()) || "";
-              (0, o.countWords)(t4) > 25 || (/[.!?]\s/.test(t4) || (e3 && R && R.push({ step: "removeByContentPattern", reason: "promotional banner link", text: (0, o.textPreview)(r4) }), r4.remove()));
+              const t4 = (null === (P = r4.textContent) || void 0 === P ? void 0 : P.trim()) || "";
+              (0, o.countWords)(t4) > 25 || (/[.!?]\s/.test(t4) || (e3 && B && B.push({ step: "removeByContentPattern", reason: "promotional banner link", text: (0, o.textPreview)(r4) }), r4.remove()));
             }
             !(function(t4, e4, r4, n3) {
               var a2;
@@ -15900,26 +15948,26 @@ ${t3}`;
                 }
                 if (s3) return r4 && n3 && n3.push({ step: "removeByContentPattern", reason: "hero header block", text: (0, o.textPreview)(s3) }), void s3.remove();
               }
-            })(t3, bt, e3, R);
+            })(t3, xt, e3, B);
             for (const r4 of t3.querySelectorAll("audio, video")) {
               if (!r4.parentNode) continue;
               if (!r4.getAttribute("src") && !r4.querySelector("source")) continue;
               let n3 = r4;
-              for (; n3.parentElement && n3.parentElement !== t3 && !((0, o.countWords)((null === (P = n3.parentElement.textContent) || void 0 === P ? void 0 : P.trim()) || "") > 25); ) n3 = n3.parentElement;
-              const i2 = (null === (F = n3.textContent) || void 0 === F ? void 0 : F.trim()) || "", a2 = /\blisten\s+to\s+(?:this\s+)?(?:article|story|post|episode|podcast)\b/i.test(i2), s2 = !a2 && xt(n3) && (0, o.countWords)(i2) <= 25;
-              (a2 || s2) && (e3 && R && R.push({ step: "removeByContentPattern", reason: "audio player widget", text: (0, o.textPreview)(n3) }), n3.remove());
+              for (; n3.parentElement && n3.parentElement !== t3 && !((0, o.countWords)((null === (F = n3.parentElement.textContent) || void 0 === F ? void 0 : F.trim()) || "") > 25); ) n3 = n3.parentElement;
+              const i2 = (null === (H = n3.textContent) || void 0 === H ? void 0 : H.trim()) || "", a2 = /\blisten\s+to\s+(?:this\s+)?(?:article|story|post|episode|podcast)\b/i.test(i2), s2 = !a2 && vt(n3) && (0, o.countWords)(i2) <= 25;
+              (a2 || s2) && (e3 && B && B.push({ step: "removeByContentPattern", reason: "audio player widget", text: (0, o.textPreview)(n3) }), n3.remove());
             }
-            const Et = t3.textContent || "";
-            let Ct = null;
+            const Ct = t3.textContent || "";
+            let St = null;
             try {
-              Ct = new URL(r3);
+              St = new URL(r3);
             } catch (t4) {
             }
             for (const i2 of t3.querySelectorAll("ul, ol")) {
               if (!i2.parentNode) continue;
               if (i2.closest("#footnotes")) continue;
-              const a2 = (null === (H = i2.textContent) || void 0 === H ? void 0 : H.trim()) || "", s2 = Et.indexOf(a2.substring(0, 60));
-              if (s2 < 0 || s2 > 0.3 * Et.length) continue;
+              const a2 = (null === (U = i2.textContent) || void 0 === U ? void 0 : U.trim()) || "", s2 = Ct.indexOf(a2.substring(0, 60));
+              if (s2 < 0 || s2 > 0.3 * Ct.length) continue;
               const l2 = Array.from(i2.querySelectorAll("a[href]"));
               if (l2.length < 3) continue;
               if (i2.querySelector(n2.CONTENT_ELEMENT_SELECTOR)) continue;
@@ -15927,9 +15975,9 @@ ${t3}`;
               for (const t4 of l2) {
                 const e4 = t4.getAttribute("href") || "";
                 if (e4.startsWith("#")) c2++;
-                else if (Ct && e4.includes("#")) try {
+                else if (St && e4.includes("#")) try {
                   const t5 = new URL(e4, r3);
-                  t5.pathname === Ct.pathname && t5.hostname === Ct.hostname && c2++;
+                  t5.pathname === St.pathname && t5.hostname === St.hostname && c2++;
                 } catch (t5) {
                 }
               }
@@ -15938,76 +15986,76 @@ ${t3}`;
               for (; u2.parentElement && u2.parentElement !== t3 && 1 === u2.parentElement.children.length; ) u2 = u2.parentElement;
               const d2 = u2.previousElementSibling;
               if (d2 && A.test(d2.tagName)) {
-                const t4 = (null === (U = d2.textContent) || void 0 === U ? void 0 : U.trim()) || "";
-                /^(?:table of )?contents$|^on this page$|^in this (?:article|guide|post)$/i.test(t4) && (e3 && R && R.push({ step: "removeByContentPattern", reason: "table of contents heading", text: (0, o.textPreview)(d2) }), d2.remove());
+                const t4 = (null === (j = d2.textContent) || void 0 === j ? void 0 : j.trim()) || "";
+                /^(?:table of )?contents$|^on this page$|^in this (?:article|guide|post)$/i.test(t4) && (e3 && B && B.push({ step: "removeByContentPattern", reason: "table of contents heading", text: (0, o.textPreview)(d2) }), d2.remove());
               }
               const m2 = u2.previousElementSibling, h3 = u2.nextElementSibling;
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "table of contents", text: (0, o.textPreview)(u2) }), u2.remove(), "HR" === (null == m2 ? void 0 : m2.tagName) && m2.remove(), "HR" === (null == h3 ? void 0 : h3.tagName) && h3.remove();
+              e3 && B && B.push({ step: "removeByContentPattern", reason: "table of contents", text: (0, o.textPreview)(u2) }), u2.remove(), "HR" === (null == m2 ? void 0 : m2.tagName) && m2.remove(), "HR" === (null == h3 ? void 0 : h3.tagName) && h3.remove();
               break;
             }
-            const St = Array.from(t3.querySelectorAll("p, span, div, time"));
-            let Tt = false, _t = false;
-            for (const r4 of St) {
+            const Tt = Array.from(t3.querySelectorAll("p, span, div, time"));
+            let _t = false, qt = false;
+            for (const r4 of Tt) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (j = r4.textContent) || void 0 === j ? void 0 : j.trim()) || "", i2 = (0, o.countWords)(n3);
+              const n3 = (null === (z = r4.textContent) || void 0 === z ? void 0 : z.trim()) || "", i2 = (0, o.countWords)(n3);
               if (i2 > 15 || 0 === i2) continue;
               if (r4.closest("pre, code")) continue;
               const m2 = r4.tagName, h3 = a.test(n3);
               let p2 = -2;
-              const b2 = () => (-2 === p2 && (p2 = Et.indexOf(n3)), p2);
+              const b2 = () => (-2 === p2 && (p2 = Ct.indexOf(n3)), p2);
               if (f.test(n3) && b2() <= 300) {
                 let n4 = r4;
-                n4.parentElement && n4.parentElement !== t3 && (n4 = n4.parentElement), e3 && R && R.push({ step: "removeByContentPattern", reason: "timezone widget", text: (0, o.textPreview)(n4) }), n4.remove();
-              } else if (1 === i2 && g.test(n3)) e3 && R && R.push({ step: "removeByContentPattern", reason: "pinned label", text: (0, o.textPreview)(r4) }), r4.remove();
+                n4.parentElement && n4.parentElement !== t3 && (n4 = n4.parentElement), e3 && B && B.push({ step: "removeByContentPattern", reason: "timezone widget", text: (0, o.textPreview)(n4) }), n4.remove();
+              } else if (1 === i2 && g.test(n3)) e3 && B && B.push({ step: "removeByContentPattern", reason: "pinned label", text: (0, o.textPreview)(r4) }), r4.remove();
               else {
-                for (const [t4, a2] of [[vt, "duplicate title"], [yt, "duplicate description"]]) if (t4 && i2 >= 3 && xt(r4) && (0, o.normalizeText)(n3) === t4) {
-                  e3 && R && R.push({ step: "removeByContentPattern", reason: a2, text: (0, o.textPreview)(r4) }), r4.remove();
+                for (const [t4, a2] of [[yt, "duplicate title"], [wt, "duplicate description"]]) if (t4 && i2 >= 3 && vt(r4) && (0, o.normalizeText)(n3) === t4) {
+                  e3 && B && B.push({ step: "removeByContentPattern", reason: a2, text: (0, o.textPreview)(r4) }), r4.remove();
                   break;
                 }
-                if (r4.parentNode) if (("DIV" === m2 || "P" === m2) && i2 >= 1 && i2 <= 10 && (h3 || s.test(n3)) && !d.test(n3) && !/[.!?]/.test(n3) && xt(r4) && !Array.from(r4.querySelectorAll("p, h1, h2, h3, h4, h5, h6")).some(((t4) => (0, o.countWords)(t4.textContent || "") > 8))) e3 && R && R.push({ step: "removeByContentPattern", reason: "article metadata header block", text: (0, o.textPreview)(r4) }), r4.remove();
+                if (r4.parentNode) if (("DIV" === m2 || "P" === m2) && i2 >= 1 && i2 <= 10 && (h3 || s.test(n3)) && !d.test(n3) && !/[.!?]/.test(n3) && vt(r4) && !Array.from(r4.querySelectorAll("p, h1, h2, h3, h4, h5, h6")).some(((t4) => (0, o.countWords)(t4.textContent || "") > 8))) e3 && B && B.push({ step: "removeByContentPattern", reason: "article metadata header block", text: (0, o.textPreview)(r4) }), r4.remove();
                 else {
-                  if ("DIV" === m2 && i2 >= 1 && i2 <= 5 && !/[.!?]/.test(n3) && xt(r4) && r4.querySelector("img")) {
+                  if ("DIV" === m2 && i2 >= 1 && i2 <= 5 && !/[.!?]/.test(n3) && vt(r4) && r4.querySelector("img")) {
                     const t4 = r4.querySelectorAll("a[href]");
                     if (t4.length > 0) {
                       let i3 = 0;
-                      for (const e4 of t4) i3 += ((null === (z = e4.textContent) || void 0 === z ? void 0 : z.trim()) || "").length;
+                      for (const e4 of t4) i3 += ((null === (W = e4.textContent) || void 0 === W ? void 0 : W.trim()) || "").length;
                       if (i3 / (n3.length || 1) >= 0.8) {
-                        e3 && R && R.push({ step: "removeByContentPattern", reason: "category badge", text: (0, o.textPreview)(r4) }), r4.remove();
+                        e3 && B && B.push({ step: "removeByContentPattern", reason: "category badge", text: (0, o.textPreview)(r4) }), r4.remove();
                         continue;
                       }
                     }
                   }
-                  if (!Tt && u.test(n3) && i2 >= 2 && !/[.!?]$/.test(n3) && xt(r4)) {
-                    const i3 = L(r4, n3, t3);
-                    e3 && R && R.push({ step: "removeByContentPattern", reason: "author byline", text: (0, o.textPreview)(i3) }), i3.remove(), Tt = true;
+                  if (!_t && u.test(n3) && i2 >= 2 && !/[.!?]$/.test(n3) && vt(r4)) {
+                    const i3 = D(r4, n3, t3);
+                    e3 && B && B.push({ step: "removeByContentPattern", reason: "author byline", text: (0, o.textPreview)(i3) }), i3.remove(), _t = true;
                   } else {
-                    if (l.test(n3) && (h3 ? 0 === r4.querySelectorAll("p, div, section, article").length : i2 <= 5 && xt(r4))) {
+                    if (l.test(n3) && (h3 ? 0 === r4.querySelectorAll("p, div, section, article").length : i2 <= 5 && vt(r4))) {
                       let i3 = n3;
                       for (const t4 of N) i3 = i3.replace(t4, "");
                       if (0 === i3.trim().length) {
-                        const i4 = h3 ? r4 : L(r4, n3, t3);
-                        e3 && R && R.push({ step: "removeByContentPattern", reason: "read time metadata", text: (0, o.textPreview)(i4) }), i4.remove();
+                        const i4 = h3 ? r4 : D(r4, n3, t3);
+                        e3 && B && B.push({ step: "removeByContentPattern", reason: "read time metadata", text: (0, o.textPreview)(i4) }), i4.remove();
                         continue;
                       }
                     }
-                    if (!_t && i2 >= 2 && i2 <= 10 && h3 && !d.test(n3) && xt(r4)) {
+                    if (!qt && i2 >= 2 && i2 <= 10 && h3 && !d.test(n3) && vt(r4)) {
                       let i3 = n3;
                       for (const t4 of k) i3 = i3.replace(t4, "");
                       if (i3 = i3.trim(), i3) {
                         const a2 = i3.split(/\s+/).filter(((t4) => t4.length > 0));
                         if (a2.length >= 1 && a2.length <= 4 && a2.every(((t4) => c.test(t4)))) {
-                          const i4 = L(r4, n3, t3);
-                          e3 && R && R.push({ step: "removeByContentPattern", reason: "author date metadata", text: (0, o.textPreview)(i4) }), i4.remove(), _t = true;
+                          const i4 = D(r4, n3, t3);
+                          e3 && B && B.push({ step: "removeByContentPattern", reason: "author date metadata", text: (0, o.textPreview)(i4) }), i4.remove(), qt = true;
                           continue;
                         }
                       }
                     }
-                    if (h3 && i2 <= 5 && xt(r4)) {
+                    if (h3 && i2 <= 5 && vt(r4)) {
                       let i3 = n3;
                       for (const t4 of q) i3 = i3.replace(t4, "");
                       if (i3 = i3.replace(/[,\s/\-]+/g, "").trim(), 0 === i3.length) {
-                        const i4 = L(r4, n3, t3);
-                        e3 && R && R.push({ step: "removeByContentPattern", reason: "standalone date metadata", text: (0, o.textPreview)(i4) }), i4.remove();
+                        const i4 = D(r4, n3, t3);
+                        e3 && B && B.push({ step: "removeByContentPattern", reason: "standalone date metadata", text: (0, o.textPreview)(i4) }), i4.remove();
                         continue;
                       }
                     }
@@ -16015,12 +16063,12 @@ ${t3}`;
                 }
               }
             }
-            const qt = Array.from(t3.querySelectorAll("time"));
-            for (const r4 of qt) {
+            const Nt = Array.from(t3.querySelectorAll("time"));
+            for (const r4 of Nt) {
               if (!r4.parentNode) continue;
-              let n3 = r4, i2 = (null === (W = n3.textContent) || void 0 === W ? void 0 : W.trim()) || "";
+              let n3 = r4, i2 = (null === (G = n3.textContent) || void 0 === G ? void 0 : G.trim()) || "";
               for (; n3.parentElement && n3.parentElement !== t3; ) {
-                const t4 = n3.parentElement.tagName.toLowerCase(), e4 = (null === (G = n3.parentElement.textContent) || void 0 === G ? void 0 : G.trim()) || "";
+                const t4 = n3.parentElement.tagName.toLowerCase(), e4 = (null === (V = n3.parentElement.textContent) || void 0 === V ? void 0 : V.trim()) || "";
                 if ("p" === t4 && e4 === i2) {
                   n3 = n3.parentElement;
                   break;
@@ -16028,27 +16076,27 @@ ${t3}`;
                 if (!["i", "em", "span", "b", "strong", "small"].includes(t4) || e4 !== i2) break;
                 n3 = n3.parentElement, i2 = e4;
               }
-              const a2 = (null === (V = n3.textContent) || void 0 === V ? void 0 : V.trim()) || "";
+              const a2 = (null === (X = n3.textContent) || void 0 === X ? void 0 : X.trim()) || "";
               if ((0, o.countWords)(a2) > 10) continue;
-              const s2 = Et.indexOf(a2), l2 = Et.length - (s2 + a2.length);
-              s2 > 200 && l2 > 200 || (e3 && R && R.push({ step: "removeByContentPattern", reason: "boundary date element", text: (0, o.textPreview)(n3) }), n3.remove());
+              const s2 = Ct.indexOf(a2), l2 = Ct.length - (s2 + a2.length);
+              s2 > 200 && l2 > 200 || (e3 && B && B.push({ step: "removeByContentPattern", reason: "boundary date element", text: (0, o.textPreview)(n3) }), n3.remove());
             }
-            const Nt = t3.querySelectorAll("ul, ol, dl");
-            for (const r4 of Nt) {
+            const kt = t3.querySelectorAll("ul, ol, dl");
+            for (const r4 of kt) {
               if (!r4.parentNode) continue;
               if (r4.closest("#footnotes")) continue;
               const n3 = "DL" === r4.tagName, i2 = Array.from(r4.children).filter(((t4) => n3 ? "DD" === t4.tagName : "LI" === t4.tagName)), a2 = n3 ? 1 : 2;
               if (i2.length < a2 || i2.length > 8) continue;
-              const s2 = (null === (X = r4.textContent) || void 0 === X ? void 0 : X.trim()) || "", l2 = Et.indexOf(s2), c2 = Et.length - (l2 + s2.length);
+              const s2 = (null === (J = r4.textContent) || void 0 === J ? void 0 : J.trim()) || "", l2 = Ct.indexOf(s2), c2 = Ct.length - (l2 + s2.length);
               if (l2 > 500 && c2 > 500) continue;
               const u2 = r4.previousElementSibling;
               if (u2) {
                 if (E(u2)) continue;
-                if (((null === (J = u2.textContent) || void 0 === J ? void 0 : J.trim()) || "").endsWith(":")) continue;
+                if (((null === (Y = u2.textContent) || void 0 === Y ? void 0 : Y.trim()) || "").endsWith(":")) continue;
               }
               let d2 = true;
               for (const t4 of i2) {
-                const e4 = (null === (Y = t4.textContent) || void 0 === Y ? void 0 : Y.trim()) || "";
+                const e4 = (null === (Z = t4.textContent) || void 0 === Z ? void 0 : Z.trim()) || "";
                 if ((0, o.countWords)(e4) > 8) {
                   d2 = false;
                   break;
@@ -16060,19 +16108,19 @@ ${t3}`;
               }
               if (!d2) continue;
               if ((0, o.countWords)(s2) > 30) continue;
-              const m2 = L(r4, s2, t3);
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "blog metadata list", text: (0, o.textPreview)(m2) }), m2.remove();
+              const m2 = D(r4, s2, t3);
+              e3 && B && B.push({ step: "removeByContentPattern", reason: "blog metadata list", text: (0, o.textPreview)(m2) }), m2.remove();
             }
-            const kt = (null == Ct ? void 0 : Ct.pathname) || "", Lt = (null == Ct ? void 0 : Ct.hostname.replace(/^www\./, "")) || "";
-            if (kt) {
+            const Lt = (null == St ? void 0 : St.pathname) || "", Dt = (null == St ? void 0 : St.hostname.replace(/^www\./, "")) || "";
+            if (Lt) {
               const n3 = t3.querySelectorAll("div, span, p, a[href]"), i2 = t3.querySelector("h1, h2, h3");
               for (const a2 of n3) {
                 if (!a2.parentNode) continue;
-                const n4 = (null === (Z = a2.textContent) || void 0 === Z ? void 0 : Z.trim()) || "";
+                const n4 = (null === (K = a2.textContent) || void 0 === K ? void 0 : K.trim()) || "";
                 if ((0, o.countWords)(n4) > 10) continue;
                 if (a2.querySelectorAll("p, div, section, article").length > 0) continue;
                 if (a2.matches("a[href]") && a2.parentElement && a2.parentElement !== t3) {
-                  if (((null === (K = a2.parentElement.textContent) || void 0 === K ? void 0 : K.trim()) || "") !== n4) {
+                  if (((null === (Q = a2.parentElement.textContent) || void 0 === Q ? void 0 : Q.trim()) || "") !== n4) {
                     if (a2.closest("p")) continue;
                     if (!i2) continue;
                     if (!(4 & a2.compareDocumentPosition(i2))) continue;
@@ -16080,13 +16128,13 @@ ${t3}`;
                 }
                 const s2 = a2.matches("a[href]") ? a2 : a2.querySelector("a[href]");
                 if (s2) try {
-                  const t4 = new URL(s2.getAttribute("href") || "", r3).pathname, n5 = t4.replace(/\/[^/]*$/, "/"), i3 = /^index\.(html?|php)$/i.test(t4.split("/").pop() || "") && kt.startsWith(n5);
-                  "/" !== t4 && t4 !== kt && (kt.startsWith(t4) || i3) && (e3 && R && R.push({ step: "removeByContentPattern", reason: "section breadcrumb", text: (0, o.textPreview)(a2) }), a2.remove());
+                  const t4 = new URL(s2.getAttribute("href") || "", r3).pathname, n5 = t4.replace(/\/[^/]*$/, "/"), i3 = /^index\.(html?|php)$/i.test(t4.split("/").pop() || "") && Lt.startsWith(n5);
+                  "/" !== t4 && t4 !== Lt && (Lt.startsWith(t4) || i3) && (e3 && B && B.push({ step: "removeByContentPattern", reason: "section breadcrumb", text: (0, o.textPreview)(a2) }), a2.remove());
                 } catch (t4) {
                 }
               }
             }
-            if (Lt) {
+            if (Dt) {
               const n3 = t3.querySelectorAll("h2, h3, h4, h5, h6");
               for (const i2 of n3) {
                 if (!i2.parentNode) continue;
@@ -16098,7 +16146,7 @@ ${t3}`;
                 for (; l2 && l2 !== t3; ) {
                   let t4 = l2.nextElementSibling;
                   for (; t4; ) {
-                    if (((null === (Q = t4.textContent) || void 0 === Q ? void 0 : Q.trim()) || "").length > 0) {
+                    if (((null === (tt = t4.textContent) || void 0 === tt ? void 0 : tt.trim()) || "").length > 0) {
                       s2 = true;
                       break;
                     }
@@ -16115,12 +16163,12 @@ ${t3}`;
                     c2 = false;
                     break;
                   }
-                  const n5 = (null === (tt = t4.textContent) || void 0 === tt ? void 0 : tt.trim()) || "";
+                  const n5 = (null === (et = t4.textContent) || void 0 === et ? void 0 : et.trim()) || "";
                   let o2 = 0;
                   for (const t5 of e4) {
-                    o2 += ((null === (et = t5.textContent) || void 0 === et ? void 0 : et.trim()) || "").length;
+                    o2 += ((null === (rt = t5.textContent) || void 0 === rt ? void 0 : rt.trim()) || "").length;
                     try {
-                      if (new URL(t5.getAttribute("href") || "", r3).hostname.replace(/^www\./, "") === Lt) {
+                      if (new URL(t5.getAttribute("href") || "", r3).hostname.replace(/^www\./, "") === Dt) {
                         c2 = false;
                         break;
                       }
@@ -16133,16 +16181,16 @@ ${t3}`;
                     break;
                   }
                 }
-                c2 && (e3 && R && (R.push({ step: "removeByContentPattern", reason: "trailing external link list", text: (0, o.textPreview)(i2) }), R.push({ step: "removeByContentPattern", reason: "trailing external link list", text: (0, o.textPreview)(n4) })), n4.remove(), i2.remove());
+                c2 && (e3 && B && (B.push({ step: "removeByContentPattern", reason: "trailing external link list", text: (0, o.textPreview)(i2) }), B.push({ step: "removeByContentPattern", reason: "trailing external link list", text: (0, o.textPreview)(n4) })), n4.remove(), i2.remove());
               }
             }
-            let Dt = t3.lastElementChild;
-            for (; Dt && ["HR", "BR"].includes(Dt.tagName); ) Dt = Dt.previousElementSibling;
-            if (Dt && ["SECTION", "DIV", "ASIDE"].includes(Dt.tagName)) {
+            let Ot = t3.lastElementChild;
+            for (; Ot && ["HR", "BR"].includes(Ot.tagName); ) Ot = Ot.previousElementSibling;
+            if (Ot && ["SECTION", "DIV", "ASIDE"].includes(Ot.tagName)) {
               const t4 = [];
               let r4 = false;
-              for (const e4 of Dt.children) {
-                if ((null === (rt = e4.textContent) || void 0 === rt ? void 0 : rt.trim()) || "") {
+              for (const e4 of Ot.children) {
+                if ((null === (nt = e4.textContent) || void 0 === nt ? void 0 : nt.trim()) || "") {
                   if ("P" === e4.tagName) t4.push(e4);
                   else if ("BR" !== e4.tagName) {
                     r4 = true;
@@ -16162,11 +16210,11 @@ ${t3}`;
                   for (const t6 of i2) s2 = s2.split((null === (n3 = t6.textContent) || void 0 === n3 ? void 0 : n3.trim()) || "").join("");
                   return !/[.!?]/.test(s2);
                 }));
-                r5 && (e3 && R && R.push({ step: "removeByContentPattern", reason: "trailing related posts block", text: (0, o.textPreview)(Dt) }), Dt.remove());
+                r5 && (e3 && B && B.push({ step: "removeByContentPattern", reason: "trailing related posts block", text: (0, o.textPreview)(Ot) }), Ot.remove());
               }
             }
-            const Ot = (0, o.countWords)(t3.textContent || "");
-            if (Ot > 300) {
+            const It = (0, o.countWords)(t3.textContent || "");
+            if (It > 300) {
               const r4 = [];
               let i2 = 0, a2 = t3.lastElementChild;
               for (; a2; ) {
@@ -16180,66 +16228,67 @@ ${t3}`;
                 }
                 let t4 = 0;
                 for (const e5 of a2.querySelectorAll("svg")) t4 += (0, o.countWords)(e5.textContent || "");
-                const e4 = (0, o.countWords)((null === (nt = a2.textContent) || void 0 === nt ? void 0 : nt.trim()) || "") - t4;
+                const e4 = (0, o.countWords)((null === (ot = a2.textContent) || void 0 === ot ? void 0 : ot.trim()) || "") - t4;
                 if (e4 > 25) break;
                 i2 += e4, r4.push(a2), a2 = a2.previousElementSibling;
               }
-              if (r4.length >= 1 && i2 < 0.15 * Ot) {
+              if (r4.length >= 1 && i2 < 0.15 * It) {
                 const t4 = r4.some(((t5) => E(t5))), i3 = r4.some(((t5) => t5.querySelector(n2.CONTENT_ELEMENT_SELECTOR)));
                 let a3 = 0;
                 for (const t5 of r4) "P" === t5.tagName && (0, o.countWords)(t5.textContent || "") > 5 && a3++;
-                if (t4 && !i3 && a3 < 2) for (const t5 of r4) e3 && R && R.push({ step: "removeByContentPattern", reason: "trailing thin section", text: (0, o.textPreview)(t5) }), t5.remove();
+                if (t4 && !i3 && a3 < 2) for (const t5 of r4) e3 && B && B.push({ step: "removeByContentPattern", reason: "trailing thin section", text: (0, o.textPreview)(t5) }), t5.remove();
               }
             }
-            const It = t3.textContent || "", $t = t3.querySelectorAll("p, div, span, section");
-            for (const r4 of $t) {
+            const $t = t3.textContent || "", Mt = t3.querySelectorAll("p, div, span, section");
+            for (const r4 of Mt) {
               if (!r4.parentNode) continue;
               if (r4.closest("pre, code")) continue;
-              const n3 = (null === (ot = r4.textContent) || void 0 === ot ? void 0 : ot.trim()) || "", i2 = (0, o.countWords)(n3);
+              const n3 = (null === (it = r4.textContent) || void 0 === it ? void 0 : it.trim()) || "", i2 = (0, o.countWords)(n3);
               if (!(i2 > 50 || i2 < 1)) {
                 for (const i3 of m) if (i3.test(n3)) {
                   let n4 = r4;
                   for (; n4.parentElement && n4.parentElement !== t3 && !n4.nextElementSibling; ) n4 = n4.parentElement;
                   const i4 = n4.textContent || "";
-                  if (It.indexOf(i4) < 200) {
-                    n4 === r4 || r4.nextElementSibling || (e3 && R && R.push({ step: "removeByContentPattern", reason: "boilerplate text", text: (0, o.textPreview)(r4) }), r4.remove());
+                  if ($t.indexOf(i4) < 200) {
+                    n4 === r4 || r4.nextElementSibling || (e3 && B && B.push({ step: "removeByContentPattern", reason: "boilerplate text", text: (0, o.textPreview)(r4) }), r4.remove());
                     continue;
                   }
-                  O(n4, t3, e3, R);
+                  I(n4, t3, e3, B);
                   break;
                 }
               }
             }
             for (const r4 of t3.querySelectorAll("h2, h3, h4, h5, h6")) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (it = r4.textContent) || void 0 === it ? void 0 : it.trim()) || "", i2 = T.test(n3);
+              const n3 = (null === (at = r4.textContent) || void 0 === at ? void 0 : at.trim()) || "", i2 = T.test(n3);
               if (!i2 && !S.test(n3)) continue;
-              if (Et.indexOf(n3) < 500) continue;
-              const a2 = I(r4, t3);
+              if (Ct.indexOf(n3) < 500) continue;
+              const a2 = $(r4, t3);
               if (a2 === r4) {
                 if (!i2) continue;
-                D(r4, true, e3, R);
-              } else $(a2, e3, R), e3 && R && R.push({ step: "removeByContentPattern", reason: "related content section", text: (0, o.textPreview)(a2) }), O(a2, t3, e3, R);
+                O(r4, true, e3, B);
+              } else M(a2, e3, B), e3 && B && B.push({ step: "removeByContentPattern", reason: "related content section", text: (0, o.textPreview)(a2) }), I(a2, t3, e3, B);
               break;
             }
             for (const r4 of t3.querySelectorAll("p")) {
               if (!r4.parentNode) continue;
-              const t4 = (null === (at = r4.textContent) || void 0 === at ? void 0 : at.trim()) || "";
-              _.test(t4) && ((0, o.countWords)(t4) > 20 || r4.querySelector(n2.CONTENT_ELEMENT_SELECTOR) || (e3 && R && R.push({ step: "removeByContentPattern", reason: "related content intro", text: (0, o.textPreview)(r4) }), r4.remove()));
+              const t4 = (null === (st = r4.textContent) || void 0 === st ? void 0 : st.trim()) || "";
+              _.test(t4) && ((0, o.countWords)(t4) > 20 || r4.querySelector(n2.CONTENT_ELEMENT_SELECTOR) || (e3 && B && B.push({ step: "removeByContentPattern", reason: "related content intro", text: (0, o.textPreview)(r4) }), r4.remove()));
             }
-            const Mt = (0, o.countWords)(Et);
+            const Rt = (0, o.countWords)(Ct);
             for (const r4 of t3.querySelectorAll("div")) {
               if (!r4.parentNode) continue;
               if (r4.children.length < 2) continue;
               const n3 = Array.from(r4.children), i2 = n3.filter(((t4) => t4.querySelector("img, picture") && (t4.querySelector("h2, h3, h4") || t4.querySelector("a[href]")))).length;
               if (i2 < 2 || i2 < 0.7 * n3.length) continue;
-              const a2 = (null === (st = n3[0].textContent) || void 0 === st ? void 0 : st.trim().substring(0, 30)) || "";
-              if (a2.length < 5 || Et.indexOf(a2) < 500) continue;
+              const a2 = (null === (lt = n3[0].textContent) || void 0 === lt ? void 0 : lt.trim().substring(0, 30)) || "";
+              if (a2.length < 5 || Ct.indexOf(a2) < 500) continue;
               const s2 = (0, o.countWords)(r4.textContent || "");
-              if (Mt > 0 && s2 / Mt > 0.3) continue;
-              const l2 = I(r4, t3);
-              if (l2 !== r4) {
-                $(l2, e3, R), e3 && R && R.push({ step: "removeByContentPattern", reason: "related post cards", text: (0, o.textPreview)(l2) }), D(l2, true, e3, R);
+              if (Rt > 0 && s2 / Rt > 0.3) continue;
+              const l2 = $(r4, t3);
+              if (l2 === r4) continue;
+              if (!((0, o.countWords)(l2.textContent || "") > 2 * s2 + 15) && !L(l2)) {
+                M(l2, e3, B), e3 && B && B.push({ step: "removeByContentPattern", reason: "related post cards", text: (0, o.textPreview)(l2) }), O(l2, true, e3, B);
                 break;
               }
             }
@@ -16247,30 +16296,30 @@ ${t3}`;
               if (!r4.parentNode) continue;
               if (r4.closest("pre, code")) continue;
               if (!C(r4, 60)) continue;
-              const n3 = (0, o.countWords)((null === (lt = r4.textContent) || void 0 === lt ? void 0 : lt.trim()) || "");
+              const n3 = (0, o.countWords)((null === (ct = r4.textContent) || void 0 === ct ? void 0 : ct.trim()) || "");
               let i2 = r4;
               for (; i2.parentElement && i2.parentElement !== t3; ) {
-                if ((0, o.countWords)((null === (ct = i2.parentElement.textContent) || void 0 === ct ? void 0 : ct.trim()) || "") > 2 * n3 + 15) break;
+                if ((0, o.countWords)((null === (ut = i2.parentElement.textContent) || void 0 === ut ? void 0 : ut.trim()) || "") > 2 * n3 + 15) break;
                 i2 = i2.parentElement;
               }
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "newsletter signup", text: (0, o.textPreview)(i2) }), i2.remove();
+              e3 && B && B.push({ step: "removeByContentPattern", reason: "newsletter signup", text: (0, o.textPreview)(i2) }), i2.remove();
               break;
             }
             for (const r4 of t3.querySelectorAll("ul")) if (r4.parentNode && C(r4, 30)) {
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "newsletter signup list", text: (0, o.textPreview)(r4) }), r4.remove();
+              e3 && B && B.push({ step: "removeByContentPattern", reason: "newsletter signup list", text: (0, o.textPreview)(r4) }), r4.remove();
               break;
             }
             for (const r4 of t3.querySelectorAll("div, section")) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (ut = r4.textContent) || void 0 === ut ? void 0 : ut.trim()) || "", i2 = (0, o.countWords)(n3);
+              const n3 = (null === (dt = r4.textContent) || void 0 === dt ? void 0 : dt.trim()) || "", i2 = (0, o.countWords)(n3);
               if (i2 < 2 || i2 > 40) continue;
-              const a2 = Et.indexOf(n3.substring(0, 60));
+              const a2 = Ct.indexOf(n3.substring(0, 60));
               if (a2 < 0) continue;
-              if (Et.length - (a2 + n3.length) > 300) continue;
+              if (Ct.length - (a2 + n3.length) > 300) continue;
               const s2 = r4.querySelectorAll("div, span, p, dt, dd, li");
               let l2 = false;
               for (const t4 of s2) {
-                const e4 = (null === (dt = t4.textContent) || void 0 === dt ? void 0 : dt.trim()) || "";
+                const e4 = (null === (mt = t4.textContent) || void 0 === mt ? void 0 : mt.trim()) || "";
                 if (b.test(e4)) {
                   l2 = true;
                   break;
@@ -16278,48 +16327,48 @@ ${t3}`;
               }
               if (!l2) continue;
               if (!(y.test(n3) || w.test(n3) || r4.querySelector('a[href^="mailto:"]'))) continue;
-              const c2 = I(r4, t3);
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "author contact block", text: (0, o.textPreview)(c2) }), c2.remove();
+              const c2 = $(r4, t3);
+              e3 && B && B.push({ step: "removeByContentPattern", reason: "author contact block", text: (0, o.textPreview)(c2) }), c2.remove();
               break;
             }
             for (const r4 of t3.querySelectorAll("p, span, div")) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (mt = r4.textContent) || void 0 === mt ? void 0 : mt.trim()) || "";
+              const n3 = (null === (ht = r4.textContent) || void 0 === ht ? void 0 : ht.trim()) || "";
               if (!x.test(n3)) continue;
               let i2 = r4;
               for (; i2.parentElement && i2.parentElement !== t3; ) {
                 const t4 = i2.parentElement;
-                if ((0, o.countWords)((null === (ht = t4.textContent) || void 0 === ht ? void 0 : ht.trim()) || "") > 15) break;
+                if ((0, o.countWords)((null === (pt = t4.textContent) || void 0 === pt ? void 0 : pt.trim()) || "") > 15) break;
                 i2 = t4;
               }
-              i2.querySelector(v) || (e3 && R && R.push({ step: "removeByContentPattern", reason: "author/share widget", text: (0, o.textPreview)(i2) }), i2.remove());
+              i2.querySelector(v) || (e3 && B && B.push({ step: "removeByContentPattern", reason: "author/share widget", text: (0, o.textPreview)(i2) }), i2.remove());
             }
             for (const r4 of t3.querySelectorAll("a, p, div, span")) {
               if (!r4.parentNode) continue;
-              const n3 = (null === (pt = r4.textContent) || void 0 === pt ? void 0 : pt.trim()) || "";
+              const n3 = (null === (ft = r4.textContent) || void 0 === ft ? void 0 : ft.trim()) || "";
               if (!p.test(n3)) continue;
               if ("A" === r4.tagName && r4.getAttribute("href")) continue;
               if ("A" !== r4.tagName) {
-                const t4 = Et.indexOf(n3);
-                if (Et.length - (t4 + n3.length) > 200) continue;
+                const t4 = Ct.indexOf(n3);
+                if (Ct.length - (t4 + n3.length) > 200) continue;
               }
-              const i2 = L(r4, n3, t3);
-              e3 && R && R.push({ step: "removeByContentPattern", reason: "social engagement counter", text: (0, o.textPreview)(i2) }), i2.remove();
+              const i2 = D(r4, n3, t3);
+              e3 && B && B.push({ step: "removeByContentPattern", reason: "social engagement counter", text: (0, o.textPreview)(i2) }), i2.remove();
             }
             for (const r4 of t3.querySelectorAll("div")) {
               if (!r4.parentNode) continue;
-              const t4 = (null === (ft = r4.textContent) || void 0 === ft ? void 0 : ft.trim()) || "", i2 = (0, o.countWords)(t4);
+              const t4 = (null === (gt = r4.textContent) || void 0 === gt ? void 0 : gt.trim()) || "", i2 = (0, o.countWords)(t4);
               if (i2 < 1 || i2 > 10) continue;
               if (/[.!?]/.test(t4)) continue;
               if (r4.querySelector(n2.CONTENT_ELEMENT_SELECTOR)) continue;
-              const a2 = Et.indexOf(t4);
+              const a2 = Ct.indexOf(t4);
               if (a2 < 0) continue;
-              if (Et.length - (a2 + t4.length) > 300) continue;
+              if (Ct.length - (a2 + t4.length) > 300) continue;
               const s2 = r4.querySelectorAll("a[href]");
               if (0 === s2.length) continue;
               let l2 = 0;
-              for (const t5 of s2) l2 += ((null === (gt = t5.textContent) || void 0 === gt ? void 0 : gt.trim()) || "").length;
-              l2 / (t4.length || 1) < 0.8 || (e3 && R && R.push({ step: "removeByContentPattern", reason: "trailing tag link block", text: (0, o.textPreview)(r4) }), r4.remove());
+              for (const t5 of s2) l2 += ((null === (bt = t5.textContent) || void 0 === bt ? void 0 : bt.trim()) || "").length;
+              l2 / (t4.length || 1) < 0.8 || (e3 && B && B.push({ step: "removeByContentPattern", reason: "trailing tag link block", text: (0, o.textPreview)(r4) }), r4.remove());
             }
           };
           const n2 = r2(2640), o = r2(2552), i = r2(4467), a = /(?:(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2}|\d{1,2}(?:st|nd|rd|th)?\s+(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*|\d{4}[-/]\d{1,2}[-/]\d{1,2})/i, s = /\b\d+\s+(?:second|minute|hour|day|week|month|year)s?\s+ago\b/i, l = /\d+\s*min(?:ute)?s?\s+read\b|(?:read(?:ing)?\s+time)\s*:?\s*\d+\s*min(?:ute)?s?\b/i, c = /^\p{Lu}/u, u = /^(?:posted\s+)?by\s+\S/i, d = /^(?:date|published|updated|posted|from|to|subject)\s*:/i, m = [/^This (?:article|story|piece) (?:appeared|was published|originally appeared) in\b/i, /^A version of this (?:article|story) (?:appeared|was published) in\b/i, /^Originally (?:published|appeared) (?:in|on|at)\b/i, /^Any re-?use permitted\b/i, /^\xa9\s*(?:Copyright\s+)?\d{4}/i, /^Comments?$/i, /^Leave a (?:comment|reply)$/i, /^Loading\.{3}$/, /^Affiliate links\b.*\b(?:earn|commission)/i, /\bRead our Comment Policy\b/i, /^Thank you for (?:being part of|joining) our community\b/i], h = /\bsubscribe\b[\s\S]{0,40}\bnewsletter\b|\bnewsletter\b[\s\S]{0,40}\bsubscribe\b|\bsign[- ]up\b[\s\S]{0,80}\b(?:newsletter|email alert)|\b(?:don[\u2019']?t (?:want to )?miss|never miss)\b[\s\S]{0,80}\b(?:latest|best|exclusive|reports?|updates?|source)/i, p = /^\d+\s+(?:Likes?|Comments?|Shares?|Retweets?|Reposts?|Restacks?)$/i, f = /^current time in$/i, g = /^pinned$/i, b = /^(?:written by|(?:author|contact|reporter|correspondent)s?)$/i, x = /^(?:share|follow|authors?|written\s+by)$/i, v = n2.CONTENT_ELEMENT_SELECTOR.replace(/img, picture, /, ""), y = /[\w.-]+@[\w.-]+\.\w+/, w = /\(?\d{3}\)?[\s.\u2011\u2013-]?\d{3}[\s.\u2011\u2013-]?\d{4}/, A = /^H[1-6]$/;
@@ -16335,13 +16384,22 @@ ${t3}`;
             return h.test(s2);
           }
           const S = /^(?:related (?:posts?|articles?|content|stories|reads?|reading)|you (?:might|may|could) (?:also )?(?:like|enjoy|be interested in)|read (?:next|more|also)|further reading|see also|more (?:from .*|from|articles?|posts?|like this)|more to (?:read|explore)|explore more|about (?:the )?author|latest (?:news|events?|posts?|articles?|stories)(?:\s*[&+]\s*(?:news|events?|posts?|articles?|stories))?)$/i, T = /^(?:subscribe|sign up|follow us|share this|stay (?:updated|connected)|join (?:us|our)|search (?:the |our )?(?:site|blog|archives?|newsroom|website|catalog|store|shop|database))$/i, _ = /^for more (?:on|about)\b/i, q = [/\b(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:t(?:ember)?)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\b/gi, /\b(?:Mon(?:day)?|Tue(?:s(?:day)?)?|Wed(?:nesday)?|Thu(?:rs(?:day)?)?|Fri(?:day)?|Sat(?:urday)?|Sun(?:day)?)\b/gi, /\b\d+(?:st|nd|rd|th)?\b/g, /\d{4}[-/]\d{1,2}[-/]\d{1,2}/g], N = [...q, /\bmin(?:ute)?s?\b/gi, /\bread(?:ing)?\b/gi, /\btime\b/gi, /\bestimated\b/gi, /[/|\xb7\u2022\u2014\u2013\-,:.\s]+/g], k = [...q, /\bby\b/gi, /[/|\xb7\u2022\u2014\u2013\-,]+/g];
-          function L(t3, e3, r3) {
+          function L(t3, e3 = 25) {
+            let r3 = t3.nextElementSibling;
+            for (; r3; ) {
+              if ("P" === r3.tagName && (0, o.countWords)(r3.textContent || "") >= e3) return true;
+              for (const t4 of r3.querySelectorAll("p")) if ((0, o.countWords)(t4.textContent || "") >= e3) return true;
+              r3 = r3.nextElementSibling;
+            }
+            return false;
+          }
+          function D(t3, e3, r3) {
             var n3;
             let o2 = t3;
             for (; o2.parentElement && o2.parentElement !== r3 && ((null === (n3 = o2.parentElement.textContent) || void 0 === n3 ? void 0 : n3.trim()) || "") === e3; ) o2 = o2.parentElement;
             return o2;
           }
-          function D(t3, e3, r3, n3) {
+          function O(t3, e3, r3, n3) {
             let i2 = t3.nextElementSibling;
             for (; i2; ) {
               const t4 = i2.nextElementSibling;
@@ -16349,14 +16407,14 @@ ${t3}`;
             }
             e3 && (r3 && n3 && n3.push({ step: "removeByContentPattern", reason: "boilerplate text", text: (0, o.textPreview)(t3) }), t3.remove());
           }
-          function O(t3, e3, r3, n3) {
+          function I(t3, e3, r3, n3) {
             const o2 = [];
             let i2 = t3.parentElement;
             for (; i2 && i2 !== e3; ) o2.push(i2), i2 = i2.parentElement;
-            D(t3, true, r3, n3);
-            for (const t4 of o2) D(t4, false, r3, n3);
+            O(t3, true, r3, n3);
+            for (const t4 of o2) O(t4, false, r3, n3);
           }
-          function I(t3, e3) {
+          function $(t3, e3) {
             let r3 = t3;
             for (; r3.parentElement && r3.parentElement !== e3; ) {
               let t4 = 0, e4 = r3.previousElementSibling;
@@ -16366,7 +16424,7 @@ ${t3}`;
             }
             return r3;
           }
-          function $(t3, e3, r3) {
+          function M(t3, e3, r3) {
             const i2 = t3.previousElementSibling;
             if (!i2) return;
             if ((0, o.countWords)(i2.textContent || "") >= 50) return;
@@ -17612,9 +17670,11 @@ ${t3}`;
             return "string" == typeof t3.className ? t3.className : t3.getAttribute("class") || "";
           }, e2.hasResponsiveShowClass = function(t3) {
             return t3.split(/\s+/).some(((t4) => r2.test(t4)));
-          }, e2.isDangerousUrl = function(t3) {
-            const e3 = t3.replace(/[\s\u0000-\u001F]+/g, "").toLowerCase();
-            return e3.startsWith("javascript:") || e3.startsWith("data:text/html");
+          }, e2.isDangerousUrl = function(t3, e3 = true) {
+            const r3 = t3.replace(/[\s\u0000-\u001F]+/g, "").toLowerCase();
+            if (r3.startsWith("javascript:") || r3.startsWith("blob:")) return true;
+            if (r3.startsWith("data:")) return !(e3 && r3.startsWith("data:image/"));
+            return false;
           }, e2.isDirectTableChild = function(t3, e3) {
             let r3 = t3.parentNode;
             for (; r3 && r3 !== e3; ) {
