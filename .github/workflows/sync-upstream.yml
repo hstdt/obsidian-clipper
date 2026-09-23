@@ -3,7 +3,7 @@ name: Sync upstream
 "on":
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    - cron: "17 0 * * *"
 
 permissions:
   contents: write
@@ -55,7 +55,18 @@ jobs:
       - name: Merge upstream
         if: steps.upstream.outputs.has_update == 'true'
         run: |
-          git merge --no-edit --no-ff "${{ steps.upstream.outputs.sha }}"
+          if ! git merge --no-edit --no-ff "${{ steps.upstream.outputs.sha }}"; then
+            conflicts="$(git diff --name-only --diff-filter=U)"
+            if [ "${conflicts}" != "package-lock.json" ]; then
+              echo "Upstream merge failed; manual resolution is required." >&2
+              exit 1
+            fi
+
+            # The next refresh step reconciles this lockfile with the merged package.json.
+            git checkout --theirs -- package-lock.json
+            git add package-lock.json
+            git commit --no-edit
+          fi
 
       - name: Set up Node
         if: steps.upstream.outputs.has_update == 'true'
